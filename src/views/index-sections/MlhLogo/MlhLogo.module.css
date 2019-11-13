@@ -1,0 +1,33 @@
+.Logo {
+  position: fixed;
+  top: 110px;
+  right: 25px;
+  height: 170px;
+  width: 120px;
+  z-index: 1000;
+}
+
+@media (max-width: 990px) {
+  .Logo {
+    height: 140px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Logo {
+    position: absolute;
+    height: 140px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 550px) {
+  .Logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 65%;
+    top: 20px;
+  }
+}
