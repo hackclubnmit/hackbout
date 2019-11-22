@@ -1,3 +1,5 @@
+# THIS IS THE OFFICIAL HACKBOUT SITE UNDER CONSTRUCTION
+
 # Hack_Bout
 
 ## Updated File Structure
