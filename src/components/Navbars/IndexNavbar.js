@@ -24,13 +24,13 @@ function IndexNavbar() {
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
-        document.documentElement.scrollTop > 699 ||
-        document.body.scrollTop > 699
+        document.documentElement.scrollTop > 199 ||
+        document.body.scrollTop > 199
       ) {
         setNavbarColor("");
       } else if (
-        document.documentElement.scrollTop < 700 ||
-        document.body.scrollTop < 700
+        document.documentElement.scrollTop < 200 ||
+        document.body.scrollTop < 200
       ) {
         setNavbarColor("navbar-transparent");
       }
@@ -51,7 +51,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="danger">
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="success">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
@@ -84,9 +84,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.querySelector(".header-main").scrollIntoView();
                   }}
                 >
                   <h5 style={{ color: "black" }}>
@@ -99,9 +97,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.getElementById("about-section").scrollIntoView();
                   }}
                 >
                   <h5 style={{ color: "black" }}>
@@ -114,9 +110,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.getElementById("tracks-section").scrollIntoView();
                   }}
                 >
                   <h5 style={{ color: "black" }}>
@@ -130,7 +124,7 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document
-                      .getElementById("download-section")
+                      .getElementById("sponsors-section")
                       .scrollIntoView();
                   }}
                 >
@@ -144,13 +138,11 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.getElementById("faq-section").scrollIntoView();
                   }}
                 >
                   <h5 style={{ color: "black" }}>
-                    <b>Contact Us</b>
+                    <b>FAQ</b>
                   </h5>
                 </NavLink>
               </NavItem>
@@ -160,12 +152,12 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document
-                      .getElementById("download-section")
+                      .getElementById("contactUs-section")
                       .scrollIntoView();
                   }}
                 >
                   <h5 style={{ color: "black" }}>
-                    <b>FAQ</b>
+                    <b>Contact Us</b>
                   </h5>
                 </NavLink>
               </NavItem>

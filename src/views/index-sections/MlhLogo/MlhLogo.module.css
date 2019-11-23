@@ -1,10 +1,11 @@
 .Logo {
-  position: fixed;
+  position: absolute;
   top: 110px;
   right: 25px;
   height: 170px;
   width: 120px;
   z-index: 1000;
+  display: none;
 }
 
 @media (max-width: 990px) {

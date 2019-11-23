@@ -12,6 +12,11 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import About from "./index-sections/About/About";
+import Tracks from "./index-sections/Tracks/Tracks";
+import Mentors from "./index-sections/Mentors/Mentors";
+import Sponsors from "./index-sections/Sponsors/Sponsors";
+import Faq from "./index-sections/Faq/Faq";
+import ContactUs from "./index-sections/ContactUs/ContactUs";
 import Images from "./index-sections/Images.js";
 import BasicElements from "./index-sections/BasicElements.js";
 import Navbars from "./index-sections/Navbars.js";
@@ -47,19 +52,11 @@ function Index() {
         <MlhLogo />
         <div className="main">
           <About />
-          <BasicElements />
-          <Navbars />
-          <Tabs />
-          <Pagination />
-          <Notifications />
-          <Typography />
-          <Javascript />
-          <Carousel />
-          <NucleoIcons />
-          <CompleteExamples />
-          <SignUp />
-          <Examples />
-          <Download />
+          <Tracks />
+          <Mentors />
+          <Sponsors />
+          <Faq />
+          <ContactUs />
         </div>
         <DarkFooter />
       </div>

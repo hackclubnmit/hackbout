@@ -28,12 +28,13 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage:
-              "url(" + require("assets/img/bg-header-1.jpg") + ")" //url(" + require("assets/img/header.jpg") + ")
+            backgroundImage: "linear-gradient(to bottom right,#76FF03,#28b485)"
+            // backgroundImage:
+            //   "url(" + require("assets/img/bg-header-1.jpg") + ")" //url(" + require("assets/img/header.jpg") + ")
           }}
           ref={pageHeader}
         ></div>
-        <Container>
+        <Container className="header-main">
           <div className="content-center brand">
             {/* <img
               alt="Logo Here"   
@@ -43,13 +44,13 @@ function IndexHeader() {
             <h1 className="display-3" style={{ color: "black" }}>
               Hack Bout
             </h1>
-            <h3 className="h2-seo" style={{ color: "black" }}>
+            {/* <h3 className="h2-seo" style={{ color: "black" }}>
               A Catchy Description Here!
-            </h3>
+            </h3> */}
           </div>
-          <a href="/">
-            <h2 className="category category-absolute">Register Now!</h2>
-          </a>
+          <h2 className="category category-absolute">
+            Registrations Opening Soon!{" "}
+          </h2>
         </Container>
       </div>
     </>

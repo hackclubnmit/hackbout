@@ -1,0 +1,195 @@
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+// import { Card, CardHeader, CardBody, Collapse } from "reactstrap";
+import { Accordion, Card } from "react-bootstrap";
+import styles from "./Faq.module.css";
+
+const Faq = () => {
+  return (
+    <div className="section section-faq" id="faq-section">
+      <Container className=" mt-5">
+        <p className="section-faq-header h1 pt-2">FAQ's</p>
+
+        <Row>
+          <Col>
+            <Accordion>
+              {/* defaultActiveKey="1" */}
+              <Card bg="dark" text="white" className="pt-3 pl-2 pr-2">
+                <Accordion.Toggle as={Card.Header} eventKey="1">
+                  <p>
+                    Q. What is a Hackathon?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="1">
+                  <Card.Body>
+                    A hackathon is a design sprint-like event in which computer
+                    programmers and others involved in software development,
+                    including graphic designers, interface designers, project
+                    managers, and others, often including domain experts,
+                    collaborate intensively on projects.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="2">
+                  <p>
+                    Q. Who All Can Register?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="2">
+                  <Card.Body>
+                    This is a student hackathon and only students are allowed to
+                    participate. You’ll be required to verify at the event by
+                    showing your student ID card.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="3">
+                  <p>
+                    Q.This is my first Hackathon. What if I'm clueless?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines "></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="3">
+                  <Card.Body>
+                    Then we'll be happy that we were the one to guide you though
+                    your problems. It’s helpful to have some programming or
+                    technical experience, but it’s not a requirement. We’ll have
+                    talks, mentors and workshops to help you with your project.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="4">
+                  <p>
+                    Q. How Many Members Are Required In A Team?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines "></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="4">
+                  <Card.Body>
+                    The maximum team size is four. People who want to go solo at
+                    the hack are also welcome!{" "}
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="5">
+                  <p>
+                    Q. Do I need to have any specific qualifications to be a
+                    participant for the hackathon?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="5">
+                  <Card.Body>
+                    None at all! All you need is motivation to learn and code,
+                    and ofcourse your Student ID card :P
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="6">
+                  <p>
+                    Q. What shouldn't I bring to the Hackathon?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="6">
+                  <Card.Body>
+                    Anything that would cause a disturbance in the atmosphere of
+                    pure awesomeness is not allowed. Yeah we're talking about
+                    weapons of any kind, drugs, or alcohol. If you're not sure
+                    ask ahead.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="7">
+                  <p>
+                    Q. Can I start working on my hack before the event?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="7">
+                  <Card.Body>
+                    No! That would amount to cheating and you would be
+                    disqualified. This is to ensure that all participants stand
+                    on equal footing at the start of the hack.{" "}
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="8">
+                  <p>
+                    Q. How Does Judging works?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="8">
+                  <Card.Body>
+                    A panel of some experienced professionals will evaluate
+                    hacks based on creativity, technical difficulty, design, and
+                    usefulness.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="9">
+                  <p>
+                    Q. Do we have to be present at the site to hack?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="9">
+                  <Card.Body>
+                    Absolutely! This is an on-site event for your hacks.{" "}
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="dark" text="white" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="10">
+                  <p>
+                    Q. I didn't Find my question here, what can i do?{" "}
+                    <span style={{ float: "right" }}>
+                      <i class="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="10">
+                  <Card.Body>
+                    If you have any other questions or concerns, reach out to us
+                    via Twitter, Instagram.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </Accordion>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
+
+export default Faq;
