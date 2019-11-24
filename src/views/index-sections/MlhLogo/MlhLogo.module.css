@@ -1,6 +1,6 @@
 .Logo {
-  position: absolute;
-  top: 110px;
+  position: fixed;
+  top: 0px;
   right: 25px;
   height: 170px;
   width: 120px;
@@ -10,16 +10,20 @@
 
 @media (max-width: 990px) {
   .Logo {
+    top : 0px;
     height: 140px;
     width: 80px;
+    left: 65%;
   }
 }
 
 @media (max-width: 600px) {
   .Logo {
     position: absolute;
+    top : 0px;
     height: 140px;
     width: 80px;
+    left: 65%;
   }
 }
 
@@ -29,6 +33,6 @@
     height: 100px;
     width: 60px;
     left: 65%;
-    top: 20px;
+    top: 0px;
   }
 }

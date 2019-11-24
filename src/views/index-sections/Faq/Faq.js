@@ -14,10 +14,10 @@ const Faq = () => {
           <Col>
             <Accordion>
               {/* defaultActiveKey="1" */}
-              <Card bg="dark" text="white" className="pt-3 pl-2 pr-2">
+              <Card bg="light" text="black" className="pt-3 pl-2 pr-2">
                 <Accordion.Toggle as={Card.Header} eventKey="1">
                   <p>
-                    Q. What is a Hackathon?{" "}
+                    Q. What is a hackathon?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines"></i>
                     </span>
@@ -33,10 +33,10 @@ const Faq = () => {
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="2">
                   <p>
-                    Q. Who All Can Register?{" "}
+                    Q. Who can register?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines"></i>
                     </span>
@@ -44,16 +44,14 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
                   <Card.Body>
-                    This is a student hackathon and only students are allowed to
-                    participate. You’ll be required to verify at the event by
-                    showing your student ID card.
+                    Everyone's welcome. Student or Professional.
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
                   <p>
-                    Q.This is my first Hackathon. What if I'm clueless?{" "}
+                    Q.This is my first hackathon. What if I'm clueless?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines "></i>
                     </span>
@@ -68,10 +66,10 @@ const Faq = () => {
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="4">
                   <p>
-                    Q. How Many Members Are Required In A Team?{" "}
+                    Q. How many members are required in a team?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines "></i>
                     </span>
@@ -79,12 +77,11 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
-                    The maximum team size is four. People who want to go solo at
-                    the hack are also welcome!{" "}
+                    The maximum team size is 4. The minimum is 1.{" "}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="5">
                   <p>
                     Q. Do I need to have any specific qualifications to be a
@@ -96,12 +93,11 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="5">
                   <Card.Body>
-                    None at all! All you need is motivation to learn and code,
-                    and ofcourse your Student ID card :P
+                    None at all! All you require is the passion to code.
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="6">
                   <p>
                     Q. What shouldn't I bring to the Hackathon?{" "}
@@ -119,7 +115,7 @@ const Faq = () => {
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="7">
                   <p>
                     Q. Can I start working on my hack before the event?{" "}
@@ -136,10 +132,10 @@ const Faq = () => {
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="8">
                   <p>
-                    Q. How Does Judging works?{" "}
+                    Q. How does judging work?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines"></i>
                     </span>
@@ -153,7 +149,7 @@ const Faq = () => {
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="9">
                   <p>
                     Q. Do we have to be present at the site to hack?{" "}
@@ -164,14 +160,14 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="9">
                   <Card.Body>
-                    Absolutely! This is an on-site event for your hacks.{" "}
+                    Absolutely! This is an offline hack. So, yes, you need to be present at the venue.{" "}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
-              <Card bg="dark" text="white" className={styles.mt}>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="10">
                   <p>
-                    Q. I didn't Find my question here, what can i do?{" "}
+                    Q. I didn't find my question here, what can i do?{" "}
                     <span style={{ float: "right" }}>
                       <i class="fas fa-grip-lines"></i>
                     </span>
@@ -179,8 +175,7 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                    If you have any other questions or concerns, reach out to us
-                    via Twitter, Instagram.
+                    If you have any other questions or concerns, reach out to us :)
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

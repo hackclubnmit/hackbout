@@ -41,13 +41,13 @@ const ContactUs = () => {
               <br></br>
               <div className="pt-4 mt-4">
                 <p>
-                  Member 1 : &nbsp;
-                  <a href="tel:0123456789">+91 0123456789</a>
+                <strong>Anurag Singh :</strong> &nbsp;
+                  <a href="tel:9992288116">+91 9992288116</a>
                 </p>
                 <p>
                   {" "}
-                  Member 2 : &nbsp;
-                  <a href="tel:0123456789">+91 0123456789</a>
+                  <strong>Rachet Mudnur : </strong> &nbsp;
+                  <a href="tel:9964217178">+91 9964217178</a>
                 </p>
               </div>
             </div>

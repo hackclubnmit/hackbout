@@ -41,15 +41,15 @@ function IndexHeader() {
               className="n-logo"
               src={require("assets/img/now-logo.png")}
             ></img> */}
-            <h1 className="display-3" style={{ color: "black" }}>
-              Hack Bout
+            <h1 className="display-1" style={{ color: "black" }}>
+              HACKBOUT 1.0
             </h1>
             {/* <h3 className="h2-seo" style={{ color: "black" }}>
               A Catchy Description Here!
             </h3> */}
           </div>
           <h2 className="category category-absolute">
-            Registrations Opening Soon!{" "}
+            Registrations will open soon! Stay tuned!{" "}
           </h2>
         </Container>
       </div>

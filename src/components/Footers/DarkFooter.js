@@ -13,7 +13,7 @@ function DarkFooter() {
             <h5></h5>
           </Col>
           <Col className="text-center">
-            HackBout 1.0 © {new Date().getFullYear()}
+            HACKBOUT 1.0 © {new Date().getFullYear()}
           </Col>
           <Col>
             <h5></h5>

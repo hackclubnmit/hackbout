@@ -1,21 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
-  Button,
+  // Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+  // UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
   Nav,
   Container,
-  UncontrolledTooltip
+  // UncontrolledTooltip
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -56,7 +56,7 @@ function IndexNavbar() {
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
               <h2 className="pt-3" style={{ color: "black" }}>
-                <strong>Hack Bout</strong>
+                <span>HackBout 1.0</span>
               </h2>
             </NavbarBrand>
             <button
