@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34d5d8caa1dfd35a550c526292c402a2",
+    "revision": "6803396c56a9d06326213bbc9c16cfca",
     "url": "/HackBout/index.html"
   },
   {
-    "revision": "e6b6bd84bf260fd8a9b0",
+    "revision": "828243860ee1fd2ef55f",
     "url": "/HackBout/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "9e6f2db95391977a5109",
-    "url": "/HackBout/static/css/main.d8035f11.chunk.css"
+    "revision": "d61f22ac2c9d4a2f2537",
+    "url": "/HackBout/static/css/main.7570178d.chunk.css"
   },
   {
-    "revision": "e6b6bd84bf260fd8a9b0",
-    "url": "/HackBout/static/js/2.3a667ff7.chunk.js"
+    "revision": "828243860ee1fd2ef55f",
+    "url": "/HackBout/static/js/2.a54cc2fb.chunk.js"
   },
   {
-    "revision": "9e6f2db95391977a5109",
-    "url": "/HackBout/static/js/main.f1e26d3d.chunk.js"
+    "revision": "d61f22ac2c9d4a2f2537",
+    "url": "/HackBout/static/js/main.21afb163.chunk.js"
   },
   {
     "revision": "e42b0320fb7fb22ed4e4",
     "url": "/HackBout/static/js/runtime~main.46d364a1.js"
+  },
+  {
+    "revision": "0bb34fe6e92e2a4213742a9d1337ad3c",
+    "url": "/HackBout/static/media/Black_Hackbout.0bb34fe6.png"
+  },
+  {
+    "revision": "1f9c79a761f65f9017251477e9089322",
+    "url": "/HackBout/static/media/Hackbout_T.1f9c79a7.png"
+  },
+  {
+    "revision": "8e5f3395e44ce1ee351172987e9a56d8",
+    "url": "/HackBout/static/media/White_Hackbout.8e5f3395.png"
   },
   {
     "revision": "7257a1a94be550133f3233fd792ee724",
