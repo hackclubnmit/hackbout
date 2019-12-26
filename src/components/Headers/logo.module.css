@@ -1,0 +1,21 @@
+.Logo {
+  height: 300px;
+}
+
+@media (max-width: 990px) {
+  .Logo {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Logo {
+    height: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Logo {
+    height: 80px;
+  }
+}

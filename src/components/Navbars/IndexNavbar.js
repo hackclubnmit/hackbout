@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/img/Hackbout_T.png";
 // import { Link } from "react-router-dom";
 
 // reactstrap components
@@ -14,7 +15,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container,
+  Container
   // UncontrolledTooltip
 } from "reactstrap";
 
@@ -51,12 +52,20 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="success">
+      <Navbar
+        className={"fixed-top " + navbarColor}
+        expand="lg"
+        color="success"
+      >
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
               <h2 className="pt-3" style={{ color: "black" }}>
-                <span>HackBout 1.0</span>
+                <img
+                  src={logo}
+                  alt="HackBout_logo"
+                  style={{ height: "65px" }}
+                ></img>
               </h2>
             </NavbarBrand>
             <button
@@ -115,6 +124,21 @@ function IndexNavbar() {
                 >
                   <h5 style={{ color: "black" }}>
                     <b>Tracks</b>
+                  </h5>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={e => {
+                    e.preventDefault();
+                    document
+                      .getElementById("schedule-section")
+                      .scrollIntoView();
+                  }}
+                >
+                  <h5 style={{ color: "black" }}>
+                    <b>Schedule</b>
                   </h5>
                 </NavLink>
               </NavItem>

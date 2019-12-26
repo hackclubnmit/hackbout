@@ -13,6 +13,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 // sections for this page
 import About from "./index-sections/About/About";
 import Tracks from "./index-sections/Tracks/Tracks";
+import Schedule from "./index-sections/Schedule/Schedule";
 import Mentors from "./index-sections/Mentors/Mentors";
 import Sponsors from "./index-sections/Sponsors/Sponsors";
 import Faq from "./index-sections/Faq/Faq";
@@ -53,6 +54,7 @@ function Index() {
         <div className="main">
           <About />
           <Tracks />
+          <Schedule />
           <Mentors />
           <Sponsors />
           <Faq />

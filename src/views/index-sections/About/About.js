@@ -16,11 +16,11 @@ const About = () => {
             <p style={{ fontWeight: "500" }}>
               For centuries humanity has enjoyed bouts in action-packed sports
               such as sword fighting and boxing, With the same intensity and
-              competition, the department of CS and IS present HackBout, a 24
-              hour hackathon where teams will battle it out in electrifying
-              competition, building their idea, improving it as they but in the
-              spirit of good sportsmanship, having fun and making new friends
-              along the way.
+              competition, Nitte Meenakshi Institute of Technology present
+              HackBout, a 24 hour hackathon where teams will battle it out in
+              electrifying competition, building their idea, improving it as
+              they but in the spirit of good sportsmanship, having fun and
+              making new friends along the way.
             </p>
           </Col>
         </Row>

@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import styles from "./logo.module.css";
 
 // reactstrap components
 import { Container, Button } from "reactstrap";
@@ -36,12 +37,12 @@ function IndexHeader() {
         ></div>
         <Container className="header-main">
           <div className="content-center brand">
-            {/* <img
-              alt="Logo Here"   
-              className="n-logo"
-              src={require("assets/img/now-logo.png")}
-            ></img> */}
-            <h1 className="display-1" style={{ color: "black" }}>
+            <img
+              className={styles.Logo}
+              alt="Logo Here"
+              src={require("assets/img/Black_Hackbout.png")}
+            ></img>
+            <h1 className="" style={{ color: "black", fontWeight: "200" }}>
               HACKBOUT 1.0
             </h1>
             {/* <h3 className="h2-seo" style={{ color: "black" }}>
