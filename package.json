@@ -2,7 +2,6 @@
   "name": "now-ui-kit-react",
   "version": "1.0.0",
   "private": true,
-  // "homepage": "https://HackClub-NMIT.github.io/HackBout/",
   "homepage": "https://www.hackbout.me/HackBout/",
   "dependencies": {
     "bootstrap": "^4.3.1",
