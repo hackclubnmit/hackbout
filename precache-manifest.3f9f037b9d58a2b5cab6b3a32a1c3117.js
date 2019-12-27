@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6803396c56a9d06326213bbc9c16cfca",
+    "revision": "2560b864023c1bf4df20df8745ec76eb",
     "url": "/HackBout/index.html"
   },
   {
-    "revision": "828243860ee1fd2ef55f",
+    "revision": "a118de5d846312500bec",
     "url": "/HackBout/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "d61f22ac2c9d4a2f2537",
-    "url": "/HackBout/static/css/main.7570178d.chunk.css"
+    "revision": "68d58a7e427b93b997e8",
+    "url": "/HackBout/static/css/main.4d912442.chunk.css"
   },
   {
-    "revision": "828243860ee1fd2ef55f",
-    "url": "/HackBout/static/js/2.a54cc2fb.chunk.js"
+    "revision": "a118de5d846312500bec",
+    "url": "/HackBout/static/js/2.95f59642.chunk.js"
   },
   {
-    "revision": "d61f22ac2c9d4a2f2537",
-    "url": "/HackBout/static/js/main.21afb163.chunk.js"
+    "revision": "68d58a7e427b93b997e8",
+    "url": "/HackBout/static/js/main.eaf7c633.chunk.js"
   },
   {
     "revision": "e42b0320fb7fb22ed4e4",
