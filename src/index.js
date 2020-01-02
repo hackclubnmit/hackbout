@@ -98,7 +98,7 @@ class GoTop extends React.Component {
       if (this.state.thePosition){
           return (
               <div className="go-top" onClick={this.scrollToTop}>
-                  Go Top
+                  Go To Top
               </div>
           )
       }
