@@ -62,12 +62,39 @@
       }
     }(window.location))
   </script>
+  <style>
+  .scrollup{
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+}
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 30px;
+  right: 0;
+  color: #ffffff;
+  background-color: #c679e3;
+  z-index: 1;
+  width: 90px;
+  text-align: center;
+  height: 45px;
+  border-radius: 10px 0 0 10px;
+  line-height: 46px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+  </style>
 
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <div id="app"></div>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
