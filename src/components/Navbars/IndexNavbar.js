@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/Hackbout_T.png";
+import logo from "../../assets/img/Black_Hackbout.png";
 // import { Link } from "react-router-dom";
 
 // reactstrap components
@@ -60,13 +60,11 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
-              <h2 className="pt-3" style={{ color: "black" }}>
                 <img
                   src={logo}
                   alt="HackBout_logo"
-                  style={{ height: "65px" }}
+                  style={{ height: "40px" }}
                 ></img>
-              </h2>
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"

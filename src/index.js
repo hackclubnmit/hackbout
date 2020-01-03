@@ -1,31 +1,13 @@
-/*
-
-=========================================================
-* Now UI Kit React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-react
-* Copyright 2019 Creative Tim (http://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-react/blob/master/LICENSE.md)
-
-* Designed by www.invisionapp.com Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-// styles for this kit
 import "assets/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss";
 import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
-// pages for this kit
+
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
@@ -57,13 +39,6 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-
-const Scrollup = (prop) => {
-  return (
-    <div class="scrollup">
-    </div>
-  );
-};
 
 class GoTop extends React.Component {
   state = {
@@ -98,7 +73,7 @@ class GoTop extends React.Component {
       if (this.state.thePosition){
           return (
               <div className="go-top" onClick={this.scrollToTop}>
-                  Go To Top
+                <i className="fa fa-chevron-up"></i>
               </div>
           )
       }
@@ -115,7 +90,7 @@ class GoTop extends React.Component {
 
 const Scrollups = (
 <div>
-  <GoTop scrollStepInPx="50" delayInMs="30" />
+  <GoTop scrollStepInPx="30" delayInMs="0" />
 </div>
 );
 

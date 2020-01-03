@@ -49,8 +49,8 @@ function IndexHeader() {
               A Catchy Description Here!
             </h3> */}
           </div>
-          <h2 className="category category-absolute">
-            Registrations will open soon! Stay tuned!{" "}
+          <h2 className="category-absolute">
+            Registrations will open soon! Stay tuned!
           </h2>
         </Container>
       </div>
