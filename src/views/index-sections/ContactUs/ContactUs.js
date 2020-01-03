@@ -25,8 +25,7 @@ const ContactUs = () => {
                 // style={{ width: "479px", height: "76px" }}
               ></img>
               <br></br>
-              <br></br>
-              <p className="pt-4 mt-4">
+              <p className="pt-4">
                 Nitte Meenakshi Institute of Technology, P.B.No.6429, Yelahanka,
                 Bangalore 560064.
               </p>
@@ -38,8 +37,7 @@ const ContactUs = () => {
                 <i class="fas fa-phone img-fluid"></i>
               </span>
               <br></br>
-              <br></br>
-              <div className="pt-4 mt-4">
+              <div className="pt-4">
                 <p>
                 <strong>Anurag Singh :</strong> &nbsp;
                   <a href="tel:9992288116">+91 9992288116</a>
@@ -51,6 +49,20 @@ const ContactUs = () => {
                 </p>
               </div>
             </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div style={{ textAlign: "center" }}>
+                <span className={styles.icon}>
+                  <i class="fas fa-envelope img-fluid"></i>
+                </span>
+                <br></br>
+                <div>
+                  <p className="text-center"><a href="mailto:hackclubnmit@gmail.com">hackclubnmit@gmail.com</a></p>
+                </div>
+              </div>
+            
           </Col>
         </Row>
         <Row>

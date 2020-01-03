@@ -175,7 +175,7 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                    If you have any other questions or concerns, reach out to us :)
+                    If you have any other questions or concerns, reach out to us using the contact details below :)
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
