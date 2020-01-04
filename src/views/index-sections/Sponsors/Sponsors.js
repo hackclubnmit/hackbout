@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import github from "../../../assets/img/github-logo.png";
 import hackClub from "../../../assets/img/hack-club.svg";
+import stickerMule from "../../../assets/img/sticker-mule-logo.png";
 
 const Sponsors = () => {
   return (
     <div
       className=" section-sponsors"
-      // data-background-color=""
       id="sponsors-section"
     >
       <Container className=" mt-5">
@@ -15,20 +15,33 @@ const Sponsors = () => {
 
         <Row>
           <Col className="p-3 mb-5 text-center">
-            <img
-              src={github}
-              alt="github-logo"
-              style={{ maxWidth: "70%", maxHeight: "70%" }}
-            />
+            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                src={github}
+                alt="github-logo"
+                style={{ maxWidth: "70%", maxHeight: "70%" }}
+              />
+            </a>
           </Col>
         </Row>
         <Row>
           <Col className=" mb-5  p-3 text-center">
-            <img
-              src={hackClub}
-              alt="github-logo"
-              style={{ maxWidth: "50%", maxHeight: "50%" }}
+            <a href="https://www.hackclub.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                src={hackClub}
+                alt="hackclub-logo"
+                style={{ maxWidth: "65%", maxHeight: "65%" }}
+              />
+            </a>
+          </Col>
+          <Col className=" mb-5  p-3 text-center">
+            <a href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer">
+              <img
+              src={stickerMule}
+              alt="stickerMule-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
+            </a>
           </Col>
         </Row>
       </Container>
