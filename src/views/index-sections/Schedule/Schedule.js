@@ -70,7 +70,7 @@ const Schedule = () => {
 
         <TabContent className="text-center mt-3" activeTab={"pills" + pills}>
           <TabPane tabId="pills1">
-            <h3>4th Jan </h3>
+            <h3>4th Mar </h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
@@ -155,7 +155,7 @@ const Schedule = () => {
             </ul>
           </TabPane>
           <TabPane tabId="pills2">
-            <h3>5th Jan </h3>
+            <h3>5th Mar </h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
