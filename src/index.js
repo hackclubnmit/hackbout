@@ -12,11 +12,10 @@ import Index from "views/Index.js";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch>
       <Switch>
-        <Route path="/" render={props => <Index {...props} />} />
+        <Route exact path="/" render={props => <Index {...props} />} />
+        <Redirect to="/" />
       </Switch>
-    </Switch>
   </BrowserRouter>,
   document.getElementById("root")
 );
