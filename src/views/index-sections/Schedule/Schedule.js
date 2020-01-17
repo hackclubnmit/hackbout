@@ -92,6 +92,15 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
+                  <b>11 AM</b>
+                </div>
+                <div style={{ float: "right" }}>
+                  <b>Keynote Sessions</b>
+                </div>
+              </li>
+              <li className="list-group-item">
+                {" "}
+                <div style={{ float: "left" }}>
                   <b>11:30 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
