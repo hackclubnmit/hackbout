@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "848d87d34cf7a6410ab7f7c508cc4a36",
+    "revision": "8e3c31f5009029ed0b492aca04c4a7ba",
     "url": "/index.html"
   },
   {
-    "revision": "47de5b5295928e7db966",
+    "revision": "09dbc0e37b1ceb01a91c",
     "url": "/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "54fffa6e47958fe98c9d",
-    "url": "/static/css/main.badeaa4a.chunk.css"
+    "revision": "6434d5ee51dbd3d26077",
+    "url": "/static/css/main.b0e0eb12.chunk.css"
   },
   {
-    "revision": "47de5b5295928e7db966",
-    "url": "/static/js/2.9d358a3b.chunk.js"
+    "revision": "09dbc0e37b1ceb01a91c",
+    "url": "/static/js/2.387e8f90.chunk.js"
   },
   {
-    "revision": "54fffa6e47958fe98c9d",
-    "url": "/static/js/main.2c39d1bd.chunk.js"
+    "revision": "6434d5ee51dbd3d26077",
+    "url": "/static/js/main.86f297c1.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0bb34fe6e92e2a4213742a9d1337ad3c",
-    "url": "/static/media/Black_Hackbout.0bb34fe6.png"
+    "revision": "c56e3d5471c2a82a6a167d833ef2451f",
+    "url": "/static/media/24_hour_hack.c56e3d54.png"
+  },
+  {
+    "revision": "0c1cef468e13a43412c475a25d82b5cb",
+    "url": "/static/media/Artboard1.0c1cef46.png"
   },
   {
     "revision": "8e5f3395e44ce1ee351172987e9a56d8",
     "url": "/static/media/White_Hackbout.8e5f3395.png"
+  },
+  {
+    "revision": "81451119b838b6bd015183d02c40a127",
+    "url": "/static/media/bounties.81451119.png"
   },
   {
     "revision": "16f02f255d2e1282da2920ca6d4bdb39",
@@ -42,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e1cb32867eca4b0019578c4b9cd2325",
     "url": "/static/media/hack-club.8e1cb328.svg"
+  },
+  {
+    "revision": "a9b260f7e056e808ae05424dbae4e1b1",
+    "url": "/static/media/hbLogo1.a9b260f7.png"
+  },
+  {
+    "revision": "eb376801936adad8eded0ec8604a928b",
+    "url": "/static/media/hbLogo2.eb376801.png"
   },
   {
     "revision": "157f907ab99edc35681260a54b809212",
@@ -62,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ebec31f5ce59f908db84d86aed5947f",
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
+  },
+  {
+    "revision": "82fe7c2d6d6cdf5b78cfc8e47224d01f",
+    "url": "/static/media/prizes.82fe7c2d.png"
   },
   {
     "revision": "ac1102fb182481ad8b6a998d51552fe3",
