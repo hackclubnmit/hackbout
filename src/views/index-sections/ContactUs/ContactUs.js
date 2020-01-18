@@ -59,7 +59,7 @@ const ContactUs = () => {
                 </span>
                 <br></br>
                 <div>
-                  <p className="text-center"><a href="mailto:hackclubnmit@gmail.com">hackclubnmit@gmail.com</a></p>
+                  <p className="text-center"><a href="mailto:support@hackbout.tech">hsupport@hackbout.tech</a></p>
                 </div>
               </div>
             
