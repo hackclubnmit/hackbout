@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from "aos";
 
 // reactstrap components
 // import {
@@ -31,6 +32,11 @@ function Index() {
       document.body.classList.remove("sidebar-collapse");
     };
   });
+
+  AOS.init({
+    duration: 1500
+  });
+
   return (
     <>
       <IndexNavbar />

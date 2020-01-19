@@ -28,7 +28,7 @@ const Tracks = () => {
         <p className="section-about-header h1 pt-2">Tracks</p>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p1} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>
@@ -47,7 +47,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p2} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>
@@ -70,7 +70,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p3} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>
@@ -91,7 +91,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p4} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>
@@ -113,7 +113,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p5} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>
@@ -133,7 +133,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="slide-up">
               <CardImg height="100%" width="" src={p6} className={styles.cc} />
               <CardImgOverlay>
                 <CardTitle>

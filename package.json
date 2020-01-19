@@ -1,9 +1,10 @@
 {
-  "name": "now-ui-kit-react",
+  "name": "hackbout",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://www.hackbout.tech/",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
     "moment": "2.24.0",

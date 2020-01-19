@@ -1,4 +1,5 @@
 import React from "react";
+import "aos/dist/aos.css";
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -25,7 +26,11 @@ const About = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="p-5" style={{ textAlign: "center" }}>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="slide-up"
+          >
             {/* <img
             src={require("assets/img/snaks.png")}
             alt="1"
@@ -39,7 +44,11 @@ const About = () => {
             />
             <h5 className="pt-3">Free Drinks and Snacks</h5>
           </Col>
-          <Col className="p-5" style={{ textAlign: "center" }}>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="slide-up"
+          >
             <img
               src={require("assets/img/logos/goodies.png")}
               alt="hackclub-logo"
@@ -47,7 +56,11 @@ const About = () => {
             />
             <h5 className="pt-3">Awesome Swags and Goodies!</h5>
           </Col>
-          <Col className="p-5" style={{ textAlign: "center" }}>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="slide-up"
+          >
             <img
               src={require("assets/img/logos/24_hour_hack.png")}
               alt="hackclub-logo"
@@ -55,7 +68,11 @@ const About = () => {
             />
             <h5 className="pt-3">24 Hour Hack</h5>
           </Col>
-          <Col className="p-5" style={{ textAlign: "center" }}>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="slide-up"
+          >
             <img
               src={require("assets/img/logos/bounties.png")}
               alt="hackclub-logo"
@@ -63,7 +80,11 @@ const About = () => {
             />
             <h5 className="pt-3">Bounties</h5>
           </Col>
-          <Col className="p-5" style={{ textAlign: "center" }}>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="slide-up"
+          >
             <img
               src={require("assets/img/logos/prizes.png")}
               alt="hackclub-logo"
