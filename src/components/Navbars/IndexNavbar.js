@@ -87,7 +87,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document.querySelector(".header-main").scrollIntoView();
+                    document.querySelector(".header-main").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -106,7 +108,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document.getElementById("about-section").scrollIntoView();
+                    document.getElementById("about-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -121,7 +125,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document.getElementById("tracks-section").scrollIntoView();
+                    document.getElementById("tracks-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -136,9 +142,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("schedule-section")
-                      .scrollIntoView();
+                    document.getElementById("schedule-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -153,9 +159,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("sponsors-section")
-                      .scrollIntoView();
+                    document.getElementById("sponsors-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -170,7 +176,9 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
-                    document.getElementById("faq-section").scrollIntoView();
+                    document.getElementById("faq-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
                   }}
                 >
                   <h5
@@ -187,7 +195,9 @@ function IndexNavbar() {
                     e.preventDefault();
                     document
                       .getElementById("contactUs-section")
-                      .scrollIntoView();
+                      .scrollIntoView({
+                        behavior: "smooth"
+                      });
                   }}
                 >
                   <h5

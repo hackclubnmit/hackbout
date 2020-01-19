@@ -8,7 +8,7 @@ import jetBrains from "../../../assets/img/jetbrains_logo.png";
 const Sponsors = () => {
   return (
     <div
-      className=" section-sponsors"
+      className=" section-sponsors pt-5"
       id="sponsors-section"
       style={{ background: "#eeeeee" }}
     >
