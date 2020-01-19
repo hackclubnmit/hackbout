@@ -6,7 +6,11 @@ import styles from "./Faq.module.css";
 
 const Faq = () => {
   return (
-    <div className="section section-faq" id="faq-section">
+    <div
+      className="section section-faq"
+      id="faq-section"
+      style={{ backgroundImage: "linear-gradient(to bottom,#eeeeee,#2c2c2c)" }}
+    >
       <Container className=" mt-5">
         <p className="section-faq-header h1 pt-2">FAQ's</p>
 
@@ -160,7 +164,8 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="9">
                   <Card.Body>
-                    Absolutely! This is an offline hack. So, yes, you need to be present at the venue.{" "}
+                    Absolutely! This is an offline hack. So, yes, you need to be
+                    present at the venue.{" "}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
@@ -175,7 +180,8 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                    If you have any other questions or concerns, reach out to us using the contact details below :)
+                    If you have any other questions or concerns, reach out to us
+                    using the contact details below :)
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

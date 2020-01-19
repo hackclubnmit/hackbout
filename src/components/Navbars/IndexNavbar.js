@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/Black_Hackbout.png";
+import logo from "../../assets/img/logos/hbLogo1.png";
 // import { Link } from "react-router-dom";
 
 // reactstrap components
@@ -52,19 +52,15 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar
-        className={"fixed-top " + navbarColor}
-        expand="lg"
-        color="success"
-      >
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="white">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
-                <img
-                  src={logo}
-                  alt="HackBout_logo"
-                  style={{ height: "40px" }}
-                ></img>
+              <img
+                src={logo}
+                alt="HackBout_logo"
+                style={{ height: "40px" }}
+              ></img>
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -94,7 +90,13 @@ function IndexNavbar() {
                     document.querySelector(".header-main").scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{
+                      color: "black",
+                      position: "relative",
+                      top: "5px"
+                    }}
+                  >
                     <b>Home</b>
                   </h5>
                 </NavLink>
@@ -107,7 +109,9 @@ function IndexNavbar() {
                     document.getElementById("about-section").scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>About</b>
                   </h5>
                 </NavLink>
@@ -120,7 +124,9 @@ function IndexNavbar() {
                     document.getElementById("tracks-section").scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>Tracks</b>
                   </h5>
                 </NavLink>
@@ -135,7 +141,9 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>Schedule</b>
                   </h5>
                 </NavLink>
@@ -150,7 +158,9 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>Sponsors</b>
                   </h5>
                 </NavLink>
@@ -163,7 +173,9 @@ function IndexNavbar() {
                     document.getElementById("faq-section").scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>FAQ</b>
                   </h5>
                 </NavLink>
@@ -178,7 +190,9 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <h5 style={{ color: "black" }}>
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
                     <b>Contact Us</b>
                   </h5>
                 </NavLink>

@@ -5,10 +5,10 @@ const Mentors = () => {
   return (
     <div
       className=" section-Mentors"
-      // data-background-color=""
+      style={{ background: "#eeeeee" }}
       id="Mentors-section"
     >
-      <Container className=" mt-5">
+      <Container className=" pt-5">
         <p className="section-about-header h1 pt-2">Mentors</p>
         <Row style={{ textAlign: "center" }}>
           <Col className="mt-5">

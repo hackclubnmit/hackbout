@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       className="section section-about"
-      // data-background-color=""
+      style={{ background: "#eeeeee" }}
       id="about-section"
     >
       <Container className=" mt-5">
@@ -32,28 +32,44 @@ const About = () => {
             width="80"
             height="80"
           ></img> */}
-            <span style={{ fontSize: "60px", color: "grey" }}>
-              <i class="fas fa-mug-hot "></i>
-            </span>
+            <img
+              src={require("assets/img/logos/Artboard1.png")}
+              alt="food"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
             <h5 className="pt-3">Free Drinks and Snacks</h5>
           </Col>
           <Col className="p-5" style={{ textAlign: "center" }}>
-            <span style={{ fontSize: "60px", color: "grey" }}>
-              <i class="fas fa-grin-beam"></i>
-            </span>
-            <h5 className="pt-3">Awesome Swags and Goddies!</h5>
+            <img
+              src={require("assets/img/logos/goodies.png")}
+              alt="hackclub-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
+            <h5 className="pt-3">Awesome Swags and Goodies!</h5>
           </Col>
           <Col className="p-5" style={{ textAlign: "center" }}>
-            <span style={{ fontSize: "60px", color: "grey" }}>
-              <i class="fas fa-code"></i>
-            </span>
+            <img
+              src={require("assets/img/logos/24_hour_hack.png")}
+              alt="hackclub-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
             <h5 className="pt-3">24 Hour Hack</h5>
           </Col>
           <Col className="p-5" style={{ textAlign: "center" }}>
-            <span style={{ fontSize: "60px", color: "grey" }}>
-              <i class="fas fa-trophy"></i>
-            </span>
-            <h5 className="pt-3">Huge Cash Prizes</h5>
+            <img
+              src={require("assets/img/logos/bounties.png")}
+              alt="hackclub-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
+            <h5 className="pt-3">Bounties</h5>
+          </Col>
+          <Col className="p-5" style={{ textAlign: "center" }}>
+            <img
+              src={require("assets/img/logos/prizes.png")}
+              alt="hackclub-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
+            <h5 className="pt-3">Huge Prizes</h5>
           </Col>
         </Row>
       </Container>

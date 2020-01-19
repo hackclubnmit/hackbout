@@ -16,7 +16,7 @@ const Schedule = () => {
   return (
     <div
       className="section section-schedule"
-      // data-background-color=""
+      style={{ background: "#eeeeee" }}
       id="schedule-section"
     >
       <Container className=" mt-5">

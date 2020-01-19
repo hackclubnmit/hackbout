@@ -7,8 +7,12 @@ import jetBrains from "../../../assets/img/jetbrains_logo.png";
 
 const Sponsors = () => {
   return (
-    <div className=" section-sponsors" id="sponsors-section">
-      <Container className=" mt-5">
+    <div
+      className=" section-sponsors"
+      id="sponsors-section"
+      style={{ background: "#eeeeee" }}
+    >
+      <Container className=" pt-5">
         <p className="section-about-header h1 pb-3">Sponsors</p>
         <div className="text-center">
           <div style={{ textAlign: "center", marginBottom: "5px" }}>

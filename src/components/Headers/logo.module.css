@@ -1,21 +1,21 @@
 .Logo {
-  height: 300px;
+  height: 500px;
 }
 
 @media (max-width: 990px) {
   .Logo {
-    height: 200px;
+    height: 450px;
   }
 }
 
 @media (max-width: 600px) {
   .Logo {
-    height: 100px;
+    height: 400px;
   }
 }
 
 @media (max-width: 500px) {
   .Logo {
-    height: 80px;
+    height: 300px;
   }
 }
