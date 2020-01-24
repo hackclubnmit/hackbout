@@ -5,7 +5,7 @@ const Mentors = () => {
   return (
     <div
       className=" section-Mentors"
-      style={{ background: "#eeeeee" }}
+      style={{ background: "#ffffff" }}
       id="Mentors-section"
     >
       <Container className=" pt-5">

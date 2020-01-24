@@ -16,7 +16,7 @@ const Schedule = () => {
   return (
     <div
       className="section section-schedule"
-      style={{ background: "#eeeeee" }}
+      style={{ background: "#ffffff" }}
       id="schedule-section"
     >
       <Container className=" mt-5">

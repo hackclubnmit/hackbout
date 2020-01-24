@@ -29,9 +29,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "linear-gradient(to bottom,#ffffff,#eaeaea)"
-            // backgroundImage:
-            //   "url(" + require("assets/img/bg-header-1.jpg") + ")" //url(" + require("assets/img/header.jpg") + ")
+            background: "#ffffff"
           }}
           ref={pageHeader}
         ></div>
@@ -42,14 +40,8 @@ function IndexHeader() {
               alt="Logo Here"
               src={require("assets/img/logos/hbLogo2.png")}
             ></img>
-            {/* <h1 className="" style={{ color: "black", fontWeight: "200" }}>
-              HACKBOUT 1.0
-            </h1> */}
-            {/* <h3 className="h2-seo" style={{ color: "black" }}>
-              A Catchy Description Here!
-            </h3> */}
           </div>
-          <h2 className="category-absolute" style={{ color: "black" }}>
+          <h2 className="category-absolute" style={{ color: "black", "margin-top": "-150px"}}>
             Registrations will open soon! Stay tuned!
           </h2>
         </Container>

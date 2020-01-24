@@ -2,10 +2,12 @@
   width: 500px;
   height: 300px;
   transition: all 0.3s;
+  background-color: #22B573;;
+  border-radius: 8px;
 }
 
 .cc {
-  filter: blur(7px);
+  filter: blur(3px);
   transition: all 0.3s;
 }
 
@@ -16,10 +18,10 @@
 .cardTitle {
   position: relative;
   top: 82px;
-  font-size: 50px;
+  font-size: 40px;
   transition: all 0.3s;
   color: white;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 .cardBody {
@@ -29,14 +31,14 @@
 
 .card:hover .cardTitle {
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 500;
   color: white;
   transform: translateY(-82px);
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 .card:hover .cardBody {
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   font-size: 16px;
   display: block;
@@ -53,7 +55,7 @@
     font-size: 45px;
     transition: all 0.3s;
     color: white;
-    font-weight: 500;
+    font-weight: 100;
   }
 
   .cardBody {
@@ -63,7 +65,7 @@
 
   .card:hover .cardTitle {
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 500;
     color: white;
     transform: translateY(-42px);
     border-bottom: 1px solid white;
@@ -88,7 +90,7 @@
     font-size: 45px;
     transition: all 0.3s;
     color: white;
-    font-weight: 500;
+    font-weight: 100;
   }
 
   .cardBody {
@@ -98,7 +100,7 @@
 
   .card:hover .cardTitle {
     font-size: 33px;
-    font-weight: 100;
+    font-weight: 500;
     color: white;
     transform: translateY(-42px);
     border-bottom: 1px solid white;

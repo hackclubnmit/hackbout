@@ -10,7 +10,7 @@ const Sponsors = () => {
     <div
       className=" section-sponsors pt-5"
       id="sponsors-section"
-      style={{ background: "#eeeeee" }}
+      style={{ background: "#ffffff" }}
     >
       <Container className=" pt-5">
         <p className="section-about-header h1 pb-3">Sponsors</p>

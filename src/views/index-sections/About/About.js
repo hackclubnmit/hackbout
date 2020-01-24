@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       className="section section-about"
-      style={{ background: "#eeeeee" }}
+      style={{ background: "#ffffff" }}
       id="about-section"
     >
       <Container className=" mt-5">

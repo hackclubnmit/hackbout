@@ -9,7 +9,8 @@ const Faq = () => {
     <div
       className="section section-faq"
       id="faq-section"
-      style={{ backgroundImage: "linear-gradient(to bottom,#eeeeee,#2c2c2c)" }}
+      // style={{ backgroundImage: "linear-gradient(to bottom,#eeeeee,#2c2c2c)" }}
+      style={{ background: "#ffffff" }}
     >
       <Container className=" mt-5">
         <p className="section-faq-header h1 pt-2">FAQ's</p>
