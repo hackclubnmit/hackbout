@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e00dae537b5f9375ddf44fd0698e8f2",
+    "revision": "417ef5ac17ec67835a7626e655c95652",
     "url": "/index.html"
   },
   {
-    "revision": "204578ff32546417694c",
+    "revision": "cc268ed48f63f01582c9",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "dfa23ffe2c5879a0629f",
-    "url": "/static/css/main.ccb0b62a.chunk.css"
+    "revision": "8a0da7b4776da342be2c",
+    "url": "/static/css/main.4e723c89.chunk.css"
   },
   {
-    "revision": "204578ff32546417694c",
-    "url": "/static/js/2.cb9eee74.chunk.js"
+    "revision": "cc268ed48f63f01582c9",
+    "url": "/static/js/2.3b2cf00f.chunk.js"
   },
   {
-    "revision": "dfa23ffe2c5879a0629f",
-    "url": "/static/js/main.580b8ac6.chunk.js"
+    "revision": "8a0da7b4776da342be2c",
+    "url": "/static/js/main.106a0e55.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,22 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c1cef468e13a43412c475a25d82b5cb",
     "url": "/static/media/Artboard1.0c1cef46.png"
-  },
-  {
-    "revision": "f172c3793f297065f8a5639ad5e9d6a8",
-    "url": "/static/media/BC.f172c379.jpg"
-  },
-  {
-    "revision": "9b1abe969bd09725cb533fdbc4dfb60f",
-    "url": "/static/media/FM.9b1abe96.jpg"
-  },
-  {
-    "revision": "cd4370cbcf888c1e0fb4ea70a0083fae",
-    "url": "/static/media/IOT.cd4370cb.jpg"
-  },
-  {
-    "revision": "5516eb03ee4fd1bb39a8db1ea3e794f8",
-    "url": "/static/media/ML.5516eb03.jpeg"
   },
   {
     "revision": "a9b260f7e056e808ae05424dbae4e1b1",
@@ -92,19 +76,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "f8dff106d0c3de4aaf753050c7580c19",
-    "url": "/static/media/oi.f8dff106.jpg"
-  },
-  {
     "revision": "82fe7c2d6d6cdf5b78cfc8e47224d01f",
     "url": "/static/media/prizes.82fe7c2d.png"
   },
   {
     "revision": "ac1102fb182481ad8b6a998d51552fe3",
     "url": "/static/media/sticker-mule-logo.ac1102fb.png"
-  },
-  {
-    "revision": "062c40532afdfb409226aa4bbb5e7f0e",
-    "url": "/static/media/var.062c4053.jpg"
   }
 ]);

@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccb0b62a.chunk.css",
-    "main.js": "/static/js/main.580b8ac6.chunk.js",
-    "main.js.map": "/static/js/main.580b8ac6.chunk.js.map",
+    "main.css": "/static/css/main.4e723c89.chunk.css",
+    "main.js": "/static/js/main.106a0e55.chunk.js",
+    "main.js.map": "/static/js/main.106a0e55.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.b73f78c9.chunk.css": "/static/css/2.b73f78c9.chunk.css",
-    "static/js/2.cb9eee74.chunk.js": "/static/js/2.cb9eee74.chunk.js",
-    "static/js/2.cb9eee74.chunk.js.map": "/static/js/2.cb9eee74.chunk.js.map",
+    "static/js/2.3b2cf00f.chunk.js": "/static/js/2.3b2cf00f.chunk.js",
+    "static/js/2.3b2cf00f.chunk.js.map": "/static/js/2.3b2cf00f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.155bd0234021e617bc88b0d42258e5c4.js": "/precache-manifest.155bd0234021e617bc88b0d42258e5c4.js",
+    "precache-manifest.ed13626d54759ed2d34fecce552fc5a8.js": "/precache-manifest.ed13626d54759ed2d34fecce552fc5a8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b73f78c9.chunk.css.map": "/static/css/2.b73f78c9.chunk.css.map",
-    "static/css/main.ccb0b62a.chunk.css.map": "/static/css/main.ccb0b62a.chunk.css.map",
+    "static/css/main.4e723c89.chunk.css.map": "/static/css/main.4e723c89.chunk.css.map",
     "static/media/24_hour_hack.png": "/static/media/24_hour_hack.c56e3d54.png",
     "static/media/Artboard1.png": "/static/media/Artboard1.0c1cef46.png",
-    "static/media/BC.jpg": "/static/media/BC.f172c379.jpg",
-    "static/media/FM.jpg": "/static/media/FM.9b1abe96.jpg",
-    "static/media/IOT.jpg": "/static/media/IOT.cd4370cb.jpg",
-    "static/media/ML.jpeg": "/static/media/ML.5516eb03.jpeg",
     "static/media/White_Hackbout.png": "/static/media/White_Hackbout.a9b260f7.png",
     "static/media/bounties.png": "/static/media/bounties.81451119.png",
     "static/media/github-logo.png": "/static/media/github-logo.29892f43.png",
@@ -27,9 +23,7 @@
     "static/media/hbLogo2.png": "/static/media/hbLogo2.eb376801.png",
     "static/media/jetbrains_logo.png": "/static/media/jetbrains_logo.157f907a.png",
     "static/media/now-ui-kit.scss": "/static/media/nucleo-outline.8ebec31f.woff2",
-    "static/media/oi.jpg": "/static/media/oi.f8dff106.jpg",
     "static/media/prizes.png": "/static/media/prizes.82fe7c2d.png",
-    "static/media/sticker-mule-logo.png": "/static/media/sticker-mule-logo.ac1102fb.png",
-    "static/media/var.jpg": "/static/media/var.062c4053.jpg"
+    "static/media/sticker-mule-logo.png": "/static/media/sticker-mule-logo.ac1102fb.png"
   }
 }
