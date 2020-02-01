@@ -34,12 +34,12 @@ const ContactUs = () => {
           <Col>
             <div style={{ textAlign: "center" }}>
               <span className={styles.icon}>
-                <i class="fas fa-phone img-fluid"></i>
+                <i className="fas fa-phone img-fluid"></i>
               </span>
               <br></br>
               <div className="pt-4">
                 <p>
-                <strong>Anurag Singh :</strong> &nbsp;
+                  <strong>Anurag Singh :</strong> &nbsp;
                   <a href="tel:9992288116">+91 9992288116</a>
                 </p>
                 <p>
@@ -54,15 +54,18 @@ const ContactUs = () => {
         <Row>
           <Col>
             <div style={{ textAlign: "center" }}>
-                <span className={styles.icon}>
-                  <i class="fas fa-envelope img-fluid"></i>
-                </span>
-                <br></br>
-                <div>
-                  <p className="text-center"><a href="mailto:support@hackbout.tech">support@hackbout.tech</a></p>
-                </div>
+              <span className={styles.icon}>
+                <i className="fas fa-envelope img-fluid"></i>
+              </span>
+              <br></br>
+              <div>
+                <p className="text-center">
+                  <a href="mailto:support@hackbout.tech">
+                    support@hackbout.tech
+                  </a>
+                </p>
               </div>
-            
+            </div>
           </Col>
         </Row>
         <Row>

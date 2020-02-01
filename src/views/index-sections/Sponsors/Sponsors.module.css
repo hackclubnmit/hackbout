@@ -1,0 +1,154 @@
+.mainSponsors {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.hackClub {
+  position: relative;
+  top: 17px;
+}
+
+.stickermule {
+  max-width: 60%;
+  max-height: 55%;
+  position: relative;
+  top: 75px;
+}
+
+.jetbrains {
+  max-width: 50%;
+  max-height: 60%;
+  position: relative;
+  top: 25px;
+}
+
+.wolfram {
+  max-width: 50%;
+  max-height: 60%;
+  position: relative;
+  top: 25px;
+}
+
+.gatsby {
+  max-width: 70%;
+  max-height: 80%;
+  position: relative;
+  top: -10px;
+}
+
+@media (max-width: 1200px) {
+  .github {
+    position: relative;
+    top: 22px;
+  }
+  .hackClub {
+    position: relative;
+    top: 35px;
+  }
+}
+
+@media (max-width: 990px) {
+  .mainSponsors {
+    max-width: 70%;
+    max-height: 90%;
+  }
+  .github {
+    position: relative;
+    top: 11px;
+  }
+  .hackClub {
+    position: relative;
+    top: -10px;
+  }
+  .stickermule {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 75px;
+  }
+
+  .jetbrains {
+    max-width: 70%;
+    max-height: 90%;
+    position: relative;
+    top: 25px;
+  }
+
+  .wolfram {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 25px;
+  }
+
+  .gatsby {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media (max-width: 765px) {
+  .stickermule {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 50px;
+  }
+  .jetbrains {
+    max-width: 70%;
+    max-height: 90%;
+    position: relative;
+    top: 10px;
+  }
+  .wolfram {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -20px;
+  }
+  .gatsby {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .stickermule {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 20px;
+  }
+  .jetbrains {
+    max-width: 70%;
+    max-height: 90%;
+    position: relative;
+    top: 0px;
+  }
+  .wolfram {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -25px;
+  }
+  .gatsby {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -45px;
+  }
+}
+
+.sponsors {
+  transform: scale(1);
+}
+
+.sponsors:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  box-shadow: 20px #ccc;
+}

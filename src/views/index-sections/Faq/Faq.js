@@ -24,7 +24,7 @@ const Faq = () => {
                   <p>
                     Q. What is a hackathon?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -43,7 +43,7 @@ const Faq = () => {
                   <p>
                     Q. Who can register?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -58,7 +58,7 @@ const Faq = () => {
                   <p>
                     Q.This is my first hackathon. What if I'm clueless?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines "></i>
+                      <i className="fas fa-grip-lines "></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -76,7 +76,7 @@ const Faq = () => {
                   <p>
                     Q. How many members are required in a team?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines "></i>
+                      <i className="fas fa-grip-lines "></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -92,7 +92,7 @@ const Faq = () => {
                     Q. Do I need to have any specific qualifications to be a
                     participant for the hackathon?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -107,7 +107,7 @@ const Faq = () => {
                   <p>
                     Q. What shouldn't I bring to the Hackathon?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -125,7 +125,7 @@ const Faq = () => {
                   <p>
                     Q. Can I start working on my hack before the event?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -142,7 +142,7 @@ const Faq = () => {
                   <p>
                     Q. How does judging work?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -159,7 +159,7 @@ const Faq = () => {
                   <p>
                     Q. Do we have to be present at the site to hack?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
@@ -175,7 +175,7 @@ const Faq = () => {
                   <p>
                     Q. I didn't find my question here, what can i do?{" "}
                     <span style={{ float: "right" }}>
-                      <i class="fas fa-grip-lines"></i>
+                      <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
