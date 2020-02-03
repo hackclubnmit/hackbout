@@ -6,6 +6,9 @@ import stickerMule from "../../../assets/img/sticker-mule-logo.png";
 import jetBrains from "../../../assets/img/jetbrains_logo.png";
 import wolfram from "../../../assets/img/Wolfram.png";
 import gatsby from "../../../assets/img/gatsby.png";
+import inVision from "../../../assets/img/invision.png";
+import ieee from "../../../assets/img/ieee-cs-logo.png";
+import bugsee from "../../../assets/img/bugsee.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -20,7 +23,7 @@ const Sponsors = () => {
         <div className="text-center">
           <div style={{ textAlign: "center", marginBottom: "5px" }}>
             <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Event Partners!
+              Event Partners
             </h2>
           </div>
           <Row>
@@ -65,11 +68,14 @@ const Sponsors = () => {
             }}
           >
             <h3 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Assosiate Sponsors!
+              Assosiate Sponsors
             </h3>
           </div>
           <Row>
-            <Col className={["mt-5 text-center", Styles.sponsors].join(" ")}>
+            <Col
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+            >
               <a
                 href="https://www.stickermule.com/"
                 target="_blank"
@@ -82,7 +88,10 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-            <Col className={["mt-5 text-center", Styles.sponsors].join(" ")}>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
               <a
                 href="https://www.jetbrains.com/"
                 target="_blank"
@@ -95,9 +104,10 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <Row>
-            <Col className={["mt-5 text-center", Styles.sponsors].join(" ")}>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
               <a
                 href="https://www.wolfram.com/"
                 target="_blank"
@@ -105,12 +115,17 @@ const Sponsors = () => {
               >
                 <img
                   src={wolfram}
-                  alt="stickerMule-logo"
+                  alt="wolfram-logo"
                   className={Styles.wolfram}
                 />
               </a>
             </Col>
-            <Col className={["mt-5 text-center", Styles.sponsors].join(" ")}>
+          </Row>
+          <Row>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
               <a
                 href="https://www.gatsbyjs.org/"
                 target="_blank"
@@ -123,8 +138,52 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.invisionapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={inVision}
+                  alt="inVision-logo"
+                  className={Styles.inVision}
+                />
+              </a>
+            </Col>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.computer.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
+              </a>
+            </Col>
           </Row>
-          <Button color="success" size="lg" style={{ marginTop: "-25px" }}>
+          <Row>
+            <Col></Col>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.bugsee.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={bugsee} alt="bugsee-logo" className={Styles.bugsee} />
+              </a>
+            </Col>
+            <Col></Col>
+          </Row>
+          <Button color="success" size="lg" style={{ marginTop: "-15px" }}>
             Become a Sponsor!
           </Button>
         </div>
