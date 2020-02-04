@@ -2,7 +2,7 @@
   width: 500px;
   height: 300px;
   transition: all 0.3s;
-  background-image: linear-gradient(45deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(45deg, #27b574 0%, #24fe41 100%);
   /* //#13547a → #80d0c7 */
   border-radius: 8px;
 }
