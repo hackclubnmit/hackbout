@@ -15,7 +15,15 @@ const Mentors = () => {
             <div>
               <h1 style={{ fontWeight: "100" }}> Coming Soon! </h1>
             </div>
-            <Button color="success" size="lg">
+            <Button
+              color=""
+              size="lg"
+              style={{
+                borderRadius: "20px",
+                backgroundImage:
+                  "linear-gradient(45deg, #27b574 0%, #24fe41 100%)"
+              }}
+            >
               Become a Mentor!
             </Button>
           </Col>

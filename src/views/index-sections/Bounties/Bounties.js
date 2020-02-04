@@ -6,7 +6,7 @@ import {
   Card,
   CardTitle,
   CardText,
-  // CardImg,
+  Button,
   CardImgOverlay
 } from "reactstrap";
 import styles from "./Bounties.module.css";
@@ -33,12 +33,24 @@ const Bounties = () => {
                         </p>
                       </CardTitle>
                       <CardText className={styles.cardBody}>
-                        Matic will be giving away a cash prize for the best hack
-                        built on top of Ethereum or Matic during the hackathon.
-                        For teams that integrate Matic in their hacks as well
-                        the prize money will be higher along with eligibility
-                        for internship/full-time role interviews and a chance to
-                        land seed funding of upto 5000 USD!
+                        <a
+                          href="https://drive.google.com/open?id=1OlwT5qNs5pd_vgCLfIepm7K04jayopc6"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button
+                            size="lg"
+                            style={{
+                              marginTop: "150px",
+                              borderRadius: "20px",
+                              backgroundImage:
+                                "linear-gradient(45deg, #27b574 0%, #24fe41 100%)"
+                            }}
+                            onClick="/"
+                          >
+                            Know More
+                          </Button>
+                        </a>
                       </CardText>
                     </CardImgOverlay>
                   </Card>

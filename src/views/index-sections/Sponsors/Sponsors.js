@@ -243,7 +243,19 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
-          <Button color="success" size="lg" style={{ marginTop: "-80px" }}>
+          <br></br>
+          <br></br>
+          <br></br>
+          <Button
+            color=""
+            size="lg"
+            style={{
+              marginTop: "-80px",
+              borderRadius: "20px",
+              backgroundImage:
+                "linear-gradient(45deg, #27b574 0%, #24fe41 100%)"
+            }}
+          >
             Become a Sponsor!
           </Button>
         </div>

@@ -261,6 +261,7 @@
     max-width: 70%;
     max-height: 60%;
     position: relative;
+    margin-bottom: -100px;
     top: 60px;
   }
   .tim {
@@ -268,6 +269,7 @@
     max-height: 80%;
     position: relative;
     top: -50px;
+    margin-bottom: -20px;
   }
 
   .devfolio {
