@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import github from "../../../assets/img/github-logo.png";
 import hackClub from "../../../assets/img/hack-club.svg";
+import devfolio from "../../../assets/img/Devfolio.png";
+import matic from "../../../assets/img/Matic.png";
+import fold from "../../../assets/img/fold.png";
 import stickerMule from "../../../assets/img/sticker-mule-logo.png";
 import jetBrains from "../../../assets/img/jetbrains_logo.png";
 import wolfram from "../../../assets/img/Wolfram.png";
@@ -9,6 +12,7 @@ import gatsby from "../../../assets/img/gatsby.png";
 import inVision from "../../../assets/img/invision.png";
 import ieee from "../../../assets/img/ieee-cs-logo.png";
 import bugsee from "../../../assets/img/bugsee.png";
+import tim from "../../../assets/img/creativetim.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -23,9 +27,45 @@ const Sponsors = () => {
         <div className="text-center">
           <div style={{ textAlign: "center", marginBottom: "5px" }}>
             <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Event Partners
+              Title Partners
             </h2>
+            <br></br>
+            <br></br>
           </div>
+          <Row>
+            <Col
+              lg={true}
+              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.hackclub.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={hackClub}
+                  alt="hackclub-logo"
+                  className={[Styles.mainSponsors, Styles.hackClub].join(" ")}
+                />
+              </a>
+            </Col>
+            <Col
+              lg={true}
+              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://devfolio.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={devfolio}
+                  alt="devfolio-logo"
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                />
+              </a>
+            </Col>
+          </Row>
           <Row>
             <Col
               lg={true}
@@ -43,22 +83,6 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-            <Col
-              lg={true}
-              className={["mt-4 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.hackclub.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={hackClub}
-                  alt="hackclub-logo"
-                  className={[Styles.mainSponsors, Styles.hackClub].join(" ")}
-                />
-              </a>
-            </Col>
           </Row>
           <div
             style={{
@@ -68,9 +92,35 @@ const Sponsors = () => {
             }}
           >
             <h3 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Assosiate Sponsors
+              Associate Sponsors
             </h3>
           </div>
+          <Row>
+            <Col
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+            >
+              <a
+                href="https://matic.network/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={matic} alt="matic-logo" className={Styles.matic} />
+              </a>
+            </Col>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://fold.money/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={fold} alt="fold-logo" className={Styles.fold} />
+              </a>
+            </Col>
+          </Row>
           <Row>
             <Col
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -93,15 +143,11 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.jetbrains.com/"
+                href="https://www.computer.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={jetBrains}
-                  alt="JetBrains-logo"
-                  className={Styles.jetbrains}
-                />
+                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
               </a>
             </Col>
             <Col
@@ -159,16 +205,19 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.computer.org/"
+                href="https://www.jetbrains.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
+                <img
+                  src={jetBrains}
+                  alt="JetBrains-logo"
+                  className={Styles.jetbrains}
+                />
               </a>
             </Col>
           </Row>
           <Row>
-            <Col></Col>
             <Col
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -181,9 +230,20 @@ const Sponsors = () => {
                 <img src={bugsee} alt="bugsee-logo" className={Styles.bugsee} />
               </a>
             </Col>
-            <Col></Col>
+            <Col
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.creativetim.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tim} alt="creative-tim-logo" className={Styles.tim} />
+              </a>
+            </Col>
           </Row>
-          <Button color="success" size="lg" style={{ marginTop: "-15px" }}>
+          <Button color="success" size="lg" style={{ marginTop: "-80px" }}>
             Become a Sponsor!
           </Button>
         </div>

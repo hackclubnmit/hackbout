@@ -71,9 +71,18 @@ function IndexNavbar() {
               aria-expanded={collapseOpen}
               type="button"
             >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
+              <span
+                className="navbar-toggler-bar top-bar"
+                style={{ background: "black" }}
+              ></span>
+              <span
+                className="navbar-toggler-bar middle-bar"
+                style={{ background: "black" }}
+              ></span>
+              <span
+                className="navbar-toggler-bar bottom-bar"
+                style={{ background: "black" }}
+              ></span>
             </button>
           </div>
           <Collapse

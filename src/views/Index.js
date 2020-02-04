@@ -19,6 +19,8 @@ import Mentors from "./index-sections/Mentors/Mentors";
 import Sponsors from "./index-sections/Sponsors/Sponsors";
 import Faq from "./index-sections/Faq/Faq";
 import ContactUs from "./index-sections/ContactUs/ContactUs";
+import Bounties from "./index-sections/Bounties/Bounties";
+import Prizes from "./index-sections/Prizes/Prizes";
 
 function Index() {
   React.useEffect(() => {
@@ -46,6 +48,8 @@ function Index() {
         <div className="main">
           <About />
           <Tracks />
+          <Bounties />
+          <Prizes />
           <Schedule />
           <Mentors />
           <Sponsors />

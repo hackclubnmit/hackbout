@@ -74,7 +74,7 @@ const Schedule = () => {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
-                  <b>9 AM</b>
+                  <b>9:30 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>On Site Registration</b>
@@ -119,7 +119,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>2:30 PM</b>
+                  <b>2:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch</b>
@@ -128,10 +128,19 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>7:30 PM</b>
+                  <b>5:30 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Snacks</b>
+                </div>
+              </li>
+              <li className="list-group-item">
+                {" "}
+                <div style={{ float: "left" }}>
+                  <b>7:00 PM</b>
+                </div>
+                <div style={{ float: "right" }}>
+                  <b>First Round of Mentorship !</b>
                 </div>
               </li>
               <li className="list-group-item">
@@ -143,22 +152,14 @@ const Schedule = () => {
                   <b>Dinner!</b>
                 </div>
               </li>
-              <li className="list-group-item">
-                {" "}
-                <div style={{ float: "left" }}>
-                  <b>10:00 PM </b>
-                </div>
-                <div style={{ float: "right" }}>
-                  <b>First Round of Mentorship !</b>
-                </div>
-              </li>
+
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
                   <b>12:00 AM </b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>Midnight Break!</b>
+                  <b>Fun activity</b>
                 </div>
               </li>
             </ul>
@@ -189,31 +190,14 @@ const Schedule = () => {
                   <b>11:00 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>Corrections And Reviews</b>
+                  <b>Judging Round</b>
                 </div>
               </li>
-              <li className="list-group-item">
-                {" "}
-                <div style={{ float: "left" }}>
-                  <b>12:00 PM</b>
-                </div>
-                <div style={{ float: "right" }}>
-                  <b>The Hack Ends!</b>
-                </div>
-              </li>
+
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
                   <b>2:00 PM</b>
-                </div>
-                <div style={{ float: "right" }}>
-                  <b>Announcements of Winners </b>
-                </div>
-              </li>
-              <li className="list-group-item">
-                {" "}
-                <div style={{ float: "left" }}>
-                  <b>2:30 PM </b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch </b>
@@ -225,16 +209,17 @@ const Schedule = () => {
                   <b>3:30 PM </b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>Winners Presentation</b>
+                  <b>Final Presentation </b>
                 </div>
               </li>
+
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>4:45 PM - 5:00PM</b>
+                  <b>5:00PM</b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>Ending Ceremony</b>
+                  <b>Announcement of Winners</b>
                 </div>
               </li>
             </ul>

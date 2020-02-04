@@ -16,6 +16,7 @@ import {
 // import p5 from "../../../assets/img/var.jpg";
 // import p6 from "../../../assets/img/oi.jpg";
 import styles from "./Tracks.module.css";
+import img1 from "../../../assets/img/block.png";
 
 const Tracks = () => {
   return (
@@ -31,6 +32,7 @@ const Tracks = () => {
             <Card className={styles.card} data-aos="slide-up">
               <CardImgOverlay>
                 <CardTitle>
+                  {/* <img src={img1} alt="ml" className={styles.img} /> */}
                   <p className={styles.cardTitle}> ML & Data Science</p>
                 </CardTitle>
                 <CardText className={styles.cardBody}>
@@ -136,11 +138,11 @@ const Tracks = () => {
                 <CardText>
                   <p className={styles.cardBody}>
                     "Innovation is taking two things that exist and putting them
-                    together in a new way." - Tom Freston, Co-founder of MTV. 
-                    Have something new where few dare to venture, or do you have 
-                    something which is a hodge-podge of everything above? Well, 
-                    fortunately we have this for you to show your hand about something 
-                    never before seen!
+                    together in a new way." - Tom Freston, Co-founder of MTV.
+                    Have something new where few dare to venture, or do you have
+                    something which is a hodge-podge of everything above? Well,
+                    fortunately we have this for you to show your hand about
+                    something never before seen!
                   </p>
                 </CardText>
               </CardImgOverlay>

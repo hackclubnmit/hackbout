@@ -1,16 +1,12 @@
 .card {
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   transition: all 0.3s;
-  background-image: linear-gradient(45deg, #13547a 0%, #80d0c7 100%);
-  /* //#13547a → #80d0c7 */
+  background-image: linear-gradient(45deg, #48c6ef 0%, #6f86d6 100%);
+  /* #48c6ef→ #6f86d6 */
   border-radius: 8px;
 }
 
-.img {
-  height: 10%;
-  width: 50%;
-}
 .cc {
   filter: blur(3px);
   transition: all 0.3s;

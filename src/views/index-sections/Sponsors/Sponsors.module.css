@@ -5,7 +5,37 @@
 
 .hackClub {
   position: relative;
-  top: 17px;
+  top: 50px;
+}
+
+.github {
+  position: relative;
+  top: 70px;
+  max-width: 60%;
+  max-height: 70%;
+}
+
+.devfolio {
+  position: relative;
+  top: 60px;
+  max-width: 95%;
+  max-height: 90%;
+}
+
+.matic {
+  max-width: 60%;
+  max-height: 50%;
+  position: relative;
+  top: 15px;
+  left: 45px;
+}
+
+.fold {
+  max-width: 55%;
+  max-height: 50%;
+  position: relative;
+  top: 15px;
+  left: -45px;
 }
 
 .stickermule {
@@ -19,7 +49,7 @@
   max-width: 70%;
   max-height: 60%;
   position: relative;
-  top: 15px;
+  top: -10px;
 }
 
 .wolfram {
@@ -47,23 +77,37 @@
   max-width: 90%;
   max-height: 90%;
   position: relative;
-  top: -55px;
+  top: -15px;
 }
 
 .bugsee {
-  max-width: 70%;
+  max-width: 60%;
   max-height: 60%;
   position: relative;
   top: -50px;
 }
+
+.tim {
+  max-width: 70%;
+  max-height: 80%;
+  position: relative;
+  top: -90px;
+}
 @media (max-width: 1200px) {
   .github {
     position: relative;
-    top: 22px;
+    top: 70px;
   }
   .hackClub {
     position: relative;
     top: 35px;
+  }
+
+  .devfolio {
+    position: relative;
+    top: 40px;
+    max-width: 95%;
+    max-height: 90%;
   }
 }
 
@@ -72,13 +116,35 @@
     max-width: 70%;
     max-height: 90%;
   }
+
   .github {
     position: relative;
-    top: 11px;
+    top: 60px;
   }
+
   .hackClub {
     position: relative;
-    top: -10px;
+    top: 10px;
+  }
+
+  .devfolio {
+    position: relative;
+    top: 80px;
+  }
+  .matic {
+    max-width: 60%;
+    max-height: 50%;
+    position: relative;
+    top: 15px;
+    left: 0px;
+  }
+
+  .fold {
+    max-width: 55%;
+    max-height: 40%;
+    position: relative;
+    top: 25px;
+    left: 0px;
   }
   .stickermule {
     max-width: 90%;
@@ -91,7 +157,7 @@
     max-width: 70%;
     max-height: 90%;
     position: relative;
-    top: 25px;
+    top: 5px;
   }
 
   .wolfram {
@@ -119,7 +185,7 @@
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    top: -20px;
+    top: 10px;
   }
 
   .bugsee {
@@ -131,36 +197,57 @@
 }
 
 @media (max-width: 765px) {
+  .github {
+    position: relative;
+    top: 50px;
+  }
+
+  .matic {
+    max-width: 60%;
+    max-height: 50%;
+    position: relative;
+    top: 25px;
+    left: 0px;
+  }
+
+  .fold {
+    max-width: 55%;
+    max-height: 40%;
+    position: relative;
+    top: 45px;
+    left: 0px;
+  }
+
   .stickermule {
     max-width: 65%;
     max-height: 70%;
     position: relative;
-    top: 50px;
+    top: 60px;
   }
   .jetbrains {
     max-width: 40%;
     max-height: 60%;
     position: relative;
-    top: 110px;
+    top: 90px;
   }
   .wolfram {
     max-width: 70%;
     max-height: 70%;
     position: relative;
-    top: 100px;
+    top: 70px;
   }
   .gatsby {
     max-width: 70%;
     max-height: 70%;
     position: relative;
-    top: 100px;
+    top: 80px;
   }
 
   .inVision {
     max-width: 60%;
     max-height: 70%;
     position: relative;
-    top: 90px;
+    top: 50px;
   }
 
   .ieee {
@@ -174,64 +261,27 @@
     max-width: 70%;
     max-height: 60%;
     position: relative;
-    top: 20px;
+    top: 60px;
+  }
+  .tim {
+    max-width: 70%;
+    max-height: 80%;
+    position: relative;
+    top: -50px;
+  }
+
+  .devfolio {
+    position: relative;
+    top: 70px;
   }
 }
-
-/* @media (max-width: 500px) {
-  .stickermule {
-    max-width: 65%;
-    max-height: 70%;
-    position: relative;
-    top: 50px;
-  }
-  .jetbrains {
-    max-width: 40%;
-    max-height: 60%;
-    position: relative;
-    top: 110px;
-  }
-  .wolfram {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: 100px;
-  }
-  .gatsby {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: 100px;
-  }
-
-  .inVision {
-    max-width: 60%;
-    max-height: 70%;
-    position: relative;
-    top: 90px;
-  }
-
-  .ieee {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: 90px;
-  }
-
-  .bugsee {
-    max-width: 70%;
-    max-height: 60%;
-    position: relative;
-    top: 20px;
-  }
-} */
 
 .sponsors {
   transform: scale(1);
 }
 
 .sponsors:hover {
-  transform: scale(1.1);
-  transition: all 0.5s;
-  box-shadow: 20px #ccc;
+  transform: scale(1.1) translateY(-7px);
+  transition: all 0.3s;
+  box-shadow: 20px #000;
 }
