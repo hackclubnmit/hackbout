@@ -16,25 +16,36 @@ import {
 // import p5 from "../../../assets/img/var.jpg";
 // import p6 from "../../../assets/img/oi.jpg";
 import styles from "./Tracks.module.css";
-import img1 from "../../../assets/img/block.png";
+import img1 from "../../../assets/img/ai.png";
+import img2 from "../../../assets/img/bitcoin.png";
+import img3 from "../../../assets/img/idea.png";
+import img4 from "../../../assets/img/hosting.png";
+import img5 from "../../../assets/img/mobility.png";
+import img6 from "../../../assets/img/AR.png";
 
 const Tracks = () => {
   return (
     <div
-      className=" section-tracks"
-      style={{ background: "#ffffff" }}
+      className={styles.sectionTracks}
+      style={{
+        background: "radial-gradient( #24fe41 , #27b574 )"
+      }}
       id="tracks-section"
     >
       <Container className="">
         <p className="section-about-header h1 pt-2">Tracks</p>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
-                  {/* <img src={img1} alt="ml" className={styles.img} /> */}
+                  <img src={img1} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}> ML & Data Science</p>
                 </CardTitle>
+                {/* <br></br>
+                <br></br>
+                <br></br>
+                <br></br> */}
                 <CardText className={styles.cardBody}>
                   In recent times, data is growing exponentially like never
                   before. We need more efficient algorithms and models to
@@ -48,9 +59,10 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
+                  <img src={img2} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}> Blockchain & Fintech</p>
                 </CardTitle>
                 <CardText>
@@ -70,9 +82,10 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
+                  <img src={img4} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}>IOT</p>
                 </CardTitle>
                 <CardText>
@@ -90,9 +103,10 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
+                  <img src={img5} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}>Future Mobility</p>
                 </CardTitle>
                 <CardText>
@@ -111,9 +125,10 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
+                  <img src={img6} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}>AR & VR</p>
                 </CardTitle>
                 <CardText>
@@ -130,9 +145,10 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="slide-up">
+            <Card className={styles.card} data-aos="fade-up">
               <CardImgOverlay>
                 <CardTitle>
+                  <img src={img3} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}>Open Innovation</p>
                 </CardTitle>
                 <CardText>

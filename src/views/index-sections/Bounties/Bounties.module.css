@@ -1,4 +1,4 @@
-.card {
+.card1 {
   width: 300px;
   height: 400px;
   transition: all 0.3s;
@@ -7,29 +7,30 @@
   border-radius: 8px;
 }
 
-.cc {
-  filter: blur(3px);
+.card2 {
+  width: 300px;
+  height: 400px;
   transition: all 0.3s;
+  background-image: linear-gradient(45deg, #fbb034 0%, #ffdd00 100%);
+
+  /* #48c6ef→ #6f86d6 */
+  border-radius: 8px;
 }
 
-.card:hover .cc {
-  filter: blur(3px);
-}
-
-.cardTitle {
+.cardTitle1 {
   position: relative;
-  top: 12px;
-  font-size: 40px;
-  transition: all 0.3s;
-  color: white;
-  font-weight: 100;
+  top: 73px;
+  font-size: 32px;
+}
+
+.cardTitle2 {
+  font-size: 32px;
+  position: relative;
 }
 
 .cardBody {
   display: block;
   position: relative;
-  top: -72px;
-  transition: all 0.7s;
 }
 /* 
 .card:hover .cardTitle {

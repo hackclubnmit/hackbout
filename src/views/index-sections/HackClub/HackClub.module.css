@@ -1,0 +1,38 @@
+.hack {
+  position: absolute;
+  top: 7150px;
+  left: 0;
+  border: 0;
+  width: 530px;
+  z-index: 1000;
+}
+
+@media (max-width: 1200px) {
+  .hack {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hack {
+    display: block;
+    position: relative;
+    top: 0px;
+    width: 530px;
+  }
+}
+
+.club {
+  position: relative;
+  width: 120px;
+  top: -2px;
+}
+
+.Carousel {
+  position: relative;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+}

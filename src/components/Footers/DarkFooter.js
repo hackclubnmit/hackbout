@@ -22,7 +22,7 @@ function DarkFooter() {
                 marginBottom: "5px"
               }}
             ></img>
-            <p>HACKBOUT 1.0 © {new Date().getFullYear()}</p>
+            <p>HackBout© {new Date().getFullYear()}</p>
           </Col>
           <Col></Col>
         </Row>

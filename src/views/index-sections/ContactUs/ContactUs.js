@@ -25,7 +25,7 @@ const ContactUs = () => {
                 // style={{ width: "479px", height: "76px" }}
               ></img>
               <br></br>
-              <p className="pt-4">
+              <p className={["pt-4", styles.text].join(" ")}>
                 Nitte Meenakshi Institute of Technology, P.B.No.6429, Yelahanka,
                 Bangalore 560064.
               </p>

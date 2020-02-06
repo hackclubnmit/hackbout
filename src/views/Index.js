@@ -21,6 +21,7 @@ import Faq from "./index-sections/Faq/Faq";
 import ContactUs from "./index-sections/ContactUs/ContactUs";
 import Bounties from "./index-sections/Bounties/Bounties";
 import Prizes from "./index-sections/Prizes/Prizes";
+import HackClub from "./index-sections/HackClub/HackClub";
 
 function Index() {
   React.useEffect(() => {
@@ -36,7 +37,7 @@ function Index() {
   });
 
   AOS.init({
-    duration: 1050
+    duration: 1000
   });
 
   return (
@@ -53,6 +54,7 @@ function Index() {
           <Schedule />
           <Mentors />
           <Sponsors />
+          <HackClub />
           <Faq />
           <ContactUs />
         </div>

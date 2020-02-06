@@ -1,120 +1,168 @@
+.sectionTracks {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  margin-top: -100px;
+}
+
 .card {
   width: 500px;
   height: 300px;
   transition: all 0.3s;
-  background-image: linear-gradient(45deg, #27b574 0%, #24fe41 100%);
-  /* //#13547a → #80d0c7 */
+  background-color: #eee;
   border-radius: 8px;
+  color: black;
+  text-align: center;
+  /* box-shadow: 0.5px 1px #000; */
 }
 
 .img {
-  height: 10%;
-  width: 50%;
-}
-.cc {
-  filter: blur(3px);
-  transition: all 0.3s;
-}
-
-.card:hover .cc {
-  filter: blur(3px);
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  left: 185px;
+  top: 50px;
+  transition: all 0.5s;
 }
 
 .cardTitle {
   position: relative;
-  top: 82px;
+  top: 150px;
   font-size: 40px;
-  transition: all 0.3s;
-  color: white;
+  transition: all 0.5s;
   font-weight: 100;
+  display: block;
+  margin-bottom: -50px;
 }
 
 .cardBody {
-  display: none;
-  transition: all 0.7s;
+  position: relative;
+  top: 50px;
+  display: block;
+  opacity: 0;
+  transition: all 0.5s;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .card:hover .cardTitle {
   font-size: 30px;
   font-weight: 500;
-  color: white;
-  transform: translateY(-82px);
-  border-bottom: 1px solid white;
+  transform: translateY(-150px);
+  border-bottom: 1px solid black;
+  float: left;
 }
 
 .card:hover .cardBody {
-  font-weight: 500;
-  color: white;
-  font-size: 16px;
-  display: block;
+  opacity: 1;
+}
+
+.card:hover .img {
+  height: 15%;
+  width: 15%;
+  left: 380px;
+  top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .sectionTracks {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    margin-top: -100px;
+  }
 }
 
 @media (max-width: 770px) {
-  .card {
-    width: 400px;
-    height: 285px;
+  .img {
+    height: 15%;
+    width: 15%;
+    left: 380px;
+    top: 20px;
   }
 
   .cardTitle {
-    top: 42px;
-    font-size: 45px;
-    transition: all 0.3s;
-    color: white;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 500;
+    transform: translateY(-150px);
+    border-bottom: 1px solid black;
+    float: left;
   }
 
   .cardBody {
-    display: none;
-    transition: all 0.7s;
+    opacity: 1;
   }
 
   .card:hover .cardTitle {
     font-size: 30px;
     font-weight: 500;
-    color: white;
-    transform: translateY(-42px);
-    border-bottom: 1px solid white;
+    transform: translateY(-150px);
+    border-bottom: 1px solid black;
+    float: left;
   }
 
   .card:hover .cardBody {
-    font-weight: 500;
-    color: white;
-    font-size: 14px;
-    display: block;
+    opacity: 1;
+  }
+
+  .card:hover .img {
+    height: 15%;
+    width: 15%;
+    left: 380px;
+    top: 20px;
   }
 }
 
 @media (max-width: 600px) {
   .card {
-    width: 300px;
-    height: 410px;
+    width: 275px;
+    height: 425px;
+  }
+
+  .img {
+    height: 15%;
+    width: 20%;
+    left: 210px;
+    top: 15px;
   }
 
   .cardTitle {
-    top: 42px;
-    font-size: 45px;
-    transition: all 0.3s;
-    color: white;
-    font-weight: 100;
+    font-size: 17px;
+    font-weight: 400;
+    transform: translateY(-150px);
+    border-bottom: 0.5px solid black;
+    float: left;
   }
 
   .cardBody {
-    display: none;
-    transition: all 0.7s;
+    opacity: 1;
+    font-size: 15px;
+  }
+
+  .sectionTracks {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+    margin-top: -100px;
   }
 
   .card:hover .cardTitle {
-    font-size: 33px;
-    font-weight: 500;
-    color: white;
-    transform: translateY(-42px);
-    border-bottom: 1px solid white;
+    font-size: 17px;
+    font-weight: 400;
+    transform: translateY(-150px);
+    border-bottom: 0.5px solid black;
+    float: left;
   }
 
   .card:hover .cardBody {
-    font-weight: 500;
-    color: white;
-    font-size: 14px;
-    display: block;
+    opacity: 1;
+    font-size: 15px;
+  }
+
+  .card:hover .img {
+    height: 15%;
+    width: 20%;
+    left: 210px;
+    top: 15px;
   }
 }

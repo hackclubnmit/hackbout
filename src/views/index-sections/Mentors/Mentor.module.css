@@ -1,0 +1,23 @@
+.card1 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.card2 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .card2 {
+    top: 50px;
+  }
+}
+
+.cbdy {
+  background-image: radial-gradient(#24fe41, #27b574);
+}

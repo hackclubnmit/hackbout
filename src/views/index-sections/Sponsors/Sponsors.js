@@ -5,6 +5,8 @@ import hackClub from "../../../assets/img/hack-club.svg";
 import devfolio from "../../../assets/img/Devfolio.png";
 import matic from "../../../assets/img/Matic.png";
 import fold from "../../../assets/img/fold.png";
+import girlGeeks from "../../../assets/img/girlGeeks.png";
+import csi from "../../../assets/img/csi.png";
 import stickerMule from "../../../assets/img/sticker-mule-logo.png";
 import jetBrains from "../../../assets/img/jetbrains_logo.png";
 import wolfram from "../../../assets/img/Wolfram.png";
@@ -36,6 +38,7 @@ const Sponsors = () => {
             <Col
               lg={true}
               className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              data-aos="fade-up"
             >
               <a
                 href="https://www.hackclub.com/"
@@ -50,6 +53,7 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
               lg={true}
               className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -68,6 +72,7 @@ const Sponsors = () => {
           </Row>
           <Row>
             <Col
+              data-aos="fade-up"
               lg={true}
               className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -97,6 +102,7 @@ const Sponsors = () => {
           </div>
           <Row>
             <Col
+              data-aos="fade-up"
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
               sm={true}
             >
@@ -109,6 +115,7 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -120,9 +127,23 @@ const Sponsors = () => {
                 <img src={fold} alt="fold-logo" className={Styles.fold} />
               </a>
             </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.computer.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
+              </a>
+            </Col>
           </Row>
           <Row>
             <Col
+              data-aos="fade-up"
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
               sm={true}
             >
@@ -139,36 +160,36 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.computer.org/"
+                href="http://csi-india.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
+                <img src={csi} alt="csi-logo" className={Styles.csi} />
               </a>
             </Col>
+
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
-              <a
-                href="https://www.wolfram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
-                  src={wolfram}
-                  alt="wolfram-logo"
-                  className={Styles.wolfram}
+                  src={girlGeeks}
+                  alt="girlGeeks-logo"
+                  className={Styles.girlGeeks}
                 />
               </a>
             </Col>
           </Row>
           <Row>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -185,6 +206,7 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -201,6 +223,7 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -219,6 +242,7 @@ const Sponsors = () => {
           </Row>
           <Row>
             <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
@@ -231,6 +255,24 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.wolfram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={wolfram}
+                  alt="wolfram-logo"
+                  className={Styles.wolfram}
+                />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >

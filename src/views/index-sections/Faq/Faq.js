@@ -17,12 +17,12 @@ const Faq = () => {
 
         <Row>
           <Col>
-            <Accordion>
+            <Accordion data-aos="fade-up">
               {/* defaultActiveKey="1" */}
               <Card bg="light" text="black" className="pt-3 pl-2 pr-2">
                 <Accordion.Toggle as={Card.Header} eventKey="1">
                   <p>
-                    Q. What is a hackathon?{" "}
+                    <b>Q. What is a hackathon? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -41,7 +41,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="2">
                   <p>
-                    Q. Who can register?{" "}
+                    <b>Q. Who can register? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -56,7 +56,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
                   <p>
-                    Q.This is my first hackathon. What if I'm clueless?{" "}
+                    <b>Q.This is my first hackathon. What if I'm clueless? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines "></i>
                     </span>
@@ -74,7 +74,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="4">
                   <p>
-                    Q. How many members are required in a team?{" "}
+                    <b>Q. How many members are required in a team? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines "></i>
                     </span>
@@ -89,8 +89,10 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="5">
                   <p>
-                    Q. Do I need to have any specific qualifications to be a
-                    participant for the hackathon?{" "}
+                    <b>
+                      Q. Do I need to have any specific qualifications to be a
+                      participant for the hackathon?{" "}
+                    </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -105,7 +107,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="6">
                   <p>
-                    Q. What shouldn't I bring to the Hackathon?{" "}
+                    <b>Q. What shouldn't I bring to the Hackathon? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -123,7 +125,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="7">
                   <p>
-                    Q. Can I start working on my hack before the event?{" "}
+                    <b>Q. Can I start working on my hack before the event? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -140,7 +142,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="8">
                   <p>
-                    Q. How does judging work?{" "}
+                    <b>Q. How does judging work? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -157,7 +159,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="9">
                   <p>
-                    Q. Do we have to be present at the site to hack?{" "}
+                    <b>Q. Do we have to be present at the site to hack? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -173,7 +175,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="10">
                   <p>
-                    Q. I didn't find my question here, what can i do?{" "}
+                    <b>Q. I didn't find my question here, what can i do? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
@@ -182,7 +184,7 @@ const Faq = () => {
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
                     If you have any other questions or concerns, reach out to us
-                    using the contact details below :)
+                    using the contact details below
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

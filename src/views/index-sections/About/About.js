@@ -29,7 +29,7 @@ const About = () => {
           <Col
             className="p-5"
             style={{ textAlign: "center" }}
-            data-aos="slide-up"
+            data-aos="fade-up"
           >
             {/* <img
             src={require("assets/img/snaks.png")}
@@ -47,7 +47,7 @@ const About = () => {
           <Col
             className="p-5"
             style={{ textAlign: "center" }}
-            data-aos="slide-up"
+            data-aos="fade-up"
           >
             <img
               src={require("assets/img/logos/goodies.png")}
@@ -59,7 +59,7 @@ const About = () => {
           <Col
             className="p-5"
             style={{ textAlign: "center" }}
-            data-aos="slide-up"
+            data-aos="fade-up"
           >
             <img
               src={require("assets/img/logos/24_hour_hack.png")}
@@ -71,7 +71,7 @@ const About = () => {
           <Col
             className="p-5"
             style={{ textAlign: "center" }}
-            data-aos="slide-up"
+            data-aos="fade-up"
           >
             <img
               src={require("assets/img/logos/bounties.png")}
@@ -83,7 +83,7 @@ const About = () => {
           <Col
             className="p-5"
             style={{ textAlign: "center" }}
-            data-aos="slide-up"
+            data-aos="fade-up"
           >
             <img
               src={require("assets/img/logos/prizes.png")}

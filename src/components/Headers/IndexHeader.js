@@ -2,6 +2,8 @@
 import React from "react";
 import styles from "./logo.module.css";
 import anime from "animejs/lib/anime.es.js";
+import orphHand from "../../assets/img/hackClub.svg";
+import dev from "../../assets/img/devfolioD.png";
 
 // reactstrap components
 import { Container, Button } from "reactstrap";
@@ -51,6 +53,9 @@ function IndexHeader() {
           }}
           ref={pageHeader}
         >
+          <div>
+            <img src={orphHand} alt="hackClub" className={styles.hackClub} />
+          </div>
           <div className={styles.anim}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800">
               <g fill="none" fill-rule="evenodd">
@@ -332,13 +337,27 @@ function IndexHeader() {
               alt="Logo Here"
               src={require("assets/img/logos/hbLogo2.png")}
             ></img>
+            <h4 className="" style={{ color: "black" }}>
+              <strong>A Hack Club Hackathon</strong>
+            </h4>
+            <Button size="lg" className={styles.button}>
+              <img src={dev} alt="devdolio" />
+              Apply With Devfolio
+            </Button>
           </div>
-          <h2
+          {/* <h2
             className="category-absolute"
             style={{ color: "black", "margin-top": "15px" }}
           >
             Registrations will open soon! Stay tuned!
+          </h2> */}
+          <h2 className="" style={{ color: "black" }}>
+            <strong>4th & 5th March</strong>
+            <br></br>
+            <strong>Nitte Meenakshi Institute of Technology, Bangalore.</strong>
           </h2>
+          <br></br>
+          {/* <Button size="lg">Telegram</Button> */}
         </Container>
       </div>
     </>
