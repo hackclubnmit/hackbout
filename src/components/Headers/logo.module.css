@@ -117,7 +117,8 @@
   max-height: 20px;
   float: left;
 }
-#devfolio-apply-now {
+
+.devfolioApplyNow {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
@@ -126,9 +127,9 @@
   border: none;
   color: #ffffff;
   cursor: pointer;
-  display: -ms-flexbox;
+  /* display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
+  display: flex; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
@@ -136,12 +137,13 @@
   padding: 12px 20px;
   text-align: center;
   text-transform: lowercase;
+  position: relative;
 }
 
-#devfolio-apply-now:not([disabled]) {
+.devfolioApplyNow:not([disabled]) {
   cursor: pointer;
 }
 
-#devfolio-apply-now:hover {
+.devfolioApplyNow:hover {
   background-color: #2954bf !important;
 }
