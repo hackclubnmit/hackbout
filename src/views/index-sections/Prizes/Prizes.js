@@ -7,7 +7,7 @@ import third from "../../../assets/img/third.png";
 
 const Bounties = () => {
   return (
-    <div className=" section-sponsors pt-5" id="sponsors-section">
+    <div className=" section-sponsors pt-5" id="prizes-section">
       <Container className=" pt-5">
         <p className="section-about-header h1 pb-3">Prizes</p>
         <Row style={{ textAlign: "center" }}>
