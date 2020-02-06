@@ -1,13 +1,14 @@
 .card1 {
   height: 300px;
   width: 300px;
-  /* background-color: #01182a; */
-  background-image: radial-gradient(#24fe41, #27b574);
-  color: black;
+  background-color: #22B573;
+  /* background-image: linear-gradient(#29c03d, #16d881); */
+  color: white;
   border-radius: 10px;
 }
 
 .img {
   max-width: 70%;
   max-height: 70%;
+  margin-top: 7%;
 }

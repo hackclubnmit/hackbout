@@ -8,12 +8,15 @@
 .card {
   width: 500px;
   height: 300px;
-  transition: all 0.3s;
-  background-color: #eee;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
   color: black;
   text-align: center;
-  /* box-shadow: 0.5px 1px #000; */
+}
+
+.card:hover{
+  transform: scale(1.05);
 }
 
 .img {
@@ -45,7 +48,8 @@
   font-weight: 500;
 }
 
-.card:hover .cardTitle {
+/* .card:hover  */
+.cardTitle {
   font-size: 30px;
   font-weight: 500;
   transform: translateY(-150px);
@@ -53,14 +57,16 @@
   float: left;
 }
 
-.card:hover .cardBody {
+/* .card:hover  */
+.cardBody {
   opacity: 1;
 }
 
-.card:hover .img {
-  height: 15%;
-  width: 15%;
-  left: 380px;
+/* .card:hover  */
+.img {
+  height: 16%;
+  width: 10%;
+  left: 410px;
   top: 20px;
 }
 
@@ -93,7 +99,8 @@
     opacity: 1;
   }
 
-  .card:hover .cardTitle {
+  /* .card:hover  */
+  .cardTitle {
     font-size: 30px;
     font-weight: 500;
     transform: translateY(-150px);
@@ -101,14 +108,16 @@
     float: left;
   }
 
-  .card:hover .cardBody {
+  /* .card:hover  */
+  .cardBody {
     opacity: 1;
   }
 
-  .card:hover .img {
-    height: 15%;
-    width: 15%;
-    left: 380px;
+  /* .card:hover  */
+  .img {
+    height: 16%;
+    width: 10%;
+    left: 410px;
     top: 20px;
   }
 }
@@ -120,8 +129,8 @@
   }
 
   .img {
-    height: 15%;
-    width: 20%;
+    height: 16%;
+    width: 10%;
     left: 210px;
     top: 15px;
   }
@@ -146,7 +155,8 @@
     margin-top: -100px;
   }
 
-  .card:hover .cardTitle {
+  /* .card:hover  */
+  .cardTitle {
     font-size: 17px;
     font-weight: 400;
     transform: translateY(-150px);
@@ -154,12 +164,14 @@
     float: left;
   }
 
-  .card:hover .cardBody {
+  /* .card:hover  */
+  .cardBody {
     opacity: 1;
     font-size: 14px;
   }
 
-  .card:hover .img {
+  /* .card:hover  */
+  .img {
     height: 15%;
     width: 20%;
     left: 210px;

@@ -38,7 +38,7 @@ const About = () => {
             height="80"
           ></img> */}
             <img
-              src={require("assets/img/logos/Artboard1.png")}
+              src={require("assets/img/logos/Artboard1.svg")}
               alt="food"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -50,7 +50,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/goodies.png")}
+              src={require("assets/img/logos/goodies.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -62,7 +62,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/24_hour_hack.png")}
+              src={require("assets/img/logos/24_hour_hack.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -86,7 +86,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/prizes.png")}
+              src={require("assets/img/logos/prizes.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />

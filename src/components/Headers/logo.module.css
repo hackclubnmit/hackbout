@@ -141,6 +141,14 @@
   margin: 45px;
 }
 
+.telegram{
+  transition: all 0.5s ease-in-out;
+}
+
+.telegram:hover {
+  transform: scale(1.05);
+}
+
 .devfolioApplyNow:not([disabled]) {
   cursor: pointer;
 }

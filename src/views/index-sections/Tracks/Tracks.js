@@ -28,7 +28,7 @@ const Tracks = () => {
     <div
       className={styles.sectionTracks}
       style={{
-        background: "radial-gradient( #24fe41 , #27b574 )"
+        background: "#22B573"
       }}
       id="tracks-section"
     >
@@ -36,7 +36,7 @@ const Tracks = () => {
         <p className="section-about-header h1 pt-2">Tracks</p>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img1} alt="ml" className={styles.img} />
@@ -59,7 +59,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img2} alt="ml" className={styles.img} />
@@ -82,7 +82,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img4} alt="ml" className={styles.img} />
@@ -103,7 +103,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img5} alt="ml" className={styles.img} />
@@ -125,7 +125,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img6} alt="ml" className={styles.img} />
@@ -145,7 +145,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="fade-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img3} alt="ml" className={styles.img} />

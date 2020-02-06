@@ -1,3 +1,10 @@
+.sectionMentors {
+  padding-top: 100px;
+  padding-bottom: 250px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  margin-top: -50px;
+}
+
 .card1 {
   position: relative;
   width: 300px;
@@ -19,5 +26,5 @@
 }
 
 .cbdy {
-  background-image: radial-gradient(#24fe41, #27b574);
+  background-color: white;
 }

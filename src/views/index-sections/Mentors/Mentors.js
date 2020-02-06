@@ -3,7 +3,6 @@ import {
   Container,
   Row,
   Col,
-  Button,
   Card,
   CardBody,
   CardTitle,
@@ -17,8 +16,10 @@ import styles from "./Mentor.module.css";
 const Mentors = () => {
   return (
     <div
-      className=" section-Mentors"
-      style={{ background: "#ffffff" }}
+      className={styles.sectionMentors}
+      style={{
+        background: "#22B573"
+      }}
       id="Mentors-section"
     >
       <Container className=" pt-5">

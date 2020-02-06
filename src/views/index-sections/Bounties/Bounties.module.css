@@ -19,12 +19,13 @@
 
 .cardTitle1 {
   position: relative;
-  top: 73px;
+  top: 50px;
   font-size: 32px;
 }
 
 .cardTitle2 {
   font-size: 32px;
+  top: 20px;
   position: relative;
 }
 

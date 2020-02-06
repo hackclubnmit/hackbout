@@ -27,8 +27,8 @@ const Bounties = () => {
             <Col>
               <Card className={styles.card1} data-aos="fade-up">
                 <CardImgOverlay>
+                  <img src={matic} alt="matic" style={{marginTop:"20%"}}/>
                   <CardTitle>
-                    <img src={matic} alt="matic" />
                     <p className={styles.cardTitle1}>
                       Matic Ethereum Track Prize
                     </p>
@@ -42,11 +42,11 @@ const Bounties = () => {
                       <Button
                         size="lg"
                         style={{
+                          color: "black",
                           borderRadius: "20px",
-                          backgroundImage:
-                            "linear-gradient(45deg, #27b574 0%, #24fe41 100%)",
+                          backgroundColor: "white",
                           position: "relative",
-                          top: "70px"
+                          top: "40px"
                         }}
                         onClick="/"
                       >
@@ -64,7 +64,7 @@ const Bounties = () => {
                     <img
                       src={girlGeeks}
                       alt="girlGeeks"
-                      style={{ maxWidth: "60%" }}
+                      style={{ maxWidth: "60%", marginTop:"10%" }}
                     />
                     <p className={styles.cardTitle2}>girlGeeks Track Prize</p>
                   </CardTitle>
@@ -73,9 +73,11 @@ const Bounties = () => {
                       <Button
                         size="lg"
                         style={{
+                          position: "relative",
+                          top: "10px",
+                          color: "black",
                           borderRadius: "20px",
-                          backgroundImage:
-                            "linear-gradient(45deg, #27b574 0%, #24fe41 100%)"
+                          backgroundColor: "white"
                         }}
                         onClick="/"
                       >

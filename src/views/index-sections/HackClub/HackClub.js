@@ -55,7 +55,7 @@ const HackClub = () => {
       id="hackclub-section"
       style={{ background: "#ffffff" }}
     >
-      <Container style={{ textAlign: "center" }}>
+      <Container style={{ textAlign: "left" }}>
         <p className="section-about-header h1 pb-3">About Hack Club</p>
       </Container>
 

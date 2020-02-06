@@ -80,7 +80,7 @@ function IndexHeader() {
           <div>
             <img src={orphHand} alt="hackClub" className={styles.hackClub} />
           </div>
-          <div className={styles.anim}>
+          <div className={styles.anim} style={{opacity: "0.55"}}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800">
               <g fill="none" fill-rule="evenodd">
                 <path
@@ -361,15 +361,15 @@ function IndexHeader() {
               alt="Logo Here"
               src={require("assets/img/logos/hbLogo2.png")}
             ></img>
-            <h4 className="" style={{ color: "black", marginTop: "-7px" }}>
-              <strong>A Hack Club Hackathon</strong>
-            </h4>
+            <h3 className="" style={{ color: "black", marginTop: "1%", fontSize:"2rem"}}>
+              A Hack Club Hackathon
+            </h3>
             <div
               style={{
                 textAlign: "center",
                 justifyContent: "center",
                 alignItems: "center",
-                margin: "10px auto"
+                margin: "0px auto"
               }}
             >
               <button
@@ -378,7 +378,8 @@ function IndexHeader() {
                 style={{
                   textAlign: "center",
                   justifyContent: "center",
-                  alignItems: "center"
+                  alignItems: "center",
+                  marginTop: "5px"
                 }}
               >
                 <svg
@@ -386,7 +387,7 @@ function IndexHeader() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="#fff"
                   viewBox="0 0 115.46 123.46"
-                  style={{ height: "24px", width: "24px", marginRight: "8px" }}
+                  style={{ height: "24px", width: "24px", marginRight: "0px" }}
                 >
                   <path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
                   <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
@@ -395,13 +396,15 @@ function IndexHeader() {
               </button>
             </div>
           </div>
-
-          <h2 className="" style={{ color: "black" }}>
-            <strong>4th & 5th March</strong>
-            <br></br>
-            <strong>Nitte Meenakshi Institute of Technology, Bangalore.</strong>
-          </h2>
-          <br></br>
+          <h3 className="" style={{ color: "black" , marginBottom: "2%"}}>
+          <i class="fas fa-calendar-alt" style={{marginRight: "1%"}}></i>4th & 5th March
+          </h3>
+          <h3 style={{color: "black"}}>
+          <i class="fas fa-map-marker-alt" style={{marginRight: "1%"}}></i> <a href="https://goo.gl/maps/8wwXNWAup9Mw3puDA" style={{color: "black", textDecoration: "none"}}>Nitte Meenakshi Institute of Technology, Bangalore</a>
+          </h3>
+          <a href="https://t.me/hackbout" target="_blank" rel="noopener noreferrer">
+            <img src={require("assets/img/telegram_button.png")} alt="" className={styles.telegram}/>
+          </a>
         </Container>
       </div>
     </>
