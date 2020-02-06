@@ -18,6 +18,7 @@ const ContactUs = () => {
         <Row>
           <Col>
             <div style={{ textAlign: "center" }}>
+            <a href="https://goo.gl/maps/8wwXNWAup9Mw3puDA" rel="noopener noreferrer" target="_blank">
               <img
                 className="img-fluid"
                 src={nmitLogo}
@@ -27,8 +28,9 @@ const ContactUs = () => {
               <br></br>
               <p className={["pt-4", styles.text].join(" ")}>
                 Nitte Meenakshi Institute of Technology, P.B.No.6429, Yelahanka,
-                Bangalore 560064.
-              </p>
+                Bangalore 560064
+                </p>
+              </a>
             </div>
           </Col>
           <Col>
@@ -73,10 +75,9 @@ const ContactUs = () => {
             <p className=" h4 text-center">Follow Us</p>
           </Col>
         </Row>
-        <Row>
-          <Col className="">
+        <div style={{display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center"}}>
+          <div className="" style={{margin:"auto 1%"}}>
             <Button
-              style={{ float: "right" }}
               className="btn-neutral btn-icon btn-round text-center"
               color="twitter"
               href="https://twitter.com/HackClubNmit?s=09"
@@ -89,10 +90,9 @@ const ContactUs = () => {
             <UncontrolledTooltip delay={0} target="tooltip86114138">
               Follow us
             </UncontrolledTooltip>
-          </Col>
-          <Col className="">
+          </div>
+          <div className="" style={{margin:"auto 1%"}}>
             <Button
-              style={{ float: "left" }}
               className="btn-neutral btn-icon btn-round text-center"
               color="pink"
               href="https://www.instagram.com/hackclubnmit/?hl=en"
@@ -105,8 +105,37 @@ const ContactUs = () => {
             <UncontrolledTooltip delay={0} target="tooltip735272548">
               Like us
             </UncontrolledTooltip>
-          </Col>
-        </Row>
+          </div>
+          <div className="" style={{margin:"auto 1%"}}>
+            <Button
+              className="btn-neutral btn-icon btn-round text-center"
+              color="#3578E5"
+              href="https://www.facebook.com/Hack-Club-NMIT-105853897655797/"
+              id="tooltip352725"
+              size="lg"
+              target="_blank">
+              <i className="fab fa-facebook" style={{color: "#29a0da"}}></i>
+            </Button>
+            <UncontrolledTooltip delay={0} target="tooltip352725">
+              Follow Us
+            </UncontrolledTooltip>
+          </div>
+          <div className="" style={{margin:"auto 1%"}}>
+            <Button
+              className="btn-neutral btn-icon btn-round text-center"
+              color="#29a0da"
+              href="https://t.me/hackbout"
+              id="tooltip735272532"
+              size="lg"
+              target="_blank"
+            >
+              <i className="fab fa-telegram" style={{color: "#29a0da"}}></i>
+            </Button>
+            <UncontrolledTooltip delay={0} target="tooltip735272532">
+              Join Us
+            </UncontrolledTooltip>
+          </div>
+        </div>
       </Container>
     </div>
   );

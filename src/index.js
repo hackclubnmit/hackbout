@@ -70,7 +70,7 @@ class GoTop extends React.Component {
 
 const Scrollups = (
 <div>
-  <GoTop scrollStepInPx="30" delayInMs="0" />
+  <GoTop scrollStepInPx="300" delayInMs="0" />
 </div>
 );
 

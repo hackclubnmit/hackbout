@@ -23,7 +23,7 @@ const Mentors = () => {
       id="Mentors-section"
     >
       <Container className=" pt-5">
-        <p className="section-about-header h1 pt-2">Mentors</p>
+        <p className="section-about-header h1 pb-5" style={{color: "white"}}>Mentors</p>
         <Row style={{ textAlign: "center" }}>
           <Col>
             <Card className={styles.card1} data-aos="fade-up">

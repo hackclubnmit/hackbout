@@ -33,7 +33,7 @@ const Tracks = () => {
       id="tracks-section"
     >
       <Container className="">
-        <p className="section-about-header h1 pt-2">Tracks</p>
+        <p className="section-about-header h1 pb-5" style={{color: "white"}}>Tracks</p>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
             <Card className={styles.card}>
