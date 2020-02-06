@@ -17,7 +17,7 @@ const Bounties = () => {
   return (
     <div
       className=" section-sponsors pt-5"
-      id="sponsors-section"
+      id="bounties-section"
       style={{ background: "#ffffff" }}
     >
       <Container className=" pt-5">
