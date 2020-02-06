@@ -138,6 +138,7 @@
   text-align: center;
   text-transform: lowercase;
   position: relative;
+  margin: 45px;
 }
 
 .devfolioApplyNow:not([disabled]) {

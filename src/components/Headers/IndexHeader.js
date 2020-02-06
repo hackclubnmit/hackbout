@@ -361,7 +361,7 @@ function IndexHeader() {
               alt="Logo Here"
               src={require("assets/img/logos/hbLogo2.png")}
             ></img>
-            <h4 className="" style={{ color: "black" }}>
+            <h4 className="" style={{ color: "black", marginTop: "-7px" }}>
               <strong>A Hack Club Hackathon</strong>
             </h4>
             <div

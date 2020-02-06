@@ -136,7 +136,7 @@
 
   .cardBody {
     opacity: 1;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .sectionTracks {
@@ -156,7 +156,7 @@
 
   .card:hover .cardBody {
     opacity: 1;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .card:hover .img {
