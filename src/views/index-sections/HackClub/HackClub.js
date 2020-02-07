@@ -63,7 +63,7 @@ const HackClub = () => {
         <img
           data-aos="slide-right"
           className={styles.hack}
-          src="https://hackclub.com/banners/2019.svg"
+          src="https://hackclub.com/banners/2020.svg"
           alt="Hack Club"
         />
         <div className="text-center">

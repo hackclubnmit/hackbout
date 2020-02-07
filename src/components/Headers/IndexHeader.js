@@ -80,7 +80,7 @@ function IndexHeader() {
           <div>
             <img src={orphHand} alt="hackClub" className={styles.hackClub} />
           </div>
-          <div className={styles.anim} style={{opacity: "0.55"}}>
+          <div className={styles.anim} style={{ opacity: "0.55" }}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800">
               <g fill="none" fill-rule="evenodd">
                 <path
@@ -361,7 +361,10 @@ function IndexHeader() {
               alt="Logo Here"
               src={require("assets/img/logos/hbLogo2.png")}
             ></img>
-            <h3 className="" style={{ color: "black", marginTop: "1%", fontSize:"2rem"}}>
+            <h3
+              className=""
+              style={{ color: "black", marginTop: "1%", fontSize: "1rem" }}
+            >
               A Hack Club Hackathon
             </h3>
             <div
@@ -396,14 +399,29 @@ function IndexHeader() {
               </button>
             </div>
           </div>
-          <h3 className="" style={{ color: "black" , marginBottom: "2%"}}>
-          <i class="fas fa-calendar-alt" style={{marginRight: "1%"}}></i>4th & 5th March
+          <h3 className="" style={{ color: "black", marginBottom: "2%" }}>
+            <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>4th
+            & 5th March
           </h3>
-          <h3 style={{color: "black"}}>
-          <i class="fas fa-map-marker-alt" style={{marginRight: "1%"}}></i> <a href="https://goo.gl/maps/8wwXNWAup9Mw3puDA" style={{color: "black", textDecoration: "none"}}>Nitte Meenakshi Institute of Technology, Bangalore</a>
+          <h3 style={{ color: "black" }}>
+            <i class="fas fa-map-marker-alt" style={{ marginRight: "1%" }}></i>{" "}
+            <a
+              href="https://goo.gl/maps/8wwXNWAup9Mw3puDA"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Nitte Meenakshi Institute of Technology, Bangalore
+            </a>
           </h3>
-          <a href="https://t.me/hackbout" target="_blank" rel="noopener noreferrer">
-            <img src={require("assets/img/telegram_button.png")} alt="" className={styles.telegram}/>
+          <a
+            href="https://t.me/hackbout"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("assets/img/telegram_button.png")}
+              alt=""
+              className={styles.telegram}
+            />
           </a>
         </Container>
       </div>

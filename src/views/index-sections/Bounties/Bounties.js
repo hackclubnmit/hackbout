@@ -27,7 +27,7 @@ const Bounties = () => {
             <Col>
               <Card className={styles.card1} data-aos="fade-up">
                 <CardImgOverlay>
-                  <img src={matic} alt="matic" style={{marginTop:"20%"}}/>
+                  <img src={matic} alt="matic" style={{ marginTop: "20%" }} />
                   <CardTitle>
                     <p className={styles.cardTitle1}>
                       Matic Ethereum Track Prize
@@ -64,9 +64,9 @@ const Bounties = () => {
                     <img
                       src={girlGeeks}
                       alt="girlGeeks"
-                      style={{ maxWidth: "60%", marginTop:"10%" }}
+                      style={{ maxWidth: "60%", marginTop: "10%" }}
                     />
-                    <p className={styles.cardTitle2}>girlGeeks Track Prize</p>
+                    <p className={styles.cardTitle2}>GirlGeeksHack 2020 </p>
                   </CardTitle>
                   <CardText className={styles.cardBody}>
                     <a href="/" target="_blank" rel="noopener noreferrer">

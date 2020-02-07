@@ -18,7 +18,7 @@ const About = () => {
               For centuries humanity has enjoyed bouts in action-packed sports
               such as sword fighting and boxing, With the same intensity and
               competition, Nitte Meenakshi Institute of Technology present
-              HackBout, a 24 hour hackathon where teams will battle it out in
+              HackBout, a 36 hour hackathon where teams will battle it out in
               electrifying competition, building their idea, improving it as
               they but in the spirit of good sportsmanship, having fun and
               making new friends along the way.
@@ -66,7 +66,7 @@ const About = () => {
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">24 Hour Hack</h5>
+            <h5 className="pt-3">36 Hour Hack</h5>
           </Col>
           <Col
             className="p-5"
