@@ -26,6 +26,10 @@
   left: 185px;
   top: 50px;
   transition: all 0.5s;
+  height: 16%;
+  width: 10%;
+  left: 430px;
+  top: 20px;
 }
 
 .cardTitle {
@@ -63,12 +67,6 @@
 }
 
 /* .card:hover  */
-.img {
-  height: 16%;
-  width: 10%;
-  left: 410px;
-  top: 20px;
-}
 
 @media (max-width: 1200px) {
   .sectionTracks {
@@ -81,9 +79,9 @@
 
 @media (max-width: 770px) {
   .img {
-    height: 15%;
-    width: 15%;
-    left: 380px;
+    height: 16%;
+    width: 10%;
+    left: 430px;
     top: 20px;
   }
 
@@ -100,26 +98,26 @@
   }
 
   /* .card:hover  */
-  .cardTitle {
+  /* .cardTitle {
     font-size: 30px;
     font-weight: 500;
     transform: translateY(-150px);
     border-bottom: 1px solid black;
     float: left;
-  }
+  } */
 
   /* .card:hover  */
-  .cardBody {
+  /* .cardBody {
     opacity: 1;
-  }
+  } */
 
   /* .card:hover  */
-  .img {
+  /* .img {
     height: 16%;
     width: 10%;
     left: 410px;
     top: 20px;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
@@ -129,9 +127,9 @@
   }
 
   .img {
-    height: 16%;
-    width: 10%;
-    left: 210px;
+    height: 10%;
+    width: 16%;
+    left: 215px;
     top: 15px;
   }
 
@@ -165,16 +163,16 @@
   }
 
   /* .card:hover  */
-  .cardBody {
+  /* .cardBody {
     opacity: 1;
     font-size: 14px;
-  }
+  } */
 
   /* .card:hover  */
-  .img {
+  /* .img {
     height: 15%;
     width: 20%;
     left: 210px;
     top: 15px;
-  }
+  } */
 }
