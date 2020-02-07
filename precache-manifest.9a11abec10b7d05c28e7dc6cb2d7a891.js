@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6fd1dcf15d636ae8b30b169f30adc2a",
+    "revision": "8a6e26a9641717c3b38e3605844212da",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "d9474042b33dc924f058",
+    "revision": "936921cdbf7c18280419",
     "url": "/static/css/main.7593d713.chunk.css"
   },
   {
@@ -16,24 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9fa34386.chunk.js"
   },
   {
-    "revision": "d9474042b33dc924f058",
-    "url": "/static/js/main.0a3cc35a.chunk.js"
+    "revision": "936921cdbf7c18280419",
+    "url": "/static/js/main.eda00ea7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "19dbaa07d7cd425e67c62ff24f75f20b",
-    "url": "/static/media/24_hour_hack.19dbaa07.svg"
+    "revision": "2dfb25daafe6e2c029f384562e7b9cd6",
+    "url": "/static/media/24_hour_hack.2dfb25da.svg"
   },
   {
     "revision": "1beb1a9898f1334367be5eaa553ee199",
     "url": "/static/media/AR.1beb1a98.png"
-  },
-  {
-    "revision": "a0075f2ee2e322a977043504f5f5b2ed",
-    "url": "/static/media/Artboard1.a0075f2e.svg"
   },
   {
     "revision": "377613a1b1c3f5f0f21fb7f29df2a3ff",
@@ -52,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bitcoin.6494fe15.png"
   },
   {
-    "revision": "b112b2422b675e585c96663e516aaf63",
-    "url": "/static/media/bounties.b112b242.png"
+    "revision": "7c60070226e29aa5cb5aa61256c29e27",
+    "url": "/static/media/bounties.7c600702.svg"
   },
   {
     "revision": "9bcec32845cbf0c5e746ebc8a8552d08",
@@ -84,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fold.a6283399.png"
   },
   {
+    "revision": "aea3e6321f61e9ad017b5201726f1f4d",
+    "url": "/static/media/food.aea3e632.svg"
+  },
+  {
     "revision": "3b273f7d10eced1d0f685af7ffea0062",
     "url": "/static/media/gatsby.3b273f7d.png"
   },
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github-logo.29892f43.png"
   },
   {
-    "revision": "95b13316d1155645630cb7c093d179cb",
-    "url": "/static/media/goodies.95b13316.svg"
+    "revision": "5b8b702c21bce4abf725ba87e770d91a",
+    "url": "/static/media/goodies.5b8b702c.svg"
   },
   {
     "revision": "8e1cb32867eca4b0019578c4b9cd2325",
@@ -160,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "de1141476d4714e0be4220b1c97f7a51",
-    "url": "/static/media/prizes.de114147.svg"
+    "revision": "4feae3bb28b1abef81097224fec776bc",
+    "url": "/static/media/prizes.4feae3bb.svg"
   },
   {
     "revision": "555b2f7d9d397faf4ec388d7cc8eaaab",
