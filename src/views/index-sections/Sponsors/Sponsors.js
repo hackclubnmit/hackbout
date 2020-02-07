@@ -6,7 +6,7 @@ import devfolio from "../../../assets/img/Devfolio.png";
 import matic from "../../../assets/img/Matic.png";
 import fold from "../../../assets/img/fold.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";
-import csi from "../../../assets/img/csi.png";
+// import csi from "../../../assets/img/csi.png";
 import stickerMule from "../../../assets/img/sticker-mule-logo.png";
 import jetBrains from "../../../assets/img/jetbrains_logo.png";
 import wolfram from "../../../assets/img/Wolfram.png";

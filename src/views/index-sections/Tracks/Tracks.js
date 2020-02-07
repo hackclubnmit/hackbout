@@ -64,7 +64,7 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img2} alt="ml" className={styles.img} />
+                  <img src={img2} alt="blockchain" className={styles.img} />
                   <p className={styles.cardTitle}> Blockchain & Fintech</p>
                 </CardTitle>
                 <CardText>
@@ -87,7 +87,7 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img4} alt="ml" className={styles.img} />
+                  <img src={img4} alt="iot" className={styles.img} />
                   <p className={styles.cardTitle}>IOT</p>
                 </CardTitle>
                 <CardText>
@@ -108,7 +108,7 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img5} alt="ml" className={styles.img} />
+                  <img src={img5} alt="future-mobility" className={styles.img} />
                   <p className={styles.cardTitle}>Future Mobility</p>
                 </CardTitle>
                 <CardText>
@@ -130,7 +130,7 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img6} alt="ml" className={styles.img} />
+                  <img src={img6} alt="ar-vr" className={styles.img} />
                   <p className={styles.cardTitle}>AR & VR</p>
                 </CardTitle>
                 <CardText>
@@ -150,7 +150,7 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img3} alt="ml" className={styles.img} />
+                  <img src={img3} alt="open-innovation" className={styles.img} />
                   <p className={styles.cardTitle}>Open Innovation</p>
                 </CardTitle>
                 <CardText>
