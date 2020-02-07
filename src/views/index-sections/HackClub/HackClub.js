@@ -58,14 +58,13 @@ const HackClub = () => {
       <Container style={{ textAlign: "left" }}>
         <p className="section-about-header h1 pb-3">About Hack Club</p>
       </Container>
-
+      <img
+        data-aos="fade-right"
+        className={styles.hack}
+        src="https://hackclub.com/banners/2020.svg"
+        alt="Hack Club"
+      />
       <Container className=" pt-5">
-        <img
-          data-aos="slide-right"
-          className={styles.hack}
-          src="https://hackclub.com/banners/2020.svg"
-          alt="Hack Club"
-        />
         <div className="text-center">
           <Row style={{ textAlign: "center" }} data-aos="fade-up">
             <Col lg={6}>

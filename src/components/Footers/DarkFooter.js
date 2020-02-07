@@ -23,7 +23,7 @@ function DarkFooter() {
                   margin: "10px auto"
                 }}
               ></img>
-              <p style={{ fontSize: "14px" }}>
+              <p style={{ fontSize: "11px" }}>
                 HackBout© {new Date().getFullYear()}
               </p>
             </div>

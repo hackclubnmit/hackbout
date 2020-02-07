@@ -1,24 +1,23 @@
 .hack {
-  position: absolute;
-  top: 7680px;
+  position: relative;
+  top: 90px;
   left: 0;
   border: 0;
   width: 530px;
   z-index: 1000;
+  margin-top: -90px;
 }
 
 @media (max-width: 1200px) {
   .hack {
-    display: none;
+    display: block;
   }
 }
 
 @media (max-width: 600px) {
   .hack {
-    display: block;
-    position: relative;
-    top: 0px;
-    width: 530px;
+    width: 230px;
+    top: 70px;
   }
 }
 
