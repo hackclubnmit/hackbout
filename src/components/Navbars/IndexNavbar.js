@@ -112,23 +112,7 @@ function IndexNavbar() {
                   </h5>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={e => {
-                    e.preventDefault();
-                    document.getElementById("about-section").scrollIntoView({
-                      behavior: "smooth"
-                    });
-                  }}
-                >
-                  <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
-                  >
-                    <b>About</b>
-                  </h5>
-                </NavLink>
-              </NavItem>
+
               <NavItem>
                 <NavLink
                   href="#pablo"
@@ -151,6 +135,40 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.getElementById("bounties-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
+                  }}
+                >
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
+                    <b>Bounties</b>
+                  </h5>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.getElementById("prizes-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
+                  }}
+                >
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
+                    <b>Prizes</b>
+                  </h5>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={e => {
+                    e.preventDefault();
                     document.getElementById("schedule-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -160,6 +178,23 @@ function IndexNavbar() {
                     style={{ color: "black", position: "relative", top: "5px" }}
                   >
                     <b>Schedule</b>
+                  </h5>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.getElementById("Mentors-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
+                  }}
+                >
+                  <h5
+                    style={{ color: "black", position: "relative", top: "5px" }}
+                  >
+                    <b>Mentors</b>
                   </h5>
                 </NavLink>
               </NavItem>
