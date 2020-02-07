@@ -400,8 +400,14 @@ function IndexHeader() {
             </div>
           </div>
           <h3 className="" style={{ color: "black", marginBottom: "2%" }}>
-            <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>4th
-            & 5th March
+            <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>
+            <a
+              target="_blank"
+              style={{ color: "black", textDecoration: "none" }}
+              href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NG5ycTBibTAybm42Z28zbmowdjIwYjdlaG0gZ2FsbGFjdGljc29jY2VyQG0&amp;tmsrc=gallacticsoccer%40gmail.com"
+            >
+              4th & 5th March
+            </a>
           </h3>
           <h3 style={{ color: "black" }}>
             <i class="fas fa-map-marker-alt" style={{ marginRight: "1%" }}></i>{" "}

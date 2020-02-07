@@ -82,7 +82,9 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
-                    The maximum team size is 4. The minimum is 2. Because we want you to have company and not be alone on this amazing journey :){" "}
+                    The maximum team size is 4. The minimum is 2. Because we
+                    want you to have company and not be alone on this amazing
+                    journey :){" "}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

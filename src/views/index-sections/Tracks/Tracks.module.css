@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
 }
 
@@ -137,7 +137,7 @@
 
   .cardTitle {
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
     transform: translateY(-150px);
     border-bottom: 0.5px solid black;
     float: left;

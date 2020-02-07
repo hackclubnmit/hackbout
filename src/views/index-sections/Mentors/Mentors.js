@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 import mOne from "../../../assets/img/kanirudh.jpg";
 import mTwo from "../../../assets/img/Manav.jpg";
+import mThree from "../../../assets/img/mThree.jpeg";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
@@ -23,7 +24,9 @@ const Mentors = () => {
       id="Mentors-section"
     >
       <Container className=" pt-5">
-        <p className="section-about-header h1 pb-5" style={{color: "white"}}>Mentors</p>
+        <p className="section-about-header h1 pb-5" style={{ color: "white" }}>
+          Mentors
+        </p>
         <Row style={{ textAlign: "center" }}>
           <Col>
             <Card className={styles.card1} data-aos="fade-up">
@@ -40,7 +43,7 @@ const Mentors = () => {
                 </CardTitle>
                 <CardText>
                   <div style={{}}>
-                    <b>CEO at Acyclic Labs</b>
+                    <b>CEO @ Acyclic Labs</b>
                   </div>
                   <a
                     href="https://in.linkedin.com/in/kranirudha"
@@ -72,7 +75,7 @@ const Mentors = () => {
                 <CardText>
                   {" "}
                   <div style={{}}>
-                    <b>CMO at Blocumen Studios</b>
+                    <b>CMO @ Blocumen Studios</b>
                   </div>
                   <a
                     href="https://in.linkedin.com/in/manav-ailawadi-55138854"
@@ -81,6 +84,37 @@ const Mentors = () => {
                   >
                     <i
                       className="fab fa-linkedin"
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card3} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mThree}
+                alt="Card image cap"
+                style={{ borderRadius: "10px 10px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Pranjal Paliwal</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>Dev @ Headout</b>
+                  </div>
+                  <a
+                    href="https://in.linkedin.com/in/betterclever"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
                       style={{ color: "black", fontSize: "30px" }}
                     ></i>
                   </a>

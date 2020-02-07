@@ -127,19 +127,6 @@ const Sponsors = () => {
                 <img src={fold} alt="fold-logo" className={Styles.fold} />
               </a>
             </Col>
-            <Col
-              data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.computer.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
-              </a>
-            </Col>
           </Row>
           <Row>
             <Col
@@ -159,7 +146,7 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-            <Col
+            {/* <Col
               data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -170,6 +157,19 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img src={csi} alt="csi-logo" className={Styles.csi} />
+              </a>
+            </Col> */}
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.computer.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
               </a>
             </Col>
 

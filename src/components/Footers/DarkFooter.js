@@ -11,18 +11,22 @@ function DarkFooter() {
       <Container>
         <Row className="justify-content-center">
           <Col></Col>
-          <Col className="text-center">
-            <img
-              src={require("assets/img/logos/hbLogo1.png")}
-              alt="white_logo"
-              style={{
-                height: "40px",
-                display: "block",
-                marginLeft: "45%",
-                marginBottom: "5px"
-              }}
-            ></img>
-            <p>HackBout© {new Date().getFullYear()}</p>
+          <Col style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "center" }}>
+              <img
+                src={require("assets/img/logos/hbLogo1.png")}
+                alt="white_logo"
+                style={{
+                  height: "50px",
+                  textAlign: "center",
+                  display: "block",
+                  margin: "10px auto"
+                }}
+              ></img>
+              <p style={{ fontSize: "14px" }}>
+                HackBout© {new Date().getFullYear()}
+              </p>
+            </div>
           </Col>
           <Col></Col>
         </Row>

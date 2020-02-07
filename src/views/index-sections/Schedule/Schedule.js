@@ -11,6 +11,8 @@ import {
   TabPane
 } from "reactstrap";
 
+import styles from "./Schedule.module.css";
+
 const Schedule = () => {
   const [pills, setPills] = React.useState("1");
   return (
@@ -20,7 +22,9 @@ const Schedule = () => {
       id="schedule-section"
     >
       <Container className=" mt-5">
-        <p className="section-about-header h1 pt-2">Schedule</p>
+        <div>
+          <h1 className=" pt-2">Schedule</h1>
+        </div>
         <Row className="">
           <Col className="">
             <Nav
@@ -29,9 +33,10 @@ const Schedule = () => {
               role="tablist"
               tabs
             >
-              <NavItem>
+              <NavItem data-aos="fade-up">
                 <NavLink
                   className={pills === "1" ? "active" : ""}
+                  style={{ float: "right" }}
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
@@ -51,7 +56,7 @@ const Schedule = () => {
               role="tablist"
               tabs
             >
-              <NavItem>
+              <NavItem data-aos="fade-up">
                 <NavLink
                   className={pills === "2" ? "active" : ""}
                   href="#pablo"
@@ -68,9 +73,15 @@ const Schedule = () => {
           </Col>
         </Row>
 
-        <TabContent className="text-center mt-3" activeTab={"pills" + pills}>
-          <TabPane tabId="pills1">
-            <h3>4th Mar </h3>
+        <TabContent
+          className="text-center mt-3"
+          activeTab={"pills" + pills}
+          data-aos="fade-up"
+        >
+          <TabPane tabId="pills1" className={styles.tab}>
+            <h3>
+              <b> 4th March </b>{" "}
+            </h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
@@ -162,13 +173,15 @@ const Schedule = () => {
                   <b>Hacking Continues</b>
                 </div>
               </li>
-              
             </ul>
           </TabPane>
-          <TabPane tabId="pills2">
-            <h3>5th Mar </h3>
+          <TabPane tabId="pills2" className={styles.tab}>
+            <h3>
+              {" "}
+              <b>5th March</b>
+            </h3>
             <ul className="list-group list-group-flush">
-            <li className="list-group-item">
+              <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
                   <b>12:00 AM - 1:00 AM</b>
@@ -178,7 +191,6 @@ const Schedule = () => {
                 </div>
               </li>
               <li className="list-group-item">
-                
                 <div style={{ float: "left" }}>
                   <b>1:00 AM - 8:00 AM</b>
                 </div>
@@ -211,6 +223,10 @@ const Schedule = () => {
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Judging Round</b>
+                  <br></br>
+                  <b>&</b>
+                  <br></br>
+                  <b>Hack Submission</b>
                 </div>
               </li>
               <li className="list-group-item">
@@ -251,7 +267,7 @@ const Schedule = () => {
                   <br></br>
                   <b>+</b>
                   <br></br>
-                  <b>Prize Distribution </b>
+                  <b style={{ float: "right" }}>Prize Distribution </b>
                 </div>
               </li>
             </ul>

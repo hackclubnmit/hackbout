@@ -2,3 +2,9 @@
   margin-top: -33px;
   padding: 10px 10px 0 10px;
 }
+
+@media (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}

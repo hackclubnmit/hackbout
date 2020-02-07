@@ -18,17 +18,21 @@ const ContactUs = () => {
         <Row>
           <Col>
             <div style={{ textAlign: "center" }}>
-            <a href="https://goo.gl/maps/8wwXNWAup9Mw3puDA" rel="noopener noreferrer" target="_blank">
-              <img
-                className="img-fluid"
-                src={nmitLogo}
-                alt="nmit logo"
-                // style={{ width: "479px", height: "76px" }}
-              ></img>
-              <br></br>
-              <p className={["pt-4", styles.text].join(" ")}>
-                Nitte Meenakshi Institute of Technology, P.B.No.6429, Yelahanka,
-                Bangalore 560064
+              <a
+                href="https://goo.gl/maps/8wwXNWAup9Mw3puDA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="img-fluid"
+                  src={nmitLogo}
+                  alt="nmit logo"
+                  // style={{ width: "479px", height: "76px" }}
+                ></img>
+                <br></br>
+                <p className={["pt-4", styles.text].join(" ")}>
+                  Nitte Meenakshi Institute of Technology, P.B.No.6429,
+                  Yelahanka, Bangalore 560064
                 </p>
               </a>
             </div>
@@ -62,7 +66,11 @@ const ContactUs = () => {
               <br></br>
               <div>
                 <p className="text-center">
-                  <a href="mailto:support@hackbout.tech">
+                  <a
+                    href="mailto:support@hackbout.tech"
+                    target="_BLANK"
+                    rel="noopener noreferrer"
+                  >
                     support@hackbout.tech
                   </a>
                 </p>
@@ -75,8 +83,15 @@ const ContactUs = () => {
             <p className=" h4 text-center">Follow Us</p>
           </Col>
         </Row>
-        <div style={{display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center"}}>
-          <div className="" style={{margin:"auto 1%"}}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "center"
+          }}
+        >
+          <div className="" style={{ margin: "auto 1%" }}>
             <Button
               className="btn-neutral btn-icon btn-round text-center"
               color="twitter"
@@ -91,7 +106,7 @@ const ContactUs = () => {
               Follow us
             </UncontrolledTooltip>
           </div>
-          <div className="" style={{margin:"auto 1%"}}>
+          <div className="" style={{ margin: "auto 1%" }}>
             <Button
               className="btn-neutral btn-icon btn-round text-center"
               color="pink"
@@ -106,21 +121,22 @@ const ContactUs = () => {
               Like us
             </UncontrolledTooltip>
           </div>
-          <div className="" style={{margin:"auto 1%"}}>
+          <div className="" style={{ margin: "auto 1%" }}>
             <Button
               className="btn-neutral btn-icon btn-round text-center"
               color="#3578E5"
               href="https://www.facebook.com/Hack-Club-NMIT-105853897655797/"
               id="tooltip352725"
               size="lg"
-              target="_blank">
-              <i className="fab fa-facebook" style={{color: "#29a0da"}}></i>
+              target="_blank"
+            >
+              <i className="fab fa-facebook" style={{ color: "#29a0da" }}></i>
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip352725">
               Follow Us
             </UncontrolledTooltip>
           </div>
-          <div className="" style={{margin:"auto 1%"}}>
+          <div className="" style={{ margin: "auto 1%" }}>
             <Button
               className="btn-neutral btn-icon btn-round text-center"
               color="#29a0da"
@@ -129,12 +145,23 @@ const ContactUs = () => {
               size="lg"
               target="_blank"
             >
-              <i className="fab fa-telegram" style={{color: "#29a0da"}}></i>
+              <i className="fab fa-telegram" style={{ color: "#29a0da" }}></i>
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip735272532">
               Join Us
             </UncontrolledTooltip>
           </div>
+        </div>
+        <div
+          style={{ textAlign: "center", marginTop: "30px", fontSize: "17px" }}
+        >
+          <a
+            href="https://devfolio.co/code-of-conduct"
+            target="_BLANK"
+            rel="noopener noreferrer"
+          >
+            Code of Conduct
+          </a>
         </div>
       </Container>
     </div>

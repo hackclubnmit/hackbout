@@ -26,27 +26,27 @@
   max-width: 60%;
   max-height: 50%;
   position: relative;
-  top: 95px;
+  top: 25px;
 }
 
 .fold {
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 50%;
+  max-height: 45%;
   position: relative;
-  top: 85px;
+  top: 30px;
 }
-.csi {
+/* .csi {
   max-width: 50%;
   max-height: 50%;
   position: relative;
   top: 15px;
-}
+} */
 
 .stickermule {
   max-width: 70%;
   max-height: 70%;
   position: relative;
-  top: 45px;
+  top: 55px;
 }
 .girlGeeks {
   max-width: 60%;
@@ -87,7 +87,7 @@
   max-width: 90%;
   max-height: 90%;
   position: relative;
-  top: 20px;
+  top: -20px;
 }
 
 .bugsee {
