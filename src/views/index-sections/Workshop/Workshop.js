@@ -10,7 +10,7 @@ import {
   CardImgOverlay
 } from "reactstrap";
 
-import py from "../../../assets/img/capitalOne.svg";
+import py from "../../../assets/img/capitalOne.png";
 import mlh from "../../../assets/img/mlh-localhost-logo-dark.png";
 
 import styles from "./Workshop.module.css";
