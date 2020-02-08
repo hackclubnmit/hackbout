@@ -20,6 +20,7 @@ import Sponsors from "./index-sections/Sponsors/Sponsors";
 import Faq from "./index-sections/Faq/Faq";
 import ContactUs from "./index-sections/ContactUs/ContactUs";
 import Bounties from "./index-sections/Bounties/Bounties";
+import Workshop from "./index-sections/Workshop/Workshop";
 import Prizes from "./index-sections/Prizes/Prizes";
 import HackClub from "./index-sections/HackClub/HackClub";
 
@@ -50,6 +51,7 @@ function Index() {
           <About />
           <Tracks />
           <Bounties />
+          <Workshop />
           <Prizes />
           <Schedule />
           <Mentors />

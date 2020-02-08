@@ -9,6 +9,7 @@ import {
   Button,
   CardImgOverlay
 } from "reactstrap";
+
 import styles from "./Bounties.module.css";
 import matic from "../../../assets/img/Matic.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";

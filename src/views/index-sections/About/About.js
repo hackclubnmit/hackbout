@@ -31,18 +31,12 @@ const About = () => {
             style={{ textAlign: "center" }}
             data-aos="fade-up"
           >
-            {/* <img
-            src={require("assets/img/snaks.png")}
-            alt="1"
-            width="80"
-            height="80"
-          ></img> */}
             <img
               src={require("assets/img/logos/new/food.svg")}
               alt="food"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">Free Drinks and Snacks</h5>
+            <h5 className="pt-3">Free Snacks and Drinks</h5>
           </Col>
           <Col
             className="p-5"
@@ -62,7 +56,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new/24_hour_hack.svg")}
+              src={require("assets/img/logos/new icons/24_hour_hack.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />

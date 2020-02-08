@@ -6,15 +6,9 @@ import {
   Card,
   CardTitle,
   CardText,
-  // CardImg,
   CardImgOverlay
 } from "reactstrap";
-// import p1 from "../../../assets/img/ML.jpeg";
-// import p2 from "../../../assets/img/BC.jpg";
-// import p3 from "../../../assets/img/IOT.jpg";
-// import p4 from "../../../assets/img/FM.jpg";
-// import p5 from "../../../assets/img/var.jpg";
-// import p6 from "../../../assets/img/oi.jpg";
+
 import styles from "./Tracks.module.css";
 import img1 from "../../../assets/img/ai.png";
 import img2 from "../../../assets/img/bitcoin.png";
