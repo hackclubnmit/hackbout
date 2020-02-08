@@ -96,28 +96,6 @@
   .cardBody {
     opacity: 1;
   }
-
-  /* .card:hover  */
-  /* .cardTitle {
-    font-size: 30px;
-    font-weight: 500;
-    transform: translateY(-150px);
-    border-bottom: 1px solid black;
-    float: left;
-  } */
-
-  /* .card:hover  */
-  /* .cardBody {
-    opacity: 1;
-  } */
-
-  /* .card:hover  */
-  /* .img {
-    height: 16%;
-    width: 10%;
-    left: 410px;
-    top: 20px;
-  } */
 }
 
 @media (max-width: 600px) {
@@ -131,14 +109,6 @@
     width: 16%;
     left: 215px;
     top: 15px;
-  }
-
-  .cardTitle {
-    font-size: 17px;
-    font-weight: 500;
-    transform: translateY(-150px);
-    border-bottom: 0.5px solid black;
-    float: left;
   }
 
   .cardBody {
@@ -155,24 +125,34 @@
 
   /* .card:hover  */
   .cardTitle {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     transform: translateY(-150px);
     border-bottom: 0.5px solid black;
     float: left;
   }
 
-  /* .card:hover  */
-  /* .cardBody {
-    opacity: 1;
-    font-size: 14px;
-  } */
+  .cardBody {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
 
-  /* .card:hover  */
-  /* .img {
-    height: 15%;
-    width: 20%;
-    left: 210px;
-    top: 15px;
-  } */
+.under {
+  width: 80px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  top: -20px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
 }

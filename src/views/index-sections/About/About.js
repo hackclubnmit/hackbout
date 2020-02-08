@@ -1,5 +1,6 @@
 import React from "react";
 import "aos/dist/aos.css";
+import styles from "./About.module.css";
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -10,11 +11,14 @@ const About = () => {
       style={{ background: "#ffffff" }}
       id="about-section"
     >
-      <Container className=" mt-5">
-        <p className="section-about-header h1 pt-2">About The Event</p>
+      <Container className=" ">
+        <p className={["section-about-header h1", styles.title].join(" ")}>
+          About The Event
+        </p>
+        <div className={styles.under}></div>
         <Row>
           <Col>
-            <p style={{ fontWeight: "500" }}>
+            <p className={styles.text} style={{ fontWeight: "500" }}>
               For centuries humanity has enjoyed bouts in action-packed sports
               such as sword fighting and boxing, With the same intensity and
               competition, Nitte Meenakshi Institute of Technology present
@@ -36,7 +40,9 @@ const About = () => {
               alt="food"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">Free Snacks and Drinks</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>
+              Free Snacks and Drinks
+            </h5>
           </Col>
           <Col
             className="p-5"
@@ -48,7 +54,9 @@ const About = () => {
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">Awesome Swags and Goodies!</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>
+              Awesome Swags and Goodies!
+            </h5>
           </Col>
           <Col
             className="p-5"
@@ -60,7 +68,7 @@ const About = () => {
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">36 Hour Hack</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>36 Hour Hack</h5>
           </Col>
           <Col
             className="p-5"
@@ -72,7 +80,7 @@ const About = () => {
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">Bounties</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>Bounties</h5>
           </Col>
           <Col
             className="p-5"
@@ -80,11 +88,11 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
+              className={styles.trophy}
               src={require("assets/img/logos/new/prizes.svg")}
               alt="hackclub-logo"
-              style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className="pt-3">Huge Prizes</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>Huge Prizes</h5>
           </Col>
         </Row>
       </Container>

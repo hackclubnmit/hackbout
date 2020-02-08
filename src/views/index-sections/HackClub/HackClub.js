@@ -56,7 +56,10 @@ const HackClub = () => {
       style={{ background: "#ffffff" }}
     >
       <Container style={{ textAlign: "left" }}>
-        <p className="section-about-header h1 pb-3">About Hack Club</p>
+        <p className={["section-about-header h1", styles.title].join(" ")}>
+          About Hack Club
+        </p>
+        <div className={styles.under}></div>
       </Container>
       <img
         data-aos="slide-right"
@@ -121,7 +124,7 @@ const HackClub = () => {
               </Carousel>
             </Col>
             <Col lg={6}>
-              <p style={{ color: "#000", fontSize: "20px" }}>
+              <p style={{ color: "#000" }} className={styles.text}>
                 <b>
                   We’re{"  "}
                   <span>

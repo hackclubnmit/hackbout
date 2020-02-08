@@ -1,7 +1,7 @@
 .card1 {
   height: 300px;
   width: 300px;
-  background-color: #22B573;
+  background-color: #22b573;
   /* background-image: linear-gradient(#29c03d, #16d881); */
   color: white;
   border-radius: 10px;
@@ -11,4 +11,27 @@
   max-width: 70%;
   max-height: 70%;
   margin-top: 7%;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .mlh {
+    max-width: 150px;
+  }
+}
+
+.under {
+  width: 80px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #22b573;
+  position: relative;
+  top: -20px;
 }

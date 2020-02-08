@@ -1,4 +1,44 @@
-/* 
-.title{
-    font-size: ;
-} */
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}
+
+.trophy {
+  max-width: 65%;
+  max-height: 65%;
+}
+
+@media (max-width: 990px) {
+  .trophy {
+    max-width: 15%;
+    max-height: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .trophy {
+    max-width: 65%;
+    max-height: 65%;
+  }
+}
+
+@media (max-width: 437px) {
+  .trophy {
+    max-width: 25%;
+    max-height: 25%;
+  }
+}
+
+.under {
+  width: 160px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #22b573;
+  position: relative;
+  top: -20px;
+}

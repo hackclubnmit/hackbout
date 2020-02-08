@@ -22,9 +22,11 @@ const Schedule = () => {
       id="schedule-section"
     >
       <Container className=" mt-5">
-        <div>
-          <h1 className=" pt-2">Schedule</h1>
-        </div>
+        <p className={["section-bounties-header h1 ", styles.title].join(" ")}>
+          Schedule
+        </p>
+        <div className={styles.under}></div>
+
         <Row className="">
           <Col className="">
             <Nav
@@ -79,9 +81,9 @@ const Schedule = () => {
           data-aos="fade-up"
         >
           <TabPane tabId="pills1" className={styles.tab}>
-            <h3>
+            <h4>
               <b> 4th March </b>{" "}
-            </h3>
+            </h4>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
@@ -176,10 +178,10 @@ const Schedule = () => {
             </ul>
           </TabPane>
           <TabPane tabId="pills2" className={styles.tab}>
-            <h3>
+            <h4>
               {" "}
               <b>5th March</b>
-            </h3>
+            </h4>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 {" "}

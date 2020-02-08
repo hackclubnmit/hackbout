@@ -11,7 +11,11 @@ const ContactUs = () => {
       id="contactUs-section"
     >
       <Container>
-        <p className="section-contactUs-header h1 pt-4 mt-4">Contact Us</p>
+        <p className={["section-about-header h1", styles.title].join(" ")}>
+          Contact Us
+        </p>
+        <div className={styles.under}></div>
+
         <br></br>
         <br></br>
         <br></br>

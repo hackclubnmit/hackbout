@@ -78,6 +78,25 @@
   animation-iteration-count: infinite;
 }
 
+@media (max-width: 600px) {
+  .hackClub {
+    top: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hackClub {
+    top: -5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hackClub {
+    top: -7px;
+    max-width: 25%;
+  }
+}
+
 /* .hackClub:hover {
   animation-name: hand 4s ;
   animation-iteration-count: infinte;
@@ -177,4 +196,32 @@
 .devfolioApplyNow:hover {
   background-color: #1e9962 !important;
   transform: scale(1.025);
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
+
+.tele {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #389ce9;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  position: relative;
+  margin: 45px;
+  transition: all 0.2s ease-in;
 }

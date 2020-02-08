@@ -27,21 +27,21 @@ const Tracks = () => {
       id="tracks-section"
     >
       <Container className="">
-        <p className="section-about-header h1 pb-5" style={{ color: "white" }}>
+        <p
+          className={["section-tracks-header h1", styles.title].join(" ")}
+          style={{ color: "white" }}
+        >
           Tracks
         </p>
+        <div className={styles.under}></div>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img1} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}> ML & Data Science</p>
                 </CardTitle>
-                {/* <br></br>
-                <br></br>
-                <br></br>
-                <br></br> */}
                 <CardText className={styles.cardBody}>
                   In recent times, data is growing exponentially like never
                   before. We need more efficient algorithms and models to
@@ -55,7 +55,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img2} alt="blockchain" className={styles.img} />
@@ -78,7 +78,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img4} alt="iot" className={styles.img} />
@@ -99,7 +99,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img
@@ -125,7 +125,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img6} alt="ar-vr" className={styles.img} />
@@ -145,7 +145,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card} data-aos="zoom-in-up">
+            <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
                   <img
