@@ -32,7 +32,7 @@ const Tracks = () => {
         </p>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img1} alt="ml" className={styles.img} />
@@ -55,7 +55,7 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img2} alt="blockchain" className={styles.img} />
@@ -78,7 +78,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img4} alt="iot" className={styles.img} />
@@ -99,10 +99,14 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img5} alt="future-mobility" className={styles.img} />
+                  <img
+                    src={img5}
+                    alt="future-mobility"
+                    className={styles.img}
+                  />
                   <p className={styles.cardTitle}>Future Mobility</p>
                 </CardTitle>
                 <CardText>
@@ -121,7 +125,7 @@ const Tracks = () => {
         </Row>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img6} alt="ar-vr" className={styles.img} />
@@ -141,10 +145,14 @@ const Tracks = () => {
             </Card>
           </Col>
           <Col>
-            <Card className={styles.card}>
+            <Card className={styles.card} data-aos="zoom-in-up">
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img3} alt="open-innovation" className={styles.img} />
+                  <img
+                    src={img3}
+                    alt="open-innovation"
+                    className={styles.img}
+                  />
                   <p className={styles.cardTitle}>Open Innovation</p>
                 </CardTitle>
                 <CardText>

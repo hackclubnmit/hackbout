@@ -400,7 +400,10 @@ function IndexHeader() {
               </button>
             </div>
           </div>
-          <h3 className="" style={{ color: "black", marginBottom: "2%" }}>
+          <h3
+            className=""
+            style={{ color: "black", marginBottom: "2%", marginTop: "5px" }}
+          >
             <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>
 
             <a

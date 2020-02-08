@@ -59,7 +59,7 @@ const HackClub = () => {
         <p className="section-about-header h1 pb-3">About Hack Club</p>
       </Container>
       <img
-        data-aos="fade-right"
+        data-aos="slide-right"
         className={styles.hack}
         src="https://hackclub.com/banners/2020.svg"
         alt="Hack Club"
