@@ -68,6 +68,20 @@ $danger-color: #ff3636 !default;
 $danger-states-color: lighten($danger-color, 6%) !default;
 $danger-color-opacity: rgba(255, 54, 54, 0.3) !default;
 $danger-color-alert: rgba(255, 54, 54, 0.8) !default;
+$info-color: #ffffff !default;
+$info-states-color: lighten($info-color, 6%) !default;
+$info-color-opacity: rgba(44, 168, 255, 0.3) !default;
+$info-color-alert: rgba(44, 168, 255, 0.8) !default;
+
+$warning-color: #ffb236 !default;
+$warning-states-color: lighten($warning-color, 6%) !default;
+$warning-color-opacity: rgba(255, 178, 54, 0.3) !default;
+$warning-color-alert: rgba(255, 178, 54, 0.8) !default;
+
+$danger-color: #ff3636 !default;
+$danger-states-color: lighten($danger-color, 6%) !default;
+$danger-color-opacity: rgba(255, 54, 54, 0.3) !default;
+$danger-color-alert: rgba(255, 54, 54, 0.8) !default;
 
 /*     brand Colors              */
 $brand-primary: $primary-color !default;
