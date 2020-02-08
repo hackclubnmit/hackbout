@@ -56,7 +56,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new icons/24_hour_hack.svg")}
+              src={require("assets/img/logos/new/24_hour_hack.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />

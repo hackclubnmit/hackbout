@@ -10,7 +10,7 @@ import {
   CardImgOverlay
 } from "reactstrap";
 
-import alexa from "../../../assets/img/alexa.png";
+import py from "../../../assets/img/capitalOne.svg";
 import mlh from "../../../assets/img/mlh-localhost-logo-dark.png";
 
 import styles from "./Workshop.module.css";
@@ -28,18 +28,17 @@ const Workshop = () => {
             <Col>
             <Card className={styles.card1} data-aos="fade-up">
             <CardImgOverlay>
-              <img src={alexa} alt="alexa" style={{ marginTop: "10%" }} />
+              <img src={py} alt="py" style={{ marginTop: "10%" }} />
               <CardTitle>
                 <p className={styles.cardTitle1}>
-                Build Your First Skill for Amazon Alexa
+                Basic Training: Intro to Python Skills for AI
                 </p>
               </CardTitle>
               <CardText className={styles.cardBody}>
-                During this workshop you’ll learn the basics of how to build skills for Amazon Alexa to run on Alexa devices like the Amazon Echo or Echo Dot. 
-                The content covers setting up Alexa Skills Kit, developing your first skill, deploying your skill to AWS Lambda, and submitting your skill for 
-                publication all through the Alexa Developer Console
+              Basic Training is a series of three workshops developed in partnership with Capital One to teach Python skills for Artificial Intelligence use cases.
+              <br/><strong>Part I:</strong> Web Scraping <br/><strong>Part II:</strong> Data Cleaning <br/> <strong>Part III:</strong> Use Your Data in a Bot!
                 <a
-                  href="https://localhost.mlh.io/activities/build-with-alexa/"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSe1VMNa-3FRUFMe-lb_ofAZtwR1E46GZct_1HK0RmQxgtwoHw/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -54,7 +53,7 @@ const Workshop = () => {
                     }}
                     onClick="/"
                   >
-                    Know More
+                    Register
                   </Button>
                 </a>
                   </CardText>
