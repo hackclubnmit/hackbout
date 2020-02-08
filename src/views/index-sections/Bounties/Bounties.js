@@ -70,7 +70,11 @@ const Bounties = () => {
                     <p className={styles.cardTitle2}>GirlGeeksHack 2020 </p>
                   </CardTitle>
                   <CardText className={styles.cardBody}>
-                    <a href="https://drive.google.com/file/d/1i4rOSwGOy46-uOdYF4Kkw5Dhrga3OSeb/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/file/d/1i4rOSwGOy46-uOdYF4Kkw5Dhrga3OSeb/view?usp=drivesdk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button
                         size="lg"
                         style={{

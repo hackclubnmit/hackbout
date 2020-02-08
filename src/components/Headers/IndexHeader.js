@@ -4,6 +4,7 @@ import styles from "./logo.module.css";
 import anime from "animejs/lib/anime.es.js";
 import orphHand from "../../assets/img/hackClub.svg";
 import dev from "../../assets/img/devfolioD.png";
+import "./header.css";
 
 // reactstrap components
 import { Container, Button } from "reactstrap";
@@ -401,10 +402,11 @@ function IndexHeader() {
           </div>
           <h3 className="" style={{ color: "black", marginBottom: "2%" }}>
             <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>
+
             <a
               target="_blank"
               style={{ color: "black", textDecoration: "none" }}
-              href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NG5ycTBibTAybm42Z28zbmowdjIwYjdlaG0gZ2FsbGFjdGljc29jY2VyQG0&amp;tmsrc=gallacticsoccer%40gmail.com"
+              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2FlNmZqcnJtMTFqMGZraXBqbjQydnVsMWYgMjJiMGdzdjkwb3FlMDJhYzVqNGI1dWg0MmdAZw&tmsrc=22b0gsv90oqe02ac5j4b5uh42g%40group.calendar.google.com"
             >
               4th & 5th March
             </a>
@@ -418,6 +420,19 @@ function IndexHeader() {
               Nitte Meenakshi Institute of Technology, Bangalore
             </a>
           </h3>
+          {/* <a
+            href="https://t.me/hackbout"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="glitch glitch--style-2">
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+            </div>
+          </a> */}
           <a
             href="https://t.me/hackbout"
             target="_blank"
