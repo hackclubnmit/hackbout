@@ -82,7 +82,7 @@ const Tracks = () => {
               <CardImgOverlay>
                 <CardTitle>
                   <img src={img4} alt="iot" className={styles.img} />
-                  <p className={styles.cardTitle}>IOT</p>
+                  <p className={styles.cardTitle}>IoT</p>
                 </CardTitle>
                 <CardText>
                   <p className={styles.cardBody}>
