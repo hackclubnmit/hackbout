@@ -15,6 +15,8 @@ import inVision from "../../../assets/img/invision.png";
 import ieee from "../../../assets/img/ieee-cs-logo.png";
 import bugsee from "../../../assets/img/bugsee.png";
 import tim from "../../../assets/img/creativetim.png";
+import snap from "../../../assets/img/snap.jpg";
+import rocket from "../../../assets/img/rocket.svg";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -25,7 +27,11 @@ const Sponsors = () => {
       style={{ background: "#ffffff" }}
     >
       <Container className=" pt-5">
-        <p className="section-about-header h1 pb-3">Sponsors</p>
+        <p className={["section-bounties-header h1 ", Styles.title].join(" ")}>
+          Sponsors
+        </p>
+        <div className={Styles.under}></div>
+
         <div className="text-center">
           <div style={{ textAlign: "center", marginBottom: "5px" }}>
             <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
@@ -178,7 +184,7 @@ const Sponsors = () => {
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="#pablo" target="_blank" rel="noopener noreferrer">
                 <img
                   src={girlGeeks}
                   alt="girlGeeks-logo"
@@ -282,6 +288,34 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img src={tim} alt="creative-tim-logo" className={Styles.tim} />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.challengerocket.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={rocket} alt="rocket-logo" className={Styles.rocket} />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.snapchat.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={snap} alt="snap-logo" className={Styles.snap} />
               </a>
             </Col>
           </Row>

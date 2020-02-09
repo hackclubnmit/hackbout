@@ -23,8 +23,16 @@ function DarkFooter() {
                   margin: "10px auto"
                 }}
               ></img>
-              <p style={{ fontSize: "11px" }}>
-                HackBout© {new Date().getFullYear()}
+              <p>HackBout© {new Date().getFullYear()}</p>
+              <p>
+                Made With{" "}
+                <span>
+                  <i
+                    className="fas fa-heart img-fluid"
+                    style={{ color: "red" }}
+                  ></i>
+                </span>{" "}
+                By Hack Club Nmit
               </p>
             </div>
           </Col>

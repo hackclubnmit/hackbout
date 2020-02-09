@@ -68,36 +68,75 @@
 .hackClub {
   position: relative;
   max-width: 20%;
+  top: -20px;
   float: left;
   transform: rotateZ(0deg);
-  z-index: 200;
-  /* transition: all 4s;
-  animation: hand 4s ease-out; */
-  /* animation-duration: 4s; */
+  z-index: 1000;
+  transition: all 4s;
+  animation-name: hand;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 600px) {
+  .hackClub {
+    top: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hackClub {
+    top: -5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hackClub {
+    top: -7px;
+    max-width: 25%;
+  }
 }
 
 /* .hackClub:hover {
-  animation-name: hand;
-  animation-duration: infinite;
+  animation-name: hand 4s ;
+  animation-iteration-count: infinte;
 } */
-/* 
+
 @keyframes hand {
   0% {
     transform: rotateZ(0deg);
   }
-  25% {
-    transform: rotateZ(10deg);
+  10% {
+    transform: rotateZ(-1deg);
+  }
+  20% {
+    transform: rotateZ(-2deg);
+  }
+  30% {
+    transform: rotateZ(-3deg);
+  }
+  40% {
+    transform: rotateZ(-4deg);
   }
   50% {
-    transform: rotateZ(20deg);
+    transform: rotateZ(-5deg);
   }
-  75% {
-    transform: rotateZ(10deg);
+  60% {
+    transform: rotateZ(-4deg);
+  }
+  70% {
+    transform: rotateZ(-3deg);
+  }
+  80% {
+    transform: rotateZ(-2deg);
+  }
+  90% {
+    transform: rotateZ(-1deg);
   }
   100% {
     transform: rotateZ(0deg);
   }
-} */
+}
 
 .button {
   border-radius: 15px;
@@ -139,9 +178,10 @@
   text-transform: lowercase;
   position: relative;
   margin: 45px;
+  transition: all 0.2s ease-in;
 }
 
-.telegram{
+.telegram {
   transition: all 0.5s ease-in;
 }
 
@@ -155,4 +195,33 @@
 
 .devfolioApplyNow:hover {
   background-color: #1e9962 !important;
+  transform: scale(1.025);
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
+
+.tele {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #389ce9;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  position: relative;
+  margin: 45px;
+  transition: all 0.2s ease-in;
 }

@@ -78,3 +78,22 @@
     font-weight: 100;
   }
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}
+
+.under {
+  width: 80px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #22b573;
+  position: relative;
+  top: -20px;
+}

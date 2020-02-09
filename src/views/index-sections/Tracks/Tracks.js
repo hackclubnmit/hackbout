@@ -27,9 +27,13 @@ const Tracks = () => {
       id="tracks-section"
     >
       <Container className="">
-        <p className="section-about-header h1 pb-5" style={{ color: "white" }}>
+        <p
+          className={["section-tracks-header h1", styles.title].join(" ")}
+          style={{ color: "white" }}
+        >
           Tracks
         </p>
+        <div className={styles.under}></div>
         <Row style={{ textAlign: "center", margin: "auto" }}>
           <Col>
             <Card className={styles.card}>
@@ -38,10 +42,6 @@ const Tracks = () => {
                   <img src={img1} alt="ml" className={styles.img} />
                   <p className={styles.cardTitle}> ML & Data Science</p>
                 </CardTitle>
-                {/* <br></br>
-                <br></br>
-                <br></br>
-                <br></br> */}
                 <CardText className={styles.cardBody}>
                   In recent times, data is growing exponentially like never
                   before. We need more efficient algorithms and models to
@@ -102,7 +102,11 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img5} alt="future-mobility" className={styles.img} />
+                  <img
+                    src={img5}
+                    alt="future-mobility"
+                    className={styles.img}
+                  />
                   <p className={styles.cardTitle}>Future Mobility</p>
                 </CardTitle>
                 <CardText>
@@ -144,7 +148,11 @@ const Tracks = () => {
             <Card className={styles.card}>
               <CardImgOverlay>
                 <CardTitle>
-                  <img src={img3} alt="open-innovation" className={styles.img} />
+                  <img
+                    src={img3}
+                    alt="open-innovation"
+                    className={styles.img}
+                  />
                   <p className={styles.cardTitle}>Open Innovation</p>
                 </CardTitle>
                 <CardText>

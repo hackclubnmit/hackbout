@@ -9,7 +9,11 @@ const Bounties = () => {
   return (
     <div className=" section-sponsors pt-5" id="prizes-section">
       <Container className=" pt-5">
-        <p className="section-about-header h1 pb-3">Prizes</p>
+        <p className={["section-bounties-header h1 ", styles.title].join(" ")}>
+          Prizes
+        </p>
+        <div className={styles.under}></div>
+
         <Row style={{ textAlign: "center" }}>
           <Col>
             <Card className={styles.card1} data-aos="fade-up">

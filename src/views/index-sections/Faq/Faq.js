@@ -13,7 +13,10 @@ const Faq = () => {
       style={{ background: "#ffffff" }}
     >
       <Container className=" mt-5">
-        <p className="section-faq-header h1 pt-2">FAQ's</p>
+        <p className={["section-about-header h1", styles.title].join(" ")}>
+          FAQ's
+        </p>
+        <div className={styles.under}></div>
 
         <Row>
           <Col>

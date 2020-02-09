@@ -400,7 +400,10 @@ function IndexHeader() {
               </button>
             </div>
           </div>
-          <h3 className="" style={{ color: "black", marginBottom: "2%" }}>
+          <h3
+            className={styles.text}
+            style={{ color: "black", marginBottom: "30px" }}
+          >
             <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>
 
             <a
@@ -411,7 +414,10 @@ function IndexHeader() {
               4th & 5th March
             </a>
           </h3>
-          <h3 style={{ color: "black" }}>
+          <h3
+            className={styles.text}
+            style={{ color: "black", marginBottom: "45px" }}
+          >
             <i class="fas fa-map-marker-alt" style={{ marginRight: "1%" }}></i>{" "}
             <a
               href="https://goo.gl/maps/8wwXNWAup9Mw3puDA"
@@ -433,7 +439,7 @@ function IndexHeader() {
               <div class="glitch__img"></div>
             </div>
           </a> */}
-          <a
+          {/* <a
             href="https://t.me/hackbout"
             target="_blank"
             rel="noopener noreferrer"
@@ -443,6 +449,36 @@ function IndexHeader() {
               alt=""
               className={styles.telegram}
             />
+          </a> */}
+          <a href="https://t.me/hackbout" target="_blank">
+            <button
+              className={styles.tele}
+              style={{
+                textAlign: "center",
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "5px"
+              }}
+              target="_blank"
+            >
+              <svg
+                style={{
+                  width: "30px",
+                  height: "20px",
+                  verticalAlign: "middle",
+                  margin: "0px 5px"
+                }}
+                viewBox="0 0 21 18"
+              >
+                <g fill="none">
+                  <path
+                    fill="#ffffff"
+                    d="M0.554,7.092 L19.117,0.078 C19.737,-0.156 20.429,0.156 20.663,0.776 C20.745,0.994 20.763,1.23 20.713,1.457 L17.513,16.059 C17.351,16.799 16.62,17.268 15.88,17.105 C15.696,17.065 15.523,16.987 15.37,16.877 L8.997,12.271 C8.614,11.994 8.527,11.458 8.805,11.074 C8.835,11.033 8.869,10.994 8.905,10.958 L15.458,4.661 C15.594,4.53 15.598,4.313 15.467,4.176 C15.354,4.059 15.174,4.037 15.036,4.125 L6.104,9.795 C5.575,10.131 4.922,10.207 4.329,10.002 L0.577,8.704 C0.13,8.55 -0.107,8.061 0.047,7.614 C0.131,7.374 0.316,7.182 0.554,7.092 Z"
+                  ></path>
+                </g>
+              </svg>
+              Telegram
+            </button>
           </a>
         </Container>
       </div>

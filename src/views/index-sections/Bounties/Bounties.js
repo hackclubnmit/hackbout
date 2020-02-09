@@ -22,7 +22,10 @@ const Bounties = () => {
       style={{ background: "#ffffff" }}
     >
       <Container className=" pt-5">
-        <p className="section-about-header h1 pb-3">Bounties</p>
+        <p className={["section-bounties-header h1 ", styles.title].join(" ")}>
+          Bounties
+        </p>
+        <div className={styles.under}></div>
         <div className="text-center">
           <Row style={{ textAlign: "center" }}>
             <Col>

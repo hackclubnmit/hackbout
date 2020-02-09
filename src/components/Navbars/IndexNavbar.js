@@ -47,7 +47,7 @@ function IndexNavbar() {
         <div
           id="bodyClick"
           onClick={() => {
-            document.documentElement.classList.toggle("nav-open");
+            document.documentElement.classList.remove("nav-open");
             setCollapseOpen(false);
           }}
         />
@@ -89,6 +89,7 @@ function IndexNavbar() {
             className="justify-content-end"
             isOpen={collapseOpen}
             navbar
+            style={{ backgroundColor: "#22B573" }}
           >
             <Nav navbar>
               <NavItem>
@@ -96,6 +97,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.querySelector(".header-main").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -118,6 +120,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("tracks-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -135,6 +138,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("bounties-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -152,6 +156,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("prizes-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -169,6 +174,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("schedule-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -186,6 +192,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("Mentors-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -203,6 +210,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("sponsors-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -220,6 +228,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("faq-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -237,6 +246,7 @@ function IndexNavbar() {
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document
                       .getElementById("contactUs-section")
                       .scrollIntoView({

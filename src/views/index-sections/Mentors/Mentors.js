@@ -24,9 +24,14 @@ const Mentors = () => {
       id="Mentors-section"
     >
       <Container className=" pt-5">
-        <p className="section-about-header h1 pb-5" style={{ color: "white" }}>
+        <p
+          className={["section-bounties-header h1 ", styles.title].join(" ")}
+          style={{ color: "white" }}
+        >
           Mentors
         </p>
+        <div className={styles.under}></div>
+
         <Row style={{ textAlign: "center" }}>
           <Col>
             <Card className={styles.card1} data-aos="fade-up">
@@ -35,7 +40,7 @@ const Mentors = () => {
                 width="100%"
                 src={mOne}
                 alt="Card image cap"
-                style={{ borderRadius: "10px 10px 0 0" }}
+                style={{ borderRadius: "8px 8px 0 0" }}
               />
               <CardBody className={styles.cbdy}>
                 <CardTitle>
@@ -66,7 +71,7 @@ const Mentors = () => {
                 width="100%"
                 src={mTwo}
                 alt="Card image cap"
-                style={{ borderRadius: "10px 10px 0 0" }}
+                style={{ borderRadius: "8px 8px 0 0" }}
               />
               <CardBody className={styles.cbdy}>
                 <CardTitle>
@@ -98,7 +103,7 @@ const Mentors = () => {
                 width="100%"
                 src={mThree}
                 alt="Card image cap"
-                style={{ borderRadius: "10px 10px 0 0" }}
+                style={{ borderRadius: "8px 8px 0 0" }}
               />
               <CardBody className={styles.cbdy}>
                 <CardTitle>

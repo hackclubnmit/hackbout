@@ -96,7 +96,18 @@
   position: relative;
   top: -50px;
 }
-
+.rocket {
+  max-width: 60%;
+  max-height: 60%;
+  position: relative;
+  top: -30px;
+}
+.snap {
+  max-width: 45%;
+  max-height: 40%;
+  position: relative;
+  top: -37px;
+}
 .tim {
   max-width: 70%;
   max-height: 80%;
@@ -130,6 +141,16 @@
   .github {
     position: relative;
     top: 60px;
+  }
+  .rocket {
+    max-width: 40%;
+    max-height: 40%;
+    position: relative;
+    top: -10px;
+  }
+
+  .snap {
+    top: -20px;
   }
 
   .hackClub {
@@ -229,6 +250,19 @@
 }
 
 @media (max-width: 765px) {
+  .rocket {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: -60px;
+  }
+
+  .snap {
+    max-width: 55%;
+    max-height: 45%;
+    top: 0px;
+  }
+
   .github {
     position: relative;
     top: 50px;
@@ -329,4 +363,27 @@
   transform: scale(1.1) translateY(-7px);
   transition: all 0.3s;
   box-shadow: 20px #000;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .mlh {
+    max-width: 150px;
+  }
+}
+
+.under {
+  width: 80px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #22b573;
+  position: relative;
+  top: -20px;
 }
