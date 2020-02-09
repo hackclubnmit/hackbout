@@ -180,13 +180,28 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="10">
                   <p>
-                    <b>Q. I didn't find my question here, what can i do? </b>
+                    <b>Q. Do I get travel reimbursement? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>
                   </p>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="10">
+                  <Card.Body>
+                    Unfortunately, we are unable to provide reimbursements this time.{" "}
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="light" text="black" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="11">
+                  <p>
+                    <b>Q. I didn't find my question here, what can i do? </b>
+                    <span style={{ float: "right" }}>
+                      <i className="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="11">
                   <Card.Body>
                     If you have any other questions or concerns, reach out to us
                     using the contact details below

@@ -24,7 +24,7 @@ const Workshop = () => {
     >
       <Container className="">
         <p className={["section-workshop-header h1 ", styles.title].join(" ")}>
-          Workshop by{" "}
+          Pre-Event Workshop by{" "}
           <img src={mlh} alt="mlh-localhost" className={styles.mlh} />
         </p>
         <div className={styles.under}></div>
