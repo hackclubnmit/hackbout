@@ -325,7 +325,7 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.creativetim.com/"
+                href="https://www.creative-tim.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
