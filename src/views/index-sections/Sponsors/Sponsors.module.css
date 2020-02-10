@@ -91,11 +91,19 @@
 }
 
 .bugsee {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 70%;
+  max-height: 70%;
   position: relative;
   top: -50px;
 }
+
+.blkIndia {
+  max-width: 75%;
+  max-height: 75%;
+  position: relative;
+  top: -50px;
+}
+
 .rocket {
   max-width: 60%;
   max-height: 60%;
@@ -110,7 +118,7 @@
 }
 .tim {
   max-width: 70%;
-  max-height: 80%;
+  max-height: 70%;
   position: relative;
   top: -65px;
 }
@@ -142,11 +150,19 @@
     position: relative;
     top: 60px;
   }
+
   .rocket {
     max-width: 40%;
     max-height: 40%;
     position: relative;
     top: -10px;
+  }
+
+  .blkIndia {
+    max-width: 60%;
+    max-height: 60%;
+    position: relative;
+    top: 10px;
   }
 
   .snap {
@@ -185,6 +201,7 @@
     top: 0px;
     left: 0px;
   }
+
   .girlGeeks {
     max-width: 60%;
     max-height: 60%;
@@ -242,10 +259,10 @@
   }
 
   .tim {
-    max-width: 70%;
-    max-height: 80%;
+    max-width: 65%;
+    max-height: 65%;
     position: relative;
-    top: -5px;
+    top: -30px;
   }
 }
 
@@ -342,11 +359,19 @@
     position: relative;
     top: 30px;
   }
-  .tim {
-    max-width: 70%;
-    max-height: 80%;
+
+  .blkIndia {
+    max-width: 60%;
+    max-height: 60%;
     position: relative;
     top: -10px;
+  }
+
+  .tim {
+    max-width: 70%;
+    max-height: 70%;
+    position: relative;
+    top: -70px;
   }
 
   .devfolio {

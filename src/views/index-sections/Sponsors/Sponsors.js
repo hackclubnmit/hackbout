@@ -14,6 +14,7 @@ import gatsby from "../../../assets/img/gatsby.png";
 import inVision from "../../../assets/img/invision.png";
 import ieee from "../../../assets/img/ieee-cs-logo.png";
 import bugsee from "../../../assets/img/bugsee.png";
+import blkIndia from "../../../assets/img/blockchained-india.png";
 import tim from "../../../assets/img/creativetim.png";
 import snap from "../../../assets/img/snap.jpg";
 import rocket from "../../../assets/img/rocket.svg";
@@ -283,11 +284,11 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.creativetim.com/"
+                href="https://blockchainedindia.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={tim} alt="creative-tim-logo" className={Styles.tim} />
+                <img src={blkIndia} alt="blockchained-india-logo" className={Styles.blkIndia} />
               </a>
             </Col>
           </Row>
@@ -316,6 +317,19 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img src={snap} alt="snap-logo" className={Styles.snap} />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.creativetim.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tim} alt="creative-tim-logo" className={Styles.tim} />
               </a>
             </Col>
           </Row>
