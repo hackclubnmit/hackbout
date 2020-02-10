@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8a4dc643c096f34bca543171024d3b8",
+    "revision": "a262a6bd607540a430d4bf14eac263d9",
     "url": "/index.html"
   },
   {
-    "revision": "ab12b2f29695ff4e5823",
+    "revision": "4386591caa31124a7ea0",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "8b9cbbdbbcb2089e44c5",
-    "url": "/static/css/main.f7257bf2.chunk.css"
+    "revision": "20a84b05e7491922eb6b",
+    "url": "/static/css/main.a5595157.chunk.css"
   },
   {
-    "revision": "ab12b2f29695ff4e5823",
-    "url": "/static/js/2.830e9a95.chunk.js"
+    "revision": "4386591caa31124a7ea0",
+    "url": "/static/js/2.c1b6c8b5.chunk.js"
   },
   {
-    "revision": "8b9cbbdbbcb2089e44c5",
-    "url": "/static/js/main.81f4a15b.chunk.js"
+    "revision": "20a84b05e7491922eb6b",
+    "url": "/static/js/main.27225f5e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bitcoin.6494fe15.png"
   },
   {
+    "revision": "b008210da0058118b1da53545ba205a3",
+    "url": "/static/media/blockchained-india.b008210d.png"
+  },
+  {
     "revision": "7c60070226e29aa5cb5aa61256c29e27",
     "url": "/static/media/bounties.7c600702.svg"
   },
@@ -72,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cp4.2ce24a14.jpg"
   },
   {
-    "revision": "0d18376ec75c63b57a5231df636bddf8",
-    "url": "/static/media/creativetim.0d18376e.png"
+    "revision": "57ae43cb9c05863df01aee61c5490bfe",
+    "url": "/static/media/creativetim.57ae43cb.png"
   },
   {
     "revision": "c32b096803038a214d055f610453308c",
