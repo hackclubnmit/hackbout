@@ -88,6 +88,18 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
+              src={require("assets/img/logos/workshop.svg")}
+              alt="hackclub-logo"
+              style={{ maxWidth: "65%", maxHeight: "65%" }}
+            />
+            <h5 className={["pt-3", styles.text].join(" ")}>Pre-event Workshop</h5>
+          </Col>
+          <Col
+            className="p-5"
+            style={{ textAlign: "center" }}
+            data-aos="fade-up"
+          >
+            <img
               className={styles.trophy}
               src={require("assets/img/logos/prizes.svg")}
               alt="hackclub-logo"
