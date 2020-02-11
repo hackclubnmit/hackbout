@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./logo.module.css";
 import anime from "animejs/lib/anime.es.js";
 import orphHand from "../../assets/img/hackClub.svg";
-import dev from "../../assets/img/devfolioD.png";
+// import dev from "../../assets/img/devfolioD.png";
 import "./header.css";
 
 // reactstrap components
@@ -426,30 +426,6 @@ function IndexHeader() {
               Nitte Meenakshi Institute of Technology, Bangalore
             </a>
           </h3>
-          {/* <a
-            href="https://t.me/hackbout"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="glitch glitch--style-2">
-              <div class="glitch__img"></div>
-              <div class="glitch__img"></div>
-              <div class="glitch__img"></div>
-              <div class="glitch__img"></div>
-              <div class="glitch__img"></div>
-            </div>
-          </a> */}
-          {/* <a
-            href="https://t.me/hackbout"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={require("assets/img/telegram_button.png")}
-              alt=""
-              className={styles.telegram}
-            />
-          </a> */}
           <a href="https://t.me/hackbout" target="_blank">
             <button
               className={styles.tele}
@@ -487,10 +463,3 @@ function IndexHeader() {
 }
 
 export default IndexHeader;
-
-{
-  /* <Button size="lg" className={styles.button}>
-              <img src={dev} alt="devdolio" />
-              Apply With Devfolio
-            </Button> */
-}

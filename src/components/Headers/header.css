@@ -200,7 +200,7 @@
   left: calc(-1 * var(--gap-horizontal));
   width: calc(100% + var(--gap-horizontal) * 2);
   height: calc(100% + var(--gap-vertical) * 2);
-  background: url(../../assets/img/telegram_button.png) no-repeat 50% 0;
+  /* background: url(../../assets/img/telegram_button.png) no-repeat 50% 0; */
   background-color: var(--blend-color-1);
   background-size: cover;
   transform: translate3d(0, 0, 0);
@@ -208,23 +208,23 @@
 }
 
 .glitch--style-2 .glitch__img {
-  background-image: url(../../assets/img/telegram_button.png);
+  /* background-image: url(../../assets/img/telegram_button.png); */
 }
 
 .glitch--style-3 .glitch__img {
-  background-image: url(../../assets/img/telegram_button.png);
+  /* background-image: url(../../assets/img/telegram_button.png); */
 }
 
 .glitch--style-4 .glitch__img {
-  background-image: url(../../assets/img/telegram_button.png);
+  /* background-image: url(../../assets/img/telegram_button.png); */
 }
 
 .glitch--style-5 .glitch__img {
-  background-image: url(../../assets/img/telegram_button.png);
+  /* background-image: url(../../assets/img/telegram_button.png); */
 }
 
 .glitch--style-6 .glitch__img {
-  background-image: url(../../assets/img/telegram_button.png);
+  /* background-image: url(../../assets/img/telegram_button.png); */
 }
 
 /* Set the background colors for the glitch images*/

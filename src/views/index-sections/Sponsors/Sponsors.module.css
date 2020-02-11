@@ -24,35 +24,37 @@
 
 .matic {
   max-width: 60%;
-  max-height: 50%;
+  max-height: 60%;
   position: relative;
   top: 25px;
 }
 
 .fold {
-  max-width: 50%;
-  max-height: 45%;
+  max-width: 60%;
+  max-height: 60%;
   position: relative;
   top: 30px;
 }
-/* .csi {
-  max-width: 50%;
-  max-height: 50%;
-  position: relative;
-  top: 15px;
-} */
 
 .stickermule {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 90%;
+  max-height: 90%;
   position: relative;
-  top: 55px;
+  top: 40px;
 }
+
+.digiOcean{
+  max-width: 65%;
+  max-height: 65%;
+  position: relative;
+  top: 40px;
+}
+
 .girlGeeks {
   max-width: 60%;
   max-height: 60%;
   position: relative;
-  top: 9px;
+  top: 40px;
 }
 
 .jetbrains {
@@ -87,7 +89,7 @@
   max-width: 90%;
   max-height: 90%;
   position: relative;
-  top: -20px;
+  top: 10px;
 }
 
 .bugsee {
@@ -194,12 +196,18 @@
     left: 0px;
   }
 
-  .csi {
-    max-width: 65%;
-    max-height: 60%;
+  .stickermule {
+    max-width: 90%;
+    max-height: 90%;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 35px;
+  }
+
+  .digiOcean{
+    max-width: 65%;
+    max-height: 65%;
+    position: relative;
+    top: 40px;
   }
 
   .girlGeeks {
@@ -209,12 +217,6 @@
     top: 0px;
   }
 
-  .stickermule {
-    max-width: 90%;
-    max-height: 90%;
-    position: relative;
-    top: 35px;
-  }
 
   .jetbrains {
     max-width: 70%;
@@ -286,47 +288,49 @@
   }
 
   .matic {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 70%;
+    max-height: 70%;
     position: relative;
     top: 35px;
     left: 0px;
   }
 
   .fold {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 60%;
+    max-height: 60%;
     position: relative;
     top: 45px;
     left: 0px;
   }
 
-  /* .csi {
-    max-width: 55%;
-    max-height: 50%;
-    position: relative;
-    top: 115px;
-    left: 0px;
-  } */
-
   .stickermule {
-    max-width: 65%;
-    max-height: 70%;
+    max-width: 80%;
+    max-height: 80%;
     position: relative;
     top: 60px;
   }
+
+  .digiOcean{
+    max-width: 65%;
+    max-height: 65%;
+    position: relative;
+    top: 90px;
+  }
+
   .jetbrains {
     max-width: 50%;
     max-height: 60%;
     position: relative;
     top: 50px;
   }
+  
   .wolfram {
     max-width: 70%;
     max-height: 70%;
     position: relative;
     top: -20px;
   }
+
   .gatsby {
     max-width: 70%;
     max-height: 70%;
@@ -342,16 +346,16 @@
   }
 
   .ieee {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 80%;
+    max-height: 80%;
     position: relative;
-    top: 80px;
+    top: 20px;
   }
   .girlGeeks {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 65%;
+    max-height: 65%;
     position: relative;
-    top: 60px;
+    top: 10px;
   }
   .bugsee {
     max-width: 70%;

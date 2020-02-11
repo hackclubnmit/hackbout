@@ -181,14 +181,6 @@
   transition: all 0.2s ease-in;
 }
 
-.telegram {
-  transition: all 0.5s ease-in;
-}
-
-.telegram:hover {
-  transform: scale(1.05);
-}
-
 .devfolioApplyNow:not([disabled]) {
   cursor: pointer;
 }
@@ -222,6 +214,10 @@
   padding: 12px 20px;
   text-align: center;
   position: relative;
-  margin: 45px;
-  transition: all 0.2s ease-in;
+  margin: 10px auto;
+  transform: scale(0.8);
+}
+
+.tele:hover {
+  background-color: #3288ca;
 }

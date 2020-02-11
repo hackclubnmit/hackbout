@@ -57,9 +57,39 @@ const Faq = () => {
                 </Accordion.Collapse>
               </Card>
               <Card bg="light" text="black" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="545">
+                  <p>
+                    <b>Q. Is there a registration fee? </b>
+                    <span style={{ float: "right" }}>
+                      <i className="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="545">
+                  <Card.Body>
+                    Absolutely not. This event is totally free of cost :)
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="light" text="black" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="869">
+                  <p>
+                    <b>Q. What's the last date of registrations? </b>
+                    <span style={{ float: "right" }}>
+                      <i className="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="869">
+                  <Card.Body>
+                    Registrations close on <strong>26th February, 2020</strong> at <strong>23:59</strong>. So, giddy up and submit your ideas ASAP and don't wait for the last minute!
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
                   <p>
-                    <b>Q.This is my first hackathon. What if I'm clueless? </b>
+                    <b>Q. This is my first hackathon. What if I'm clueless? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines "></i>
                     </span>
@@ -67,7 +97,7 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
                   <Card.Body>
-                    Then we'll be happy that we were the one to guide you though
+                    Then we'll be happy that we were the one to guide you through
                     your problems. It’s helpful to have some programming or
                     technical experience, but it’s not a requirement. We’ll have
                     talks, mentors and workshops to help you with your project.

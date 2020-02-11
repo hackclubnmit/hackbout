@@ -5,9 +5,9 @@ import hackClub from "../../../assets/img/hack-club.svg";
 import devfolio from "../../../assets/img/Devfolio.png";
 import matic from "../../../assets/img/Matic.png";
 import fold from "../../../assets/img/fold.png";
-import girlGeeks from "../../../assets/img/girlGeeks.png";
-// import csi from "../../../assets/img/csi.png";
 import stickerMule from "../../../assets/img/sticker-mule-logo.png";
+import digitalOcean from "../../../assets/img/digitalOcean-logo.png";
+import girlGeeks from "../../../assets/img/girlGeeks.png";
 import jetBrains from "../../../assets/img/jetbrains_logo.png";
 import wolfram from "../../../assets/img/Wolfram.png";
 import gatsby from "../../../assets/img/gatsby.png";
@@ -134,8 +134,6 @@ const Sponsors = () => {
                 <img src={fold} alt="fold-logo" className={Styles.fold} />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -153,19 +151,25 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-            {/* <Col
+          </Row>
+          <Row>
+            <Col
               data-aos="fade-up"
-              md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
             >
               <a
-                href="http://csi-india.org/"
+                href="https://www.digitalocean.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={csi} alt="csi-logo" className={Styles.csi} />
+                <img
+                  src={digitalOcean}
+                  alt="digitalocean-logo"
+                  className={Styles.digiOcean}
+                />
               </a>
-            </Col> */}
+            </Col>
             <Col
               data-aos="fade-up"
               md={true}

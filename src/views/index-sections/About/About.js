@@ -25,7 +25,7 @@ const About = () => {
               HackBout, a 36 hour hackathon where teams will battle it out in
               electrifying competition, building their idea, improving it as
               they but in the spirit of good sportsmanship, having fun and
-              making new friends along the way.
+              making friends along the way.
             </p>
           </Col>
         </Row>
@@ -36,7 +36,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new/food.svg")}
+              src={require("assets/img/logos/food.svg")}
               alt="food"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -50,7 +50,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new/goodies.svg")}
+              src={require("assets/img/logos/goodies.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -64,7 +64,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new/24_hour_hack.svg")}
+              src={require("assets/img/logos/24_hour_hack.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -76,7 +76,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <img
-              src={require("assets/img/logos/new/bounties.svg")}
+              src={require("assets/img/logos/bounties.svg")}
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
@@ -89,7 +89,7 @@ const About = () => {
           >
             <img
               className={styles.trophy}
-              src={require("assets/img/logos/new/prizes.svg")}
+              src={require("assets/img/logos/prizes.svg")}
               alt="hackclub-logo"
             />
             <h5 className={["pt-3", styles.text].join(" ")}>Huge Prizes</h5>
