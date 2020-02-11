@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7295ac85e4f434892c3d964b0bdba772",
+    "revision": "9dda65564b3141d1bf7e5d2b09fe3544",
     "url": "/index.html"
   },
   {
-    "revision": "4386591caa31124a7ea0",
+    "revision": "ae96fea9b5ec349e63ee",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "8a8420cda4e19a0db5e9",
-    "url": "/static/css/main.a5595157.chunk.css"
+    "revision": "c76c0ff9d9efd4b12bd1",
+    "url": "/static/css/main.0f47f7ac.chunk.css"
   },
   {
-    "revision": "4386591caa31124a7ea0",
-    "url": "/static/js/2.c1b6c8b5.chunk.js"
+    "revision": "ae96fea9b5ec349e63ee",
+    "url": "/static/js/2.40421966.chunk.js"
   },
   {
-    "revision": "8a8420cda4e19a0db5e9",
-    "url": "/static/js/main.c163e88d.chunk.js"
+    "revision": "c76c0ff9d9efd4b12bd1",
+    "url": "/static/js/main.f224bf4e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "2dfb25daafe6e2c029f384562e7b9cd6",
-    "url": "/static/media/24_hour_hack.2dfb25da.svg"
+    "revision": "19dbaa07d7cd425e67c62ff24f75f20b",
+    "url": "/static/media/24_hour_hack.19dbaa07.svg"
   },
   {
     "revision": "1beb1a9898f1334367be5eaa553ee199",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github-logo.29892f43.png"
   },
   {
-    "revision": "5b8b702c21bce4abf725ba87e770d91a",
-    "url": "/static/media/goodies.5b8b702c.svg"
+    "revision": "95b13316d1155645630cb7c093d179cb",
+    "url": "/static/media/goodies.95b13316.svg"
   },
   {
     "revision": "8e1cb32867eca4b0019578c4b9cd2325",
@@ -168,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "4feae3bb28b1abef81097224fec776bc",
-    "url": "/static/media/prizes.4feae3bb.svg"
+    "revision": "de1141476d4714e0be4220b1c97f7a51",
+    "url": "/static/media/prizes.de114147.svg"
   },
   {
     "revision": "e1f42d73d19d9d3d92f1ad44849a1c30",
