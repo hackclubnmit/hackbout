@@ -126,7 +126,7 @@ const HackClub = () => {
             <Col lg={6}>
               <p style={{ color: "#000" }} className={styles.text}>
                 <b>
-                  We’re <strong>Hack Club NMIT</strong>'s official student chapter of {"  "}
+                  We’re <strong>Hack Club NMIT</strong>, the official student chapter of {"  "}
                   <span>
                     <img
                       src={hackClub}
