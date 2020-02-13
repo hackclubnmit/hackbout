@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98f2e54af6f3faef4fb0bc65eb91a161",
+    "revision": "d0ca85a5528f958d66b07c85f7d6e97d",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.89c12730.chunk.css"
   },
   {
-    "revision": "e0ec8306e51188bdce99",
-    "url": "/static/css/main.0920f99d.chunk.css"
+    "revision": "64bc53d806b0df7b8e19",
+    "url": "/static/css/main.7510a739.chunk.css"
   },
   {
     "revision": "9f2197fc24e164782dd6",
     "url": "/static/js/2.67ad17d5.chunk.js"
   },
   {
-    "revision": "e0ec8306e51188bdce99",
-    "url": "/static/js/main.ec0af63d.chunk.js"
+    "revision": "64bc53d806b0df7b8e19",
+    "url": "/static/js/main.6febbe1a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hack-club.8e1cb328.svg"
   },
   {
-    "revision": "aaeacb8938a78bf6fbdae1fc3d6874ab",
-    "url": "/static/media/hackClub.aaeacb89.svg"
+    "revision": "da26433366c5b11acb3119d7713afd72",
+    "url": "/static/media/hackClub.da264333.svg"
   },
   {
     "revision": "a9b260f7e056e808ae05424dbae4e1b1",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mobility.b3bdb72b.png"
   },
   {
-    "revision": "c149ff8bb404ecb84801430c60e51f4e",
-    "url": "/static/media/ninja.c149ff8b.svg"
+    "revision": "aa824699513187749add7b84e2a39dd1",
+    "url": "/static/media/ninja.aa824699.svg"
   },
   {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
