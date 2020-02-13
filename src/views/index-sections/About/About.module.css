@@ -12,11 +12,17 @@
   max-width: 65%;
   max-height: 65%;
 }
-
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
   .trophy {
     max-width: 15%;
     max-height: 15%;
+  }
+}
+
+@media (max-width: 990px) {
+  .trophy {
+    max-width: 65%;
+    max-height: 55%;
   }
 }
 
@@ -27,12 +33,12 @@
   }
 }
 
-@media (max-width: 437px) {
+/* @media (max-width: 437px) {
   .trophy {
     max-width: 25%;
     max-height: 25%;
   }
-}
+} */
 
 .under {
   width: 160px;

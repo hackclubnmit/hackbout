@@ -18,6 +18,7 @@ import blkIndia from "../../../assets/img/blockchained-india.png";
 import tim from "../../../assets/img/creativetim.png";
 import snap from "../../../assets/img/snap.jpg";
 import rocket from "../../../assets/img/rocket.svg";
+import ninja from "../../../assets/img/ninja.svg";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -43,23 +44,6 @@ const Sponsors = () => {
           </div>
           <Row>
             <Col
-              lg={true}
-              className={["mt-4 text-center", Styles.sponsors].join(" ")}
-              data-aos="fade-up"
-            >
-              <a
-                href="https://www.hackclub.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={hackClub}
-                  alt="hackclub-logo"
-                  className={[Styles.mainSponsors, Styles.hackClub].join(" ")}
-                />
-              </a>
-            </Col>
-            <Col
               data-aos="fade-up"
               lg={true}
               className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
@@ -76,8 +60,6 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
               lg={true}
@@ -109,9 +91,26 @@ const Sponsors = () => {
           </div>
           <Row>
             <Col
+              md={true}
+              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              data-aos="fade-up"
+            >
+              <a
+                href="https://www.hackclub.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={hackClub}
+                  alt="hackclub-logo"
+                  className={[Styles.mainSponsors, Styles.hackClub].join(" ")}
+                />
+              </a>
+            </Col>
+            <Col
               data-aos="fade-up"
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              sm={true}
+              md={true}
             >
               <a
                 href="https://matic.network/"
@@ -121,6 +120,8 @@ const Sponsors = () => {
                 <img src={matic} alt="matic-logo" className={Styles.matic} />
               </a>
             </Col>
+          </Row>
+          <Row>
             <Col
               data-aos="fade-up"
               md={true}
@@ -292,7 +293,11 @@ const Sponsors = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={blkIndia} alt="blockchained-india-logo" className={Styles.blkIndia} />
+                <img
+                  src={blkIndia}
+                  alt="blockchained-india-logo"
+                  className={Styles.blkIndia}
+                />
               </a>
             </Col>
           </Row>
@@ -337,6 +342,25 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
+          {/* <Row>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.creative-tim.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ninja}
+                  alt="coding-ninja-logo"
+                  className={Styles.ninja}
+                />
+              </a>
+            </Col>
+          </Row> */}
         </div>
       </Container>
     </div>

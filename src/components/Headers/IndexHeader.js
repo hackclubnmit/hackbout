@@ -83,7 +83,7 @@ function IndexHeader() {
           </div>
           <div className={styles.anim} style={{ opacity: "0.55" }}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800">
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path
                   stroke="#31B495"
                   d="M781.02 488.77v69.78c0 1.08-.88 1.96-1.97 1.96l-135.12-.04c-1.09 0-2.6.62-3.38 1.39l-39.23 38.96a5.52 5.52 0 0 1-3.37 1.4h-75.38a1.97 1.97 0 0 1-1.97-1.97v-33.5"
@@ -404,7 +404,10 @@ function IndexHeader() {
             className={styles.text}
             style={{ color: "black", marginBottom: "30px" }}
           >
-            <i class="fas fa-calendar-alt" style={{ marginRight: "1%" }}></i>
+            <i
+              className="fas fa-calendar-alt"
+              style={{ marginRight: "1%" }}
+            ></i>
 
             <a
               target="_blank"

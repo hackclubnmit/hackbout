@@ -33,7 +33,7 @@
   background-size: cover;
 }
 .anim path {
-  stroke-width: 0.95;
+  stroke-width: 1.1;
 }
 
 @media (max-width: 675px) {

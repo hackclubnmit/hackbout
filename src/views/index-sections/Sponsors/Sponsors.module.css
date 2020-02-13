@@ -6,13 +6,15 @@
 .hackClub {
   position: relative;
   top: 50px;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .github {
   position: relative;
-  top: 70px;
-  max-width: 60%;
-  max-height: 70%;
+  top: 45px;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .devfolio {
@@ -23,27 +25,27 @@
 }
 
 .matic {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 65%;
+  max-height: 65%;
   position: relative;
   top: 25px;
 }
 
 .fold {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 50%;
+  max-height: 50%;
   position: relative;
   top: 30px;
 }
 
 .stickermule {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 60%;
+  max-height: 50%;
   position: relative;
   top: 40px;
 }
 
-.digiOcean{
+.digiOcean {
   max-width: 65%;
   max-height: 65%;
   position: relative;
@@ -124,10 +126,16 @@
   position: relative;
   top: -65px;
 }
+.ninja {
+  max-width: 40%;
+  max-height: 40%;
+  position: relative;
+  top: -65px;
+}
 @media (max-width: 1200px) {
   .github {
     position: relative;
-    top: 70px;
+    top: 25px;
   }
   .hackClub {
     position: relative;
@@ -137,8 +145,8 @@
   .devfolio {
     position: relative;
     top: 40px;
-    max-width: 95%;
-    max-height: 90%;
+    max-width: 75%;
+    max-height: 80%;
   }
 }
 
@@ -150,12 +158,12 @@
 
   .github {
     position: relative;
-    top: 60px;
+    top: 40px;
   }
 
   .rocket {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 60%;
+    max-height: 60%;
     position: relative;
     top: -10px;
   }
@@ -169,54 +177,56 @@
 
   .snap {
     top: -20px;
+    max-width: 50%;
+    max-height: 50%;
   }
 
   .hackClub {
     position: relative;
     top: 10px;
+    max-width: 60%;
+    max-height: 50%;
   }
 
   .devfolio {
     position: relative;
-    top: 80px;
   }
   .matic {
     max-width: 70%;
     max-height: 60%;
     position: relative;
-    top: 15px;
+    top: -10px;
     left: 0px;
   }
 
   .fold {
     max-width: 55%;
-    max-height: 50%;
+    max-height: 60%;
     position: relative;
-    top: 15px;
+    top: 12px;
     left: 0px;
   }
 
   .stickermule {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 70%;
+    max-height: 80%;
     position: relative;
-    top: 35px;
+    top: 15px;
   }
 
-  .digiOcean{
+  .digiOcean {
     max-width: 65%;
     max-height: 65%;
     position: relative;
-    top: 40px;
+    top: 20px;
   }
 
   .girlGeeks {
     max-width: 60%;
     max-height: 60%;
     position: relative;
-    top: 0px;
+    top: 20px;
   }
-
 
   .jetbrains {
     max-width: 70%;
@@ -250,7 +260,7 @@
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    top: -20px;
+    top: -5px;
   }
 
   .bugsee {
@@ -261,10 +271,15 @@
   }
 
   .tim {
-    max-width: 65%;
+    max-width: 75%;
     max-height: 65%;
     position: relative;
     top: -30px;
+  }
+
+  .ninja {
+    position: relative;
+    top: -40px;
   }
 }
 
@@ -284,7 +299,6 @@
 
   .github {
     position: relative;
-    top: 50px;
   }
 
   .matic {
@@ -310,7 +324,7 @@
     top: 60px;
   }
 
-  .digiOcean{
+  .digiOcean {
     max-width: 65%;
     max-height: 65%;
     position: relative;
@@ -323,7 +337,7 @@
     position: relative;
     top: 50px;
   }
-  
+
   .wolfram {
     max-width: 70%;
     max-height: 70%;
@@ -380,7 +394,12 @@
 
   .devfolio {
     position: relative;
-    top: 70px;
+  }
+  .ninja {
+    max-width: 65%;
+    max-height: 65%;
+    position: relative;
+    top: -70px;
   }
 }
 
