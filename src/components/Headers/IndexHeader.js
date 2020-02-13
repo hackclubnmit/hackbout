@@ -366,7 +366,7 @@ function IndexHeader() {
               className=""
               style={{ color: "black", marginTop: "1%", fontSize: "1rem" }}
             >
-              A Hack Club Nmit Hackathon
+              A Hack Club NMIT's Hackathon
             </h3>
             <div
               style={{

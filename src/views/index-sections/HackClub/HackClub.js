@@ -126,15 +126,14 @@ const HackClub = () => {
             <Col lg={6}>
               <p style={{ color: "#000" }} className={styles.text}>
                 <b>
-                  We’re{"  "}
+                  We’re <strong>Hack Club NMIT</strong>'s official student chapter of {"  "}
                   <span>
                     <img
                       src={hackClub}
                       alt="hackclub-logo"
                       className={styles.club}
                     />
-                  </span>{" "}
-                  Nmit official student chapter of Hack Club, a global nonprofit
+                  </span>{" "}, a global nonprofit
                   network of student lead coding clubs. Hack Camp has been a
                   part of Hack Club since the beginning. It’s a great way for us
                   to try out the best ideas from our community, develop
