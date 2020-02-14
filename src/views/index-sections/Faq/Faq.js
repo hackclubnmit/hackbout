@@ -82,7 +82,9 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="869">
                   <Card.Body>
-                    Registrations close on <strong>26th February, 2020</strong> at <strong>23:59</strong>. So, giddy up and submit your ideas ASAP and don't wait for the last minute!
+                    Registrations close on <strong>26th February, 2020</strong>{" "}
+                    at <strong>23:59</strong>. So, giddy up and submit your
+                    ideas ASAP and don't wait for the last minute!
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
@@ -97,10 +99,11 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
                   <Card.Body>
-                    Then we'll be happy that we were the one to guide you through
-                    your problems. It’s helpful to have some programming or
-                    technical experience, but it’s not a requirement. We’ll have
-                    talks, mentors and workshops to help you with your project.
+                    Then we'll be happy that we were the one to guide you
+                    through your problems. It’s helpful to have some programming
+                    or technical experience, but it’s not a requirement. We’ll
+                    have talks, mentors and workshops to help you with your
+                    project.
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
@@ -118,6 +121,23 @@ const Faq = () => {
                     The maximum team size is 4. The minimum is 2. Because we
                     want you to have company and not be alone on this amazing
                     journey :){" "}
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="light" text="black" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="13">
+                  <p>
+                    <b>Q. What if I haven't formed a team yet !</b>
+                    <span style={{ float: "right" }}>
+                      <i className="fas fa-grip-lines "></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="13">
+                  <Card.Body>
+                    Don't worry you can collaborate with other hackers on our
+                    telegram group to work on an idea in the same track to form
+                    a team !
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
@@ -218,7 +238,8 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                    Unfortunately, we are unable to provide reimbursements this time.{" "}
+                    Unfortunately, we are unable to provide reimbursements this
+                    time.{" "}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

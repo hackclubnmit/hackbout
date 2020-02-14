@@ -44,6 +44,12 @@
   position: relative;
   top: 40px;
 }
+.voiceflow {
+  max-width: 60%;
+  max-height: 50%;
+  position: relative;
+  top: 40px;
+}
 
 .digiOcean {
   max-width: 65%;
@@ -277,6 +283,13 @@
     top: -30px;
   }
 
+  .voiceflow {
+    max-width: 60%;
+    max-height: 50%;
+    position: relative;
+    top: 15px;
+  }
+
   .ninja {
     position: relative;
     top: -40px;
@@ -289,6 +302,13 @@
     max-height: 90%;
     position: relative;
     top: -60px;
+  }
+
+  .voiceflow {
+    max-width: 60%;
+    max-height: 50%;
+    position: relative;
+    top: 105px;
   }
 
   .snap {

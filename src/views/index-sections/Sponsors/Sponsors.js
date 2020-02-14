@@ -18,7 +18,7 @@ import blkIndia from "../../../assets/img/blockchained-india.png";
 import tim from "../../../assets/img/creativetim.png";
 import snap from "../../../assets/img/snap.jpg";
 import rocket from "../../../assets/img/rocket.svg";
-import ninja from "../../../assets/img/ninja.svg";
+import voiceflow from "../../../assets/img/voiceFlow.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -138,7 +138,7 @@ const Sponsors = () => {
             <Col
               data-aos="fade-up"
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              sm={true}
+              md={true}
             >
               <a
                 href="https://www.stickermule.com/"
@@ -149,6 +149,23 @@ const Sponsors = () => {
                   src={stickerMule}
                   alt="stickerMule-logo"
                   className={Styles.stickermule}
+                />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              md={true}
+            >
+              <a
+                href="https://www.voiceflow.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={voiceflow}
+                  alt="voiceflow-logo"
+                  className={Styles.voiceflow}
                 />
               </a>
             </Col>
