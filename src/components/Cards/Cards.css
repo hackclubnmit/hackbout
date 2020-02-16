@@ -1,4 +1,4 @@
-.Cont {
+.cont {
   padding: 40px 80px;
   display: -webkit-box;
   display: flex;
@@ -8,6 +8,7 @@
 }
 
 .ParallaxCardWrap {
+  display: inline-block;
   margin: 10px;
   -webkit-transform: perspective(800px);
   transform: perspective(800px);
@@ -17,8 +18,8 @@
 }
 
 .ParallaxCardWrap:hover .ParallaxCardInfo {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: translateY(21%);
+  transform: translateY(21%);
 }
 
 .ParallaxCardWrap:hover .ParallaxCardInfo p {
@@ -35,8 +36,8 @@
   -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
   opacity: 1;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: translateY(21%);
+  transform: translateY(21%);
 }
 
 .ParallaxCardWrap:hover .ParallaxCardBg {
@@ -52,8 +53,8 @@
     box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
     box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
-  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px,
-    rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 5px 1px, white 0 0 0 1px,
+    rgba(0, 0, 0, 0.66) 0 10px 20px 0, inset #333 0 0 0 5px,
     inset white 0 0 0 6px;
 }
 
@@ -61,28 +62,28 @@
   position: relative;
   -webkit-box-flex: 0;
   flex: 0 0 240px;
-  width: 240px;
-  height: 320px;
+  width: 200px;
+  height: 200px;
   background-color: #333;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 10px 20px 0, inset #333 0 0 0 5px,
     inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
   -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .ParallaxCardBg {
-  opacity: 0.5;
+  opacity: 1;
   position: absolute;
-  top: -20px;
+  top: -10px;
   left: -20px;
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   padding: 20px;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
-  background-size: cover;
   -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
     opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
@@ -91,18 +92,19 @@
 }
 
 .ParallaxCardInfo {
-  padding: 20px;
+  padding-left: 45px;
   position: absolute;
   bottom: 0;
   color: #fff;
-  -webkit-transform: translateY(40%);
-  transform: translateY(40%);
+  -webkit-transform: translateY(21%);
+  transform: translateY(21%);
   -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .ParallaxCardInfo p {
-  opacity: 0;
+  opacity: 1;
+  top: -20px;
   text-shadow: black 0 2px 3px;
   -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -121,7 +123,7 @@
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
+  /* background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
@@ -132,7 +134,7 @@
     to bottom,
     transparent 0%,
     rgba(0, 0, 0, 0.6) 100%
-  );
+  ); */
   background-blend-mode: overlay;
   opacity: 0;
   -webkit-transform: translateY(100%);
@@ -146,4 +148,95 @@
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+/*
+as
+as
+as
+as
+
+*/
+@media (max-width: 768px) {
+  .ParallaxCardWrap:hover .ParallaxCardInfo {
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+  .ParallaxCardWrap:hover .ParallaxCardInfo p {
+    opacity: 1;
+  }
+
+  .ParallaxCardWrap:hover .ParallaxCardInfo,
+  .ParallaxCardWrap:hover .ParallaxCardInfo p {
+    -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .ParallaxCardWrap:hover .ParallaxCardInfo:after {
+    -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 1;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+  .ParallaxCardInfo {
+    padding-left: 50px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .ParallaxCardInfo p {
+    opacity: 1;
+    top: -30px;
+    text-shadow: black 0 2px 3px;
+    -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .ParallaxCardInfo * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .ParallaxCardInfo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      to(rgba(0, 0, 0, 0.6))
+    );
+    background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ); */
+    background-blend-mode: overlay;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+
+  .ParallaxCardInfo h1 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    color: #ccc;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+  }
 }

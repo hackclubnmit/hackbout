@@ -12,6 +12,7 @@ import {
 import mOne from "../../../assets/img/kanirudh.jpg";
 import mTwo from "../../../assets/img/Manav.jpg";
 import mThree from "../../../assets/img/mThree.jpeg";
+import mFour from "../../../assets/img/vasanth.jpg";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
@@ -115,6 +116,38 @@ const Mentors = () => {
                   </div>
                   <a
                     href="https://in.linkedin.com/in/betterclever"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mFour}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Nelson Vasanth J</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>CEO @ Fame Technologies</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

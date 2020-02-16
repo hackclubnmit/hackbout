@@ -1,79 +1,127 @@
 import React, { Component } from "react";
-import styles from "./Cards.css";
+import "./Cards.css";
+// import rudy from "./Rudy.jpeg";
 
 class Cards extends Component {
+  state = {
+    mouseX: 0,
+    mouseY: 0,
+    height: 0,
+    width: 0,
+    mouseLeaveDelay: null
+  };
+
+  cardEl = null;
+  path = null;
+  fullWidth = null;
+  top = null;
+  left = null;
+  size = null;
+
   componentDidMount() {
-    const wrapper = document.querySelectorAll(".CardWrap");
-
-    wrapper.forEach(element => {
-      let state = {
-        mouseX: 0,
-        mouseY: 0,
-        height: element.clientHeight,
-        width: element.clientWidth
-      };
-
-      element.addEventListener("mousemove", ele => {
-        const card = element.querySelector(".Card");
-        const cardBg = card.querySelector(".CardBg");
-        state.mouseX = ele.pageX - element.offsetLeft - state.width / 2;
-        state.mouseY = ele.pageY - element.offsetTop - state.height / 2;
-
-        // parallax angle in card
-        const angleX = (state.mouseX / state.width) * 30;
-        const angleY = (state.mouseY / state.height) * -30;
-        card.style.transform = `rotateY(${angleX}deg) rotateX(${angleY}deg) `;
-
-        // parallax position of background in card
-        const posX = (state.mouseX / state.width) * -40;
-        const posY = (state.mouseY / state.height) * -40;
-        cardBg.style.transform = `translateX(${posX}px) translateY(${posY}px)`;
-      });
-
-      element.addEventListener("mouseout", () => {
-        const card = element.querySelector(".Card");
-        const cardBg = card.querySelector(".CardBg");
-        card.style.transform = `rotateY(0deg) rotateX(0deg) `;
-        cardBg.style.transform = `translateX(0px) translateY(0px)`;
-      });
-    });
+    const height = this.cardEl.clientHeight;
+    const width = this.cardEl.clientWidth;
+    // this.fullWidth =
+    //   window.innerWidth > 0 ? window.innerWidth : window.screen.width;
+    // console.log(this.fullWidth);
+    this.path = this.props.path;
+    this.top = this.props.top;
+    this.left = this.props.left;
+    this.size = this.props.size;
+    this.setState({ height: height, width: width });
   }
 
-  mouseEnterHandler = () => {};
+  get cardStyle() {
+    const { mouseX, width } = this.state;
+    const { mouseY, height } = this.state;
+    const X = (mouseX / width) * 30;
+    const Y = (mouseY / height) * -30;
+    return {
+      transform: `rotateY(${X}deg) rotateX(${Y}deg)`
+    };
+  }
 
-  mouseMoveHandler = event => {};
+  get backgroundStyle() {
+    const { mouseX, width } = this.state;
+    const { mouseY, height } = this.state;
+    const X = (mouseX / width) * -20;
+    const Y = (mouseY / height) * -20;
+    return {
+      backgroundImage: `url(${this.path})`,
+      top: `${this.top}`,
+      left: `${this.left}`,
+      backgroundSize: `${this.size}`,
+      transform: `translateX(${X}px) translateY(${Y}px)`
+    };
+  }
 
-  mouseLeaveHandler = () => {};
+  mouseEnterHandler = () => {
+    // if (this.fullWidth > 768) {
+    clearTimeout(this.mouseLeaveDelay);
+    // }
+  };
+
+  mouseMoveHandler = event => {
+    const { width, height } = this.state;
+    // if (this.fullWidth > 768) {
+    const mouseX = event.pageX - this.cardEl.offsetLeft - width / 2;
+    const mouseY = event.pageY - this.cardEl.offsetTop - height * 5.5;
+    this.setState({
+      mouseY: mouseY,
+      mouseX: mouseX
+    });
+    // } else {
+    //   this.setState({
+    //     mouseY: 0,
+    //     mouseX: 0
+    //   });
+    // }
+  };
+
+  mouseLeaveHandler = () => {
+    // if (this.fullWidth > 768) {
+    const delay = setTimeout(() => {
+      this.setState({ mouseY: 0, mouseX: 0 });
+    }, 900);
+    this.setState({ mouseLeaveDelay: delay });
+    // }
+  };
 
   render() {
     return (
-      <div className="cont">
-        <div className="CardWrap">
-          <div className="Card">
-            <div className="CardBg" style={{}}></div>
-            <div className="CardInfo">
-              <h3 className="CardTitle">Mathematics</h3>
-              <p>A subject which deals with.... Well Maths!</p>
-            </div>
+      <div style={{ display: "inline-block" }}>
+        <div
+          className="ParallaxCardWrap"
+          onMouseEnter={this.mouseEnterHandler}
+          onMouseMove={this.mouseMoveHandler}
+          onMouseLeave={this.mouseLeaveHandler}
+          ref={cardEl => (this.cardEl = cardEl)}
+        >
+          <div className="ParallaxCard" style={this.cardStyle}>
+            <div className="ParallaxCardBg" style={this.backgroundStyle}></div>
+            <div className="ParallaxCardInfo"></div>
           </div>
         </div>
-        <div className="CardWrap">
-          <div className="Card">
-            <div className="CardBg" style={{}}></div>
-            <div className="CardInfo">
-              <h3 className="CardTitle">Mathematics</h3>
-              <p>A subject which deals with.... Well Maths!</p>
-            </div>
-          </div>
-        </div>
-        <div className="CardWrap">
-          <div className="Card">
-            <div className="CardBg" style={{}}></div>
-            <div className="CardInfo">
-              <h3 className="CardTitle">Mathematics</h3>
-              <p>A subject which deals with.... Well Maths!</p>
-            </div>
-          </div>
+        <div>
+          <a
+            href={this.props.linked}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <h3 style={{ color: "#22B573", textDecoration: "none" }}>
+              {this.props.title}{" "}
+              <span>
+                <i
+                  className="fab fa-linkedin "
+                  style={{ color: "black", fontSize: "20px" }}
+                ></i>
+              </span>
+            </h3>
+          </a>
+          <b style={{ position: "relative", top: "-30px" }}>
+            {this.props.children}{" "}
+          </b>
         </div>
       </div>
     );

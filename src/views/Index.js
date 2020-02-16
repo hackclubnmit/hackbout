@@ -8,7 +8,6 @@ import AOS from "aos";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import MlhLogo from "./index-sections/MlhLogo/MlhLogo";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
@@ -47,7 +46,6 @@ function Index() {
       <IndexNavbar />
       <div className="wrapper">
         <IndexHeader />
-        <MlhLogo />
         <div className="main">
           <About />
           <Tracks />
@@ -58,6 +56,7 @@ function Index() {
           <Mentors />
           <Sponsors />
           <HackClub />
+          <Team />
           <Faq />
           <ContactUs />
         </div>
