@@ -26,7 +26,7 @@ const Team = () => {
             size="220px"
             linked="https://www.linkedin.com/in/ashleymavericks/"
           >
-            Lead
+            Club Lead
           </Cards>
           <Cards
             title="Rachet"
@@ -36,7 +36,7 @@ const Team = () => {
             left="-60px"
             size=""
           >
-            Co-Lead
+            Club Co-Lead
           </Cards>
           <br></br>
           <Cards

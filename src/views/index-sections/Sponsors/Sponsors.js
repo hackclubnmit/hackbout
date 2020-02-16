@@ -19,6 +19,7 @@ import tim from "../../../assets/img/creativetim.png";
 import snap from "../../../assets/img/snap.jpg";
 import rocket from "../../../assets/img/rocket.svg";
 import voiceflow from "../../../assets/img/voiceFlow.png";
+import codingBlocks from "../../../assets/img/codingBlocks.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -120,8 +121,6 @@ const Sponsors = () => {
                 <img src={matic} alt="matic-logo" className={Styles.matic} />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
               md={true}
@@ -133,6 +132,25 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img src={fold} alt="fold-logo" className={Styles.fold} />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://codingblocks.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={codingBlocks}
+                  alt="codingblocks-logo"
+                  className={Styles.codingBlocks}
+                />
               </a>
             </Col>
             <Col
