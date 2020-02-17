@@ -30,11 +30,11 @@ const Team = () => {
           </Cards>
           <Cards
             title="Rachet"
-            path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Rachet.jpg"
+            path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Rachet.jpeg"
             linked="https://www.linkedin.com/in/rachetm"
-            top=""
-            left="-60px"
-            size=""
+            top="-50px"
+            left="-50px"
+            size="200px"
           >
             Club Co-Lead
           </Cards>
