@@ -32,9 +32,9 @@ const Team = () => {
             title="Rachet"
             path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Rachet.jpeg"
             linked="https://www.linkedin.com/in/rachetm"
-            top="-50px"
+            top="-10px"
             left="-50px"
-            size="200px"
+            size="300px"
           >
             Club Co-Lead
           </Cards>
