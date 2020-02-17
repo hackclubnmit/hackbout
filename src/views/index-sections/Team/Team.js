@@ -75,7 +75,7 @@ const Team = () => {
             left="-5px"
             size="390px"
             path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Dheemanth.jpg"
-            linked=""
+            linked="https://www.linkedin.com/in/dheemanth-m-d/"
           >
             Sponsorship Head
           </Cards>

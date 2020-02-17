@@ -144,7 +144,7 @@ const Mentors = () => {
                 </CardTitle>
                 <CardText>
                   <div style={{}}>
-                    <b>CEO @ Fame Technologies</b>
+                    <b>Head of Facebook Developer Circle - Bengaluru</b>
                   </div>
                   <a
                     href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
