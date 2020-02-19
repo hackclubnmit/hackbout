@@ -89,6 +89,24 @@ const Faq = () => {
                 </Accordion.Collapse>
               </Card>
               <Card bg="light" text="black" className={styles.mt}>
+                <Accordion.Toggle as={Card.Header} eventKey="969">
+                  <p>
+                    <b>Q. What is a Bounty? How to win them? </b>
+                    <span style={{ float: "right" }}>
+                      <i className="fas fa-grip-lines"></i>
+                    </span>
+                  </p>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="969">
+                  <Card.Body>
+                    Bounties are special side prizes which you and your team can
+                    win with/without the main prizes. Just make sure your teams
+                    follows the requirements of the specific bounty to stand a
+                    chance to win it. PS Your team may win more than one bounty.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
                   <p>
                     <b>Q. This is my first hackathon. What if I'm clueless? </b>
