@@ -102,7 +102,7 @@ const Faq = () => {
                     Bounties are special side prizes which you and your team can
                     win with/without the main prizes. Just make sure your teams
                     follows the requirements of the specific bounty to stand a
-                    chance to win it. PS Your team may win more than one bounty.
+                    chance to win it. PS Your team can win more than one bounty.
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>

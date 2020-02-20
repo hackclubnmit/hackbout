@@ -21,6 +21,7 @@ import rocket from "../../../assets/img/rocket.svg";
 import voiceflow from "../../../assets/img/voiceFlow.png";
 import codingBlocks from "../../../assets/img/codingBlocks.png";
 import map from "../../../assets/img/map.png";
+import cloudsploit from "../../../assets/img/cloudsploit.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -390,6 +391,23 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img src={map} alt="map-my-india-logo" className={Styles.map} />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://cloudsploit.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cloudsploit}
+                  alt="cloudsploit-logo"
+                  className={Styles.cloudsploit}
+                />
               </a>
             </Col>
           </Row>

@@ -214,7 +214,7 @@ const Bounties = () => {
                   </CardTitle>
                   <CardText className={styles.cardBody}>
                     <a
-                      href="https://drive.google.com/file/d/1ht7DUQjoU2WkV6nzqOjIVVQ0qGVTRGd2/view?usp=sharing"
+                      href="https://drive.google.com/open?id=14yHviPTPEf5LLQ_ilbx0Qj889g-NAqg2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
