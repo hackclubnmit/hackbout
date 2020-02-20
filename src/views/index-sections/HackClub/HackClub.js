@@ -126,21 +126,22 @@ const HackClub = () => {
             <Col lg={6}>
               <p style={{ color: "#000" }} className={styles.text}>
                 <b>
-                  We’re <strong>Hack Club NMIT</strong>, the official student chapter of {"  "}
+                  We’re <strong>Hack Club NMIT</strong>, the official student
+                  chapter of {"  "}
                   <span>
                     <img
                       src={hackClub}
                       alt="hackclub-logo"
                       className={styles.club}
                     />
-                  </span>{" "}, a global nonprofit
-                  network of student lead coding clubs. It’s a great way for us
-                  to try out the best ideas from our community, develop
-                  curriculum, and stay sharp as teachers. We also just love
-                  doing it! Hack Clubs meet weekly at their schools, typically
-                  for 1.5hrs after school. There are no teachers or
-                  lectures, members work at their own pace making websites, apps,
-                  & games, and presenting them.
+                  </span>{" "}
+                  , a global nonprofit network of student lead coding clubs.
+                  It’s a great way for us to try out the best ideas from our
+                  community, develop curriculum, and stay sharp as teachers. We
+                  also just love doing it! Hack Clubs meet weekly at their
+                  schools, typically for 1.5hrs after school. There are no
+                  teachers or lectures, members work at their own pace making
+                  websites, apps, & games, and presenting them.
                 </b>
               </p>
             </Col>
