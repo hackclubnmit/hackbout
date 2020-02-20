@@ -22,6 +22,8 @@ import voiceflow from "../../../assets/img/voiceFlow.png";
 import codingBlocks from "../../../assets/img/codingBlocks.png";
 import map from "../../../assets/img/map.png";
 import cloudsploit from "../../../assets/img/cloudsploit.png";
+import ninja from "../../../assets/img/ninja.svg";
+import sketch from "../../../assets/img/sketch.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -410,15 +412,14 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          {/* <Row>
+
             <Col
               data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.creative-tim.com/"
+                href="https://www.codingninjas.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -429,7 +430,22 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row> */}
+          </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.sketch.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={sketch} alt="sketch-logo" className={Styles.sketch} />
+              </a>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>

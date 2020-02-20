@@ -139,24 +139,39 @@
   position: relative;
   top: -65px;
 }
+
 .ninja {
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 70%;
+  max-height: 60%;
   position: relative;
   top: -65px;
 }
 
+.ninja {
+  max-width: 70%;
+  max-height: 60%;
+  position: relative;
+  top: -65px;
+}
+
+.sketch {
+  max-width: 20%;
+  max-height: 40%;
+  position: relative;
+  top: -15px;
+}
+
 .map {
   position: relative;
-  max-height: 60%;
-  max-width: 60%;
-  top: -50px;
+  max-height: 80%;
+  max-width: 70%;
+  top: -70px;
 }
 
 .cloudsploit {
   position: relative;
   max-height: 60%;
-  max-width: 60%;
+  max-width: 70%;
   top: -50px;
 }
 
@@ -459,20 +474,26 @@
     max-width: 65%;
     max-height: 65%;
     position: relative;
-    top: -70px;
+    top: -40px;
   }
   .map {
     position: relative;
     max-height: 70%;
     max-width: 70%;
-    top: -130px;
+    top: -110px;
   }
 
   .cloudsploit {
     position: relative;
     max-height: 70%;
     max-width: 70%;
-    top: -50px;
+    top: -80px;
+  }
+  .sketch {
+    max-width: 40%;
+    max-height: 65%;
+    position: relative;
+    top: -20px;
   }
 }
 
