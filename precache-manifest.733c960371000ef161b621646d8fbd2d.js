@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39f4a90e12a2baab832c85e022c98eb6",
+    "revision": "f41d42dda0f774a42e70e36c28cd8e50",
     "url": "/index.html"
   },
   {
-    "revision": "72481e476da19dfe82a2",
-    "url": "/static/css/2.b73f78c9.chunk.css"
+    "revision": "2a6145da5b9035f04bf4",
+    "url": "/static/css/2.89c12730.chunk.css"
   },
   {
-    "revision": "65a4c5d2b6571875a982",
-    "url": "/static/css/main.5ae869ee.chunk.css"
+    "revision": "7a1aa41097f0d486c0a8",
+    "url": "/static/css/main.4d93220b.chunk.css"
   },
   {
-    "revision": "72481e476da19dfe82a2",
-    "url": "/static/js/2.c8924a4c.chunk.js"
+    "revision": "2a6145da5b9035f04bf4",
+    "url": "/static/js/2.db2a3401.chunk.js"
   },
   {
-    "revision": "65a4c5d2b6571875a982",
-    "url": "/static/js/main.539b34a3.chunk.js"
+    "revision": "7a1aa41097f0d486c0a8",
+    "url": "/static/js/main.2ad9a390.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -68,20 +68,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/codingBlocks.63747fac.png"
   },
   {
-    "revision": "9bcec32845cbf0c5e746ebc8a8552d08",
-    "url": "/static/media/cp1.9bcec328.jpg"
+    "revision": "dfff68eea166afdf8e604b1f54e5c23f",
+    "url": "/static/media/cp1.dfff68ee.jpg"
   },
   {
-    "revision": "f241591a2f08165ff974a7904dffa5d2",
-    "url": "/static/media/cp2.f241591a.jpg"
+    "revision": "cadebe73de44100b4d7ca18e7e4a4b98",
+    "url": "/static/media/cp2.cadebe73.jpg"
   },
   {
-    "revision": "ec4abceccfcdfe5a28233df0ca608aa4",
-    "url": "/static/media/cp3.ec4abcec.jpg"
+    "revision": "d25a3ddd04d0c5896ddaf3ebf85c5b3e",
+    "url": "/static/media/cp3.d25a3ddd.jpg"
   },
   {
-    "revision": "2ce24a14cdc01d82b45b0fb794e81539",
-    "url": "/static/media/cp4.2ce24a14.jpg"
+    "revision": "196c6e7d07e51ee8b3ed0ba8753e3787",
+    "url": "/static/media/cp4.196c6e7d.jpg"
+  },
+  {
+    "revision": "2fd78aabb3b4a36ca92438e034aae7d5",
+    "url": "/static/media/cp5.2fd78aab.jpg"
+  },
+  {
+    "revision": "a26ae9e58e53745292b9d03488bb1b24",
+    "url": "/static/media/cp6.a26ae9e5.jpg"
+  },
+  {
+    "revision": "1c05edb5ecbc15559132cc7043a0cf04",
+    "url": "/static/media/cp7.1c05edb5.jpg"
+  },
+  {
+    "revision": "a725d60adba58a5929c0448dc0e81b5c",
+    "url": "/static/media/cp8.a725d60a.jpg"
   },
   {
     "revision": "57ae43cb9c05863df01aee61c5490bfe",
@@ -120,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hack-club.8e1cb328.svg"
   },
   {
-    "revision": "aaeacb8938a78bf6fbdae1fc3d6874ab",
-    "url": "/static/media/hackClub.aaeacb89.svg"
+    "revision": "da26433366c5b11acb3119d7713afd72",
+    "url": "/static/media/hackClub.da264333.svg"
   },
   {
     "revision": "a9b260f7e056e808ae05424dbae4e1b1",
@@ -152,6 +168,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kanirudh.6d92fb28.jpg"
   },
   {
+    "revision": "af8ac7eba557822d0af0536ccb64a227",
+    "url": "/static/media/karthikeyan.af8ac7eb.jpg"
+  },
+  {
     "revision": "a00ce3c9bce48bd0b5f2f8b22dd3bf98",
     "url": "/static/media/mThree.a00ce3c9.jpeg"
   },
@@ -164,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mobility.b3bdb72b.png"
   },
   {
-    "revision": "c149ff8bb404ecb84801430c60e51f4e",
-    "url": "/static/media/ninja.c149ff8b.svg"
+    "revision": "aa824699513187749add7b84e2a39dd1",
+    "url": "/static/media/ninja.aa824699.svg"
   },
   {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
