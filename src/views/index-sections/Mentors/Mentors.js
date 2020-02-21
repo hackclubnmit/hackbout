@@ -13,6 +13,7 @@ import mOne from "../../../assets/img/kanirudh.jpg";
 import mTwo from "../../../assets/img/Manav.jpg";
 import mThree from "../../../assets/img/mThree.jpeg";
 import mFour from "../../../assets/img/vasanth.jpg";
+import mFive from "../../../assets/img/karthikeyan.jpg";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
@@ -128,8 +129,69 @@ const Mentors = () => {
               </CardBody>
             </Card>
           </Col>
-
           <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mFour}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Nelson Vasanth J</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>Head @ Facebook Developer Circle - Bengaluru</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mFive}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Karthikeyan NG</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>Director of Engineering @ Sequoia</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/intrepidkarthi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* <Col>
             <Card className={styles.card4} data-aos="fade-up">
               <CardImg
                 top
@@ -159,7 +221,7 @@ const Mentors = () => {
                 </CardText>
               </CardBody>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
         {/* <Button
           color=""

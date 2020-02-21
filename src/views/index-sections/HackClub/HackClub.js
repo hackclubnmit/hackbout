@@ -23,6 +23,18 @@ const HackClub = () => {
     },
     {
       src: require("assets/img/cp1.jpg")
+    },
+    {
+      src: require("assets/img/cp5.jpg")
+    },
+    {
+      src: require("assets/img/cp6.jpg")
+    },
+    {
+      src: require("assets/img/cp7.jpg")
+    },
+    {
+      src: require("assets/img/cp8.jpg")
     }
   ];
 

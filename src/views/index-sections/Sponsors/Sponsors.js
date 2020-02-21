@@ -413,7 +413,7 @@ const Sponsors = () => {
               </a>
             </Col>
 
-            <Col
+            {/* <Col
               data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -431,7 +431,7 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
-          <Row>
+          <Row> */}
             <Col
               data-aos="fade-up"
               md={true}
