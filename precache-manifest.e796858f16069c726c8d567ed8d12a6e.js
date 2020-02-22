@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f41d42dda0f774a42e70e36c28cd8e50",
+    "revision": "7b4d2f76496b7b02f315d9b59deac530",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.89c12730.chunk.css"
   },
   {
-    "revision": "7a1aa41097f0d486c0a8",
-    "url": "/static/css/main.4d93220b.chunk.css"
+    "revision": "72642ab54e0dbc2c9abd",
+    "url": "/static/css/main.0f1c5ee7.chunk.css"
   },
   {
     "revision": "2a6145da5b9035f04bf4",
     "url": "/static/js/2.db2a3401.chunk.js"
   },
   {
-    "revision": "7a1aa41097f0d486c0a8",
-    "url": "/static/js/main.2ad9a390.chunk.js"
+    "revision": "72642ab54e0dbc2c9abd",
+    "url": "/static/js/main.11b72555.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -68,36 +68,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/codingBlocks.63747fac.png"
   },
   {
-    "revision": "dfff68eea166afdf8e604b1f54e5c23f",
-    "url": "/static/media/cp1.dfff68ee.jpg"
+    "revision": "7c974ee14c13ffaa876eaa408b5aeadc",
+    "url": "/static/media/cp1.7c974ee1.jpg"
   },
   {
-    "revision": "cadebe73de44100b4d7ca18e7e4a4b98",
-    "url": "/static/media/cp2.cadebe73.jpg"
+    "revision": "619b541fac9f173f62830f16e687d834",
+    "url": "/static/media/cp2.619b541f.jpg"
   },
   {
-    "revision": "d25a3ddd04d0c5896ddaf3ebf85c5b3e",
-    "url": "/static/media/cp3.d25a3ddd.jpg"
+    "revision": "79d3f4984f9278a8bdd3ff4210e8b9ef",
+    "url": "/static/media/cp3.79d3f498.jpg"
   },
   {
-    "revision": "196c6e7d07e51ee8b3ed0ba8753e3787",
-    "url": "/static/media/cp4.196c6e7d.jpg"
+    "revision": "d6a3587f4540bca2750e8c2aae8d983e",
+    "url": "/static/media/cp4.d6a3587f.jpg"
   },
   {
-    "revision": "2fd78aabb3b4a36ca92438e034aae7d5",
-    "url": "/static/media/cp5.2fd78aab.jpg"
+    "revision": "b0fffeeb5deea647033f1367a360c855",
+    "url": "/static/media/cp5.b0fffeeb.jpg"
   },
   {
-    "revision": "a26ae9e58e53745292b9d03488bb1b24",
-    "url": "/static/media/cp6.a26ae9e5.jpg"
+    "revision": "113537cf2da8698efe9bd7ecc65a68b7",
+    "url": "/static/media/cp6.113537cf.jpg"
   },
   {
-    "revision": "1c05edb5ecbc15559132cc7043a0cf04",
-    "url": "/static/media/cp7.1c05edb5.jpg"
+    "revision": "02327f7475a43b4c7b5ede70cfd9eaec",
+    "url": "/static/media/cp7.02327f74.jpg"
   },
   {
-    "revision": "a725d60adba58a5929c0448dc0e81b5c",
-    "url": "/static/media/cp8.a725d60a.jpg"
+    "revision": "322217e7f165c8c36ec34ac59a4459eb",
+    "url": "/static/media/cp8.322217e7.jpg"
   },
   {
     "revision": "57ae43cb9c05863df01aee61c5490bfe",
