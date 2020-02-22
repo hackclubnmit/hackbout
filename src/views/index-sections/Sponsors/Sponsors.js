@@ -26,6 +26,7 @@ import cloudsploit from "../../../assets/img/cloudsploit.png";
 import ninja from "../../../assets/img/ninja.svg";
 import sketch from "../../../assets/img/sketch.png";
 import mozilla from "../../../assets/img/moz.jpg";
+import fbDev from "../../../assets/img/fbdev.png";
 
 import Styles from "./Sponsors.module.css";
 
@@ -57,14 +58,14 @@ const Sponsors = () => {
               className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://devfolio.co/"
+                href="https://www.github.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={devfolio}
-                  alt="devfolio-logo"
-                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                  src={github}
+                  alt="github-logo"
+                  className={[Styles.mainSponsors, Styles.github].join(" ")}
                 />
               </a>
             </Col>
@@ -74,14 +75,14 @@ const Sponsors = () => {
               className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.github.com/"
+                href="https://devfolio.co/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={github}
-                  alt="github-logo"
-                  className={[Styles.mainSponsors, Styles.github].join(" ")}
+                  src={devfolio}
+                  alt="devfolio-logo"
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
                 />
               </a>
             </Col>
@@ -447,20 +448,57 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
+          </Row>
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "45px",
+              marginBottom: "5px"
+            }}
+          >
+            <h3
+              style={{
+                borderBottom: "1px solid black",
+                display: "inline",
+                marginTop: "-50px",
+                marginBottom: "20px"
+              }}
+            >
+              Community Partners
+            </h3>
+          </div>
+          <Row>
             <Col
               data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.codingninjas.com/"
+                href="https://mozillaindia.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src={mozilla}
                   alt="mozilla-india-logo"
-                  className={Styles.ninja}
+                  className={Styles.moz}
+                />
+              </a>
+            </Col>
+            <Col
+              md={true}
+              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              data-aos="fade-up"
+            >
+              <a
+                href="https://developers.facebook.com/developercircles/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={fbDev}
+                  alt="facebook-developer-circle-logo"
+                  className={[Styles.mainSponsors, Styles.fbdev].join(" ")}
                 />
               </a>
             </Col>

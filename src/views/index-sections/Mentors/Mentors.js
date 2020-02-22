@@ -14,6 +14,7 @@ import mTwo from "../../../assets/img/Manav.jpg";
 import mThree from "../../../assets/img/mThree.jpeg";
 import mFour from "../../../assets/img/vasanth.jpg";
 import mFive from "../../../assets/img/karthikeyan.jpg";
+import mSix from "../../../assets/img/himanshu.jpg";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
@@ -191,25 +192,25 @@ const Mentors = () => {
               </CardBody>
             </Card>
           </Col>
-          {/* <Col>
+          <Col>
             <Card className={styles.card4} data-aos="fade-up">
               <CardImg
                 top
                 width="100%"
-                src={mFour}
+                src={mSix}
                 alt="Card image cap"
                 style={{ borderRadius: "8px 8px 0 0" }}
               />
               <CardBody className={styles.cbdy}>
                 <CardTitle>
-                  <h3>Nelson Vasanth J</h3>
+                  <h3>Himanshu Gupta</h3>
                 </CardTitle>
                 <CardText>
                   <div style={{}}>
-                    <b>Head of Facebook Developer Circle - Bengaluru</b>
+                    <b>Founder @ Cosmoreal | Mobile AR Specialist</b>
                   </div>
                   <a
-                    href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
+                    href="https://www.linkedin.com/in/creativehims/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -221,7 +222,7 @@ const Mentors = () => {
                 </CardText>
               </CardBody>
             </Card>
-          </Col> */}
+          </Col>
         </Row>
         {/* <Button
           color=""

@@ -41,10 +41,20 @@
   .sectionMentors {
     padding-top: 200px;
     padding-bottom: 200px;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 93%);
     margin-top: -100px;
   }
 }
+
+@media (max-width: 990px) {
+  .sectionMentors {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 94%);
+    margin-top: -100px;
+  }
+}
+
 @media (max-width: 766px) {
   .card2 {
     margin-top: 50px;

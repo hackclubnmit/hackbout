@@ -141,7 +141,7 @@
 }
 
 .ninja {
-  max-width: 70%;
+  max-width: 35%;
   max-height: 60%;
   position: relative;
   top: -65px;
@@ -166,6 +166,19 @@
   max-height: 60%;
   max-width: 70%;
   top: -50px;
+}
+
+.moz {
+  position: relative;
+  max-height: 60%;
+  max-width: 78%;
+  top: 20px;
+}
+.fbdev {
+  position: relative;
+  max-height: 60%;
+  max-width: 70%;
+  top: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -330,6 +343,19 @@
   .ninja {
     position: relative;
     top: -40px;
+  }
+
+  .moz {
+    position: relative;
+    max-height: 70%;
+    max-width: 78%;
+    top: 10px;
+  }
+  .fbdev {
+    position: relative;
+    max-height: 60%;
+    max-width: 70%;
+    top: 30px;
   }
 }
 
