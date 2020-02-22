@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c8e8b836ca07f28fd3b8e5e1fc2a6d8",
+    "revision": "653f3c5c256d5b56c5d4f9f95cbc12ef",
     "url": "/index.html"
   },
   {
-    "revision": "2a6145da5b9035f04bf4",
-    "url": "/static/css/2.89c12730.chunk.css"
+    "revision": "2e8bda75e06a0bca4e38",
+    "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "d81a062bf5a75b7d6647",
-    "url": "/static/css/main.0f1c5ee7.chunk.css"
+    "revision": "a056681a60e08d7cdfe3",
+    "url": "/static/css/main.2b13446f.chunk.css"
   },
   {
-    "revision": "2a6145da5b9035f04bf4",
-    "url": "/static/js/2.db2a3401.chunk.js"
+    "revision": "2e8bda75e06a0bca4e38",
+    "url": "/static/js/2.a4a16546.chunk.js"
   },
   {
-    "revision": "d81a062bf5a75b7d6647",
-    "url": "/static/js/main.7eb9e934.chunk.js"
+    "revision": "a056681a60e08d7cdfe3",
+    "url": "/static/js/main.6686c2a8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -104,6 +104,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/creativetim.57ae43cb.png"
   },
   {
+    "revision": "e58360441fb6b2099cae23a1b72568c3",
+    "url": "/static/media/fbdev.e5836044.png"
+  },
+  {
     "revision": "c32b096803038a214d055f610453308c",
     "url": "/static/media/first.c32b0968.png"
   },
@@ -148,6 +152,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hbLogo2.eb376801.png"
   },
   {
+    "revision": "d5f5b79a47a76b8d7aae3e2b8e984588",
+    "url": "/static/media/himanshu.d5f5b79a.jpg"
+  },
+  {
     "revision": "7e93e92094e100735810a54e9b40bc5c",
     "url": "/static/media/hosting.7e93e920.png"
   },
@@ -182,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3bdb72ba8faec6c865c89e457f24977",
     "url": "/static/media/mobility.b3bdb72b.png"
+  },
+  {
+    "revision": "f35f86b9f2558992df7a8c991dcd2386",
+    "url": "/static/media/moz.f35f86b9.jpg"
   },
   {
     "revision": "aa824699513187749add7b84e2a39dd1",
