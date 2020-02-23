@@ -91,7 +91,7 @@ const Faq = () => {
               <Card bg="light" text="black" className={styles.mt}>
                 <Accordion.Toggle as={Card.Header} eventKey="969">
                   <p>
-                    <b>Q. What is a Bounty? How to win them? </b>
+                    <b>Q. What are Bounties? How to win them? </b>
                     <span style={{ float: "right" }}>
                       <i className="fas fa-grip-lines"></i>
                     </span>

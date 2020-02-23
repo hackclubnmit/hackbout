@@ -14,7 +14,7 @@ import styles from "./Bounties.module.css";
 import matic from "../../../assets/img/Matic.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";
 import map from "../../../assets/img/map.png";
-import nmit from "../../../assets/img/nitte_nmit_logo.png";
+import nmit from "../../../assets/img/nmit.png";
 
 const Bounties = () => {
   return (
@@ -88,8 +88,8 @@ const Bounties = () => {
                   </CardText>
                 </CardImgOverlay>
               </Card>
-            </Col>
-            <Col>
+            </Col> */}
+          {/* <Col>
               <Card
                 className={styles.card2}
                 data-aos="fade-up"
@@ -127,8 +127,9 @@ const Bounties = () => {
                   </CardText>
                 </CardImgOverlay>
               </Card>
-            </Col>
-          </Row> */}
+              </Col> 
+              </Row>
+            */}
           <Row style={{ textAlign: "center" }}>
             <Col>
               <Card className={styles.card1} data-aos="fade-up">
