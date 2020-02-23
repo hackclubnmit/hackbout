@@ -17,6 +17,7 @@ import mFive from "../../../assets/img/karthikeyan.jpg";
 import mSix from "../../../assets/img/himanshu.jpg";
 import mSeven from "../../../assets/img/kalai.PNG";
 import mEight from "../../../assets/img/sneha.jpg";
+import mNine from "../../../assets/img/sayak.jpg";
 
 import styles from "./Mentor.module.css";
 
@@ -169,6 +170,37 @@ const Mentors = () => {
               <CardImg
                 top
                 width="100%"
+                src={mNine}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Sayak Paul</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>Deep Learning Associate @ PyImageSearch</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/sayak-paul/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
                 src={mFive}
                 alt="Card image cap"
                 style={{ borderRadius: "8px 8px 0 0" }}
@@ -257,7 +289,6 @@ const Mentors = () => {
               </CardBody>
             </Card>
           </Col>
-
           <Col>
             <Card className={styles.card4} data-aos="fade-up">
               <CardImg
