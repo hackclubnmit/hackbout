@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "653f3c5c256d5b56c5d4f9f95cbc12ef",
+    "revision": "f9f1055560bd01cf4e3f05030c555227",
     "url": "/index.html"
   },
   {
-    "revision": "2e8bda75e06a0bca4e38",
+    "revision": "960481a9f618e705af19",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "a056681a60e08d7cdfe3",
-    "url": "/static/css/main.2b13446f.chunk.css"
+    "revision": "efea156ec70ec9cf1776",
+    "url": "/static/css/main.316ca145.chunk.css"
   },
   {
-    "revision": "2e8bda75e06a0bca4e38",
-    "url": "/static/js/2.a4a16546.chunk.js"
+    "revision": "960481a9f618e705af19",
+    "url": "/static/js/2.84c6a0ff.chunk.js"
   },
   {
-    "revision": "a056681a60e08d7cdfe3",
-    "url": "/static/js/main.6686c2a8.chunk.js"
+    "revision": "efea156ec70ec9cf1776",
+    "url": "/static/js/main.b4d4c704.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jetbrains_logo.157f907a.png"
   },
   {
+    "revision": "4789176ff879f8e58acedbc48f8bb59e",
+    "url": "/static/media/kalai.4789176f.PNG"
+  },
+  {
     "revision": "6d92fb28720baf8662dfd778d1be1d8c",
     "url": "/static/media/kanirudh.6d92fb28.jpg"
   },
@@ -198,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa824699513187749add7b84e2a39dd1",
     "url": "/static/media/ninja.aa824699.svg"
+  },
+  {
+    "revision": "f284c12c0929808b7272f6f5dbaa9538",
+    "url": "/static/media/nmit.f284c12c.png"
   },
   {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
@@ -234,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73f05487237e5bcd44d8dcd057cfd4ab",
     "url": "/static/media/snap.73f05487.jpg"
+  },
+  {
+    "revision": "01f9e83356b5cf5dc16dfa3617f786b3",
+    "url": "/static/media/sneha.01f9e833.jpg"
   },
   {
     "revision": "ac1102fb182481ad8b6a998d51552fe3",
