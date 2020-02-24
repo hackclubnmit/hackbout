@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a42c317f1b0bab3ab6218bc94832c629",
+    "revision": "1c90cc8c1996e1a1447f375869a1e99c",
     "url": "/index.html"
   },
   {
-    "revision": "3e1904587573c3dc74ba",
+    "revision": "15a97bea39b2090f0778",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "e924f1fb957b00bb0ea1",
-    "url": "/static/css/main.93bc38ee.chunk.css"
+    "revision": "53b0a6ef79b2c94a6539",
+    "url": "/static/css/main.42b8d073.chunk.css"
   },
   {
-    "revision": "3e1904587573c3dc74ba",
-    "url": "/static/js/2.ff1ed6f5.chunk.js"
+    "revision": "15a97bea39b2090f0778",
+    "url": "/static/js/2.20116360.chunk.js"
   },
   {
-    "revision": "e924f1fb957b00bb0ea1",
-    "url": "/static/js/main.0a01adfb.chunk.js"
+    "revision": "53b0a6ef79b2c94a6539",
+    "url": "/static/js/main.294c8062.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ai.6ec8de09.png"
   },
   {
+    "revision": "05247782c1c5a8cad07a76e7a9287a30",
+    "url": "/static/media/balsamiq.05247782.svg"
+  },
+  {
     "revision": "6494fe1503d11e449964ced8ccd99ad2",
     "url": "/static/media/bitcoin.6494fe15.png"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "74967fcfb771554459ca3e01d662ac18",
     "url": "/static/media/capitalOne.74967fcf.png"
+  },
+  {
+    "revision": "bdb83528f868480cf7bc796e95e3165d",
+    "url": "/static/media/chandra.bdb83528.jpg"
   },
   {
     "revision": "e907e97281751c0b09eb3029c0e700ab",
@@ -160,6 +168,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hosting.7e93e920.png"
   },
   {
+    "revision": "7f318064cb91ce0ca0818640d22ab078",
+    "url": "/static/media/ibm.7f318064.jpg"
+  },
+  {
     "revision": "46903fbd1bbb22c8e133756e233e4a40",
     "url": "/static/media/idea.46903fbd.png"
   },
@@ -226,6 +238,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4885dec7b4bcfd544092bfd6d043681",
     "url": "/static/media/prizes.e4885dec.svg"
+  },
+  {
+    "revision": "8b44d7c1f9a7ccb7540799e369397310",
+    "url": "/static/media/restdb.8b44d7c1.webp"
   },
   {
     "revision": "e1f42d73d19d9d3d92f1ad44849a1c30",
