@@ -27,6 +27,9 @@ import ninja from "../../../assets/img/ninja.svg";
 import sketch from "../../../assets/img/sketch.png";
 import mozilla from "../../../assets/img/moz.jpg";
 import fbDev from "../../../assets/img/fbdev.png";
+import ibm from "../../../assets/img/ibm.jpg";
+import balsamiq from "../../../assets/img/balsamiq.svg";
+import restdb from "../../../assets/img/restdb.webp";
 
 import Styles from "./Sponsors.module.css";
 
@@ -95,7 +98,7 @@ const Sponsors = () => {
             }}
           >
             <h3 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Associate Sponsors
+              Associate Partners
             </h3>
           </div>
           <Row>
@@ -448,19 +451,54 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://restdb.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={restdb}
+                  alt="coding-ninja-logo"
+                  className={Styles.restdb}
+                />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://balsamiq.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={balsamiq}
+                  alt="balsamiq-logo"
+                  className={Styles.balsamiq}
+                />
+              </a>
+            </Col>
           </Row>
           <div
             style={{
               textAlign: "center",
-              marginTop: "45px",
+              marginTop: "-95px",
               marginBottom: "5px"
             }}
           >
             <h3
               style={{
                 borderBottom: "1px solid black",
+                position: "relative",
                 display: "inline",
-                marginTop: "-50px",
+                marginTop: "-100px",
                 marginBottom: "20px"
               }}
             >

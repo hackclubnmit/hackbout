@@ -35,7 +35,7 @@
   max-width: 70%;
   max-height: 50%;
   position: relative;
-  top: 30px;
+  top: 20px;
 }
 
 .codingBlocks {
@@ -141,10 +141,10 @@
 }
 
 .ninja {
-  max-width: 35%;
+  max-width: 55%;
   max-height: 60%;
   position: relative;
-  top: -65px;
+  top: -25px;
 }
 
 .sketch {
@@ -166,6 +166,20 @@
   max-height: 60%;
   max-width: 70%;
   top: -50px;
+}
+
+.restdb {
+  position: relative;
+  max-height: 100%;
+  max-width: 80%;
+  top: -130px;
+}
+
+.balsamiq {
+  position: relative;
+  max-height: 60%;
+  max-width: 70%;
+  top: -30px;
 }
 
 .moz {
@@ -196,6 +210,25 @@
     top: 40px;
     max-width: 75%;
     max-height: 80%;
+  }
+  .ninja {
+    max-width: 55%;
+    max-height: 60%;
+    position: relative;
+    top: -65px;
+  }
+  .restdb {
+    position: relative;
+    max-height: 100%;
+    max-width: 80%;
+    top: -150px;
+  }
+
+  .balsamiq {
+    position: relative;
+    max-height: 60%;
+    max-width: 70%;
+    top: -60px;
   }
 }
 
@@ -341,8 +374,23 @@
   }
 
   .ninja {
+    max-width: 55%;
+    max-height: 60%;
     position: relative;
-    top: -40px;
+    top: -65px;
+  }
+  .restdb {
+    position: relative;
+    max-height: 100%;
+    max-width: 70%;
+    top: -120px;
+  }
+
+  .balsamiq {
+    position: relative;
+    max-height: 60%;
+    max-width: 60%;
+    top: -60px;
   }
 
   .moz {
@@ -493,13 +541,13 @@
     max-width: 65%;
     max-height: 65%;
     position: relative;
-    top: -40px;
+    top: -50px;
   }
   .map {
     position: relative;
     max-height: 70%;
     max-width: 70%;
-    top: -110px;
+    top: -120px;
   }
 
   .cloudsploit {
@@ -512,7 +560,21 @@
     max-width: 40%;
     max-height: 65%;
     position: relative;
-    top: -20px;
+    top: -50px;
+  }
+
+  .restdb {
+    position: relative;
+    max-height: 80%;
+    max-width: 70%;
+    top: -120px;
+  }
+
+  .balsamiq {
+    position: relative;
+    max-height: 80%;
+    max-width: 70%;
+    top: -180px;
   }
 }
 

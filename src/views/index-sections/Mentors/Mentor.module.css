@@ -1,7 +1,7 @@
 .sectionMentors {
   padding-top: 200px;
   padding-bottom: 300px;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   margin-top: -100px;
 }
 
@@ -50,7 +50,7 @@
   .sectionMentors {
     padding-top: 200px;
     padding-bottom: 300px;
-    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 96%);
+    clip-path: polygon(0 3%, 100% 10%, 100% 100%, 0 96%);
     margin-top: -100px;
   }
 }
