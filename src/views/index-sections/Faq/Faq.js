@@ -67,7 +67,7 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="545">
                   <Card.Body>
-                    Absolutely not. This event is totally free of cost :)
+                    Absolutely not. This event is totally free of cost {":)"}
                   </Card.Body>
                 </Accordion.Collapse>
               </Card>
@@ -82,7 +82,7 @@ const Faq = () => {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="869">
                   <Card.Body>
-                    Registrations close on <strong>26th February, 2020</strong>{" "}
+                    Registrations close on <strong>29th February, 2020</strong>{" "}
                     at <strong>23:59</strong>. So, giddy up and submit your
                     ideas ASAP and don't wait for the last minute!
                   </Card.Body>

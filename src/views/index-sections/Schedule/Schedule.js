@@ -87,10 +87,10 @@ const Schedule = () => {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
-                  <b>9:00 AM</b>
+                  <b>8:30 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>On Site Registration</b>
+                  <b>Registration Begins</b>
                 </div>
               </li>
               <li className="list-group-item">

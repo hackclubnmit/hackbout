@@ -305,10 +305,7 @@ const Mentors = () => {
                 </CardTitle>
                 <CardText>
                   <div style={{}}>
-                    <b>
-                      Brand Evangelist and API Support Head Bengaluru @
-                      MapmyIndia
-                    </b>
+                    <b>API Support Head @ MapmyIndia</b>
                   </div>
                   <a
                     href="https://www.linkedin.com/in/sneha-sulegay-99bb49122/"

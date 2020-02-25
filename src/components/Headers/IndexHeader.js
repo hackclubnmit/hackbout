@@ -429,7 +429,9 @@ function IndexHeader() {
               Nitte Meenakshi Institute of Technology, Bangalore
             </a>
           </h3>
-          <h5 style={{color: "black"}}>Join our Telegram group to get updates faster!</h5>
+          <h5 style={{ color: "black" }}>
+            Join our Telegram group to get updates faster!
+          </h5>
           <a href="https://t.me/hackbout" target="_blank">
             <button
               className={styles.tele}

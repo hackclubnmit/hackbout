@@ -142,7 +142,7 @@ const Bounties = () => {
                   </CardTitle>
                   <CardText className={styles.cardBody}>
                     <a
-                      href="https://drive.google.com/open?id=1OlwT5qNs5pd_vgCLfIepm7K04jayopc6"
+                      href="https://drive.google.com/open?id=1KBe2jH6ekT5zfLlrZgv08VYHlFCBsdNE"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -177,7 +177,7 @@ const Bounties = () => {
                   </CardTitle>
                   <CardText className={styles.cardBody}>
                     <a
-                      href="https://drive.google.com/file/d/1i4rOSwGOy46-uOdYF4Kkw5Dhrga3OSeb/view?usp=drivesdk"
+                      href="https://drive.google.com/open?id=1nIWCl20mge-g9m7yTo8Q_pQwXIi66zQv"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -9,6 +9,7 @@ import AOS from "aos";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
+import Banner from "components/banner/banner";
 
 // sections for this page
 import About from "./index-sections/About/About";

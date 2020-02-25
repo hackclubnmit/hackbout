@@ -6,11 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const About = () => {
   return (
-    <div
-      className="section section-about"
-      style={{ background: "#ffffff" }}
-      id="about-section"
-    >
+    <div className="section section-about" id="about-section">
       <Container className=" ">
         <p className={["section-about-header h1", styles.title].join(" ")}>
           About The Event
@@ -92,7 +88,9 @@ const About = () => {
               alt="hackclub-logo"
               style={{ maxWidth: "65%", maxHeight: "65%" }}
             />
-            <h5 className={["pt-3", styles.text].join(" ")}>Pre-event Workshop</h5>
+            <h5 className={["pt-3", styles.text].join(" ")}>
+              Pre-event Workshop
+            </h5>
           </Col>
           <Col
             className="p-5"
