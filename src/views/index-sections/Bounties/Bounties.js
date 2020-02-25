@@ -14,7 +14,7 @@ import styles from "./Bounties.module.css";
 import matic from "../../../assets/img/Matic.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";
 import map from "../../../assets/img/map.png";
-import nmit from "../../../assets/img/nmit.png";
+// import nmit from "../../../assets/img/nmit.png";
 
 const Bounties = () => {
   return (

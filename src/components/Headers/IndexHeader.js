@@ -5,7 +5,7 @@ import anime from "animejs/lib/anime.es.js";
 import orphHand from "../../assets/img/hackClub.svg";
 // import dev from "../../assets/img/devfolioD.png";
 import "./header.css";
-
+import Banner from "../../components/banner/banner";
 // reactstrap components
 import { Container, Button } from "reactstrap";
 // core components

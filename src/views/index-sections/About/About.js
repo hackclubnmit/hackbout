@@ -1,12 +1,14 @@
 import React from "react";
 import "aos/dist/aos.css";
 import styles from "./About.module.css";
+import Banner from "../../../components/banner/banner";
 
 import { Container, Row, Col } from "reactstrap";
 
 const About = () => {
   return (
     <div className="section section-about" id="about-section">
+      <Banner />
       <Container className=" ">
         <p className={["section-about-header h1", styles.title].join(" ")}>
           About The Event

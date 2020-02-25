@@ -27,7 +27,7 @@ import ninja from "../../../assets/img/ninja.svg";
 import sketch from "../../../assets/img/sketch.png";
 import mozilla from "../../../assets/img/moz.jpg";
 import fbDev from "../../../assets/img/fbdev.png";
-import ibm from "../../../assets/img/ibm.jpg";
+// import ibm from "../../../assets/img/ibm.jpg";
 import balsamiq from "../../../assets/img/balsamiq.svg";
 import restdb from "../../../assets/img/restdb.webp";
 
