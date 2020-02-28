@@ -62,10 +62,10 @@ const Team = () => {
           <Cards
             title="Avinash"
             top="-50px"
-            left="-45px"
-            size="390px"
-            path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/AvinashR.jpg"
-            linked="https://www.linkedin.com/in/avinashrath317"
+            left="-55px"
+            size="300px"
+            path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Avinash.jpg"
+            linked="https://www.linkedin.com/in/avinash-singh-0b127017b"
           >
             Logistics Head
           </Cards>
@@ -89,16 +89,7 @@ const Team = () => {
           >
             Social Media Head
           </Cards>
-          <Cards
-            title="Avinash"
-            top="-50px"
-            left="-55px"
-            size="300px"
-            path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Avinash.jpg"
-            linked="https://www.linkedin.com/in/avinash-singh-0b127017b"
-          >
-            Volunteer Head
-          </Cards>
+
           <Cards
             title="Uday"
             top="0px"
