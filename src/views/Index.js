@@ -39,7 +39,7 @@ function Index() {
   });
 
   AOS.init({
-    duration: 1000
+    duration: 800
   });
 
   return (

@@ -19,6 +19,7 @@ import mSeven from "../../../assets/img/kalai.PNG";
 import mEight from "../../../assets/img/sneha.jpg";
 import mNine from "../../../assets/img/sayak.jpg";
 import mTen from "../../../assets/img/chandra.jpg";
+import meleven from "../../../assets/img/rachana.jpg";
 
 import styles from "./Mentor.module.css";
 
@@ -340,6 +341,37 @@ const Mentors = () => {
                   </div>
                   <a
                     href="https://www.linkedin.com/in/kalaivanan-sundaram-9253936a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={meleven}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Rachana V</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>Developer Advocate at IBM India</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/rachanavishwanathula/?originalSubdomain=in"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

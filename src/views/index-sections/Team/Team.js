@@ -126,7 +126,7 @@ const Team = () => {
             left="-35px"
             size="750px"
             path="https://raw.githubusercontent.com/HackClub-NMIT/hackbout/master/src/assets/img/Team/Sagar.jpg"
-            linked=""
+            linked="https://www.linkedin.com/in/sagar-m-2489901a1"
           >
             Public Relations Head
           </Cards>
