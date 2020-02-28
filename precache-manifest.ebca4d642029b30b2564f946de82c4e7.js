@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddf14ea4103dfddbc523da9e07cfbf13",
+    "revision": "32e909c04aa6a1f842c99021bbf5003a",
     "url": "/index.html"
   },
   {
-    "revision": "7e841e84b5054d810c46",
+    "revision": "2687871fddb5b9d7bbf5",
     "url": "/static/css/2.b73f78c9.chunk.css"
   },
   {
-    "revision": "89afc86e9e291879f5fc",
-    "url": "/static/css/main.3e05d067.chunk.css"
+    "revision": "5e84b10bec2c20539b8e",
+    "url": "/static/css/main.0706cdad.chunk.css"
   },
   {
-    "revision": "7e841e84b5054d810c46",
-    "url": "/static/js/2.0d498fee.chunk.js"
+    "revision": "2687871fddb5b9d7bbf5",
+    "url": "/static/js/2.9935c21e.chunk.js"
   },
   {
-    "revision": "89afc86e9e291879f5fc",
-    "url": "/static/js/main.e7703a1c.chunk.js"
+    "revision": "5e84b10bec2c20539b8e",
+    "url": "/static/js/main.1437e069.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/White_Hackbout.a9b260f7.png"
   },
   {
+    "revision": "0720adc0d61a926ccc8524832c05f761",
+    "url": "/static/media/abhitej.0720adc0.jpg"
+  },
+  {
     "revision": "6ec8de09857f6620f1fb82f969df7f91",
     "url": "/static/media/ai.6ec8de09.png"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c60070226e29aa5cb5aa61256c29e27",
     "url": "/static/media/bounties.7c600702.svg"
+  },
+  {
+    "revision": "d85487482145aa8b563dff2e8bc6e29a",
+    "url": "/static/media/callforcode.d8548748.png"
   },
   {
     "revision": "74967fcfb771554459ca3e01d662ac18",
@@ -168,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hosting.7e93e920.png"
   },
   {
+    "revision": "d88c16c3d756a31c343700e0e26d9192",
+    "url": "/static/media/ibm.d88c16c3.svg"
+  },
+  {
     "revision": "46903fbd1bbb22c8e133756e233e4a40",
     "url": "/static/media/idea.46903fbd.png"
   },
@@ -210,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa824699513187749add7b84e2a39dd1",
     "url": "/static/media/ninja.aa824699.svg"
+  },
+  {
+    "revision": "f284c12c0929808b7272f6f5dbaa9538",
+    "url": "/static/media/nmit.f284c12c.png"
   },
   {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
@@ -266,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac1102fb182481ad8b6a998d51552fe3",
     "url": "/static/media/sticker-mule-logo.ac1102fb.png"
+  },
+  {
+    "revision": "e35ab51dac698bbeac408cb320fa7cd8",
+    "url": "/static/media/swayam.e35ab51d.jpg"
   },
   {
     "revision": "e42e994a8fd27d3eaca29a8f6e9f1079",
