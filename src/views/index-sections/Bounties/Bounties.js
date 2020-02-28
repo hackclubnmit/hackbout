@@ -29,40 +29,40 @@ const Bounties = () => {
         </p>
         <div className={styles.under}></div>
         <div className="text-center">
-          {/* <Row style={{ textAlign: "center" }}>
-            <Col>
-              <Card
-                className={styles.card4}
-                data-aos="fade-up"
-                style={{ left: "100px" }}
-              >
+          {/*
+            <Row style={{ textAlign: "center" }}>
+             <Col>
+              <Card className={styles.card4} data-aos="fade-up" style={{}}>
                 <CardImgOverlay>
                   <img
                     src={nmit}
                     alt="matic"
-                    style={{ marginTop: "20%", transform: "scale()" }}
+                    style={{ marginTop: "0%", transform: "scale(1.1)" }}
                   />
                   <CardTitle style={{ marginTop: "-50px" }}>
-                    <p className={styles.cardTitle4}>
-                      Dept. of Civil
+                    <p className={styles.cardTitle5}>
                       <span
                         style={{
                           position: "relative",
-                          fontSize: "16px",
+                          fontSize: "25px",
                           display: "block",
-                          top: "-10px"
-                        }}
-                      >
-                        presents
-                      </span>
-                      <b
-                        style={{
-                          position: "relative",
                           top: "-20px"
                         }}
                       >
-                        INFRATHON
-                      </b>
+                        +
+                      </span>
+                      <span
+                        style={{
+                          position: "relative",
+                          fontSize: "30px",
+                          display: "block",
+                          top: "-30px",
+                          fontWeight: "800"
+                        }}
+                      >
+                        IBM
+                      </span>
+                      Natural Disasters Track
                     </p>
                   </CardTitle>
                   <CardText className={styles.cardBody}>
@@ -78,7 +78,7 @@ const Bounties = () => {
                           borderRadius: "20px",
                           backgroundColor: "white",
                           position: "relative",
-                          top: "40px"
+                          top: "60px"
                         }}
                         onClick="/"
                       >
@@ -88,7 +88,8 @@ const Bounties = () => {
                   </CardText>
                 </CardImgOverlay>
               </Card>
-            </Col> */}
+            </Col>
+          </Row> */}
           {/* <Col>
               <Card
                 className={styles.card2}

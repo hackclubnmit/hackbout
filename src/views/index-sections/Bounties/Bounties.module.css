@@ -61,6 +61,12 @@
   position: relative;
 }
 
+.cardTitle5 {
+  font-size: 30px;
+  top: 60px;
+  position: relative;
+}
+
 .cardBody {
   display: block;
   position: relative;
