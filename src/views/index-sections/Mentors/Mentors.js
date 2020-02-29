@@ -20,6 +20,8 @@ import mEight from "../../../assets/img/sneha.jpg";
 import mNine from "../../../assets/img/sayak.jpg";
 import mTen from "../../../assets/img/chandra.jpg";
 import meleven from "../../../assets/img/rachana.jpg";
+import mTwelve from "../../../assets/img/swayam.jpg";
+import mThiretten from "../../../assets/img/abhitej.jpg";
 
 import styles from "./Mentor.module.css";
 
@@ -265,6 +267,37 @@ const Mentors = () => {
               <CardImg
                 top
                 width="100%"
+                src={mTwelve}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Swayam Mittal</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>NLP | Speech synthesis</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/swayam-mittal-5b571768/n"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
                 src={mTen}
                 alt="Card image cap"
                 style={{ borderRadius: "8px 8px 0 0" }}
@@ -372,6 +405,37 @@ const Mentors = () => {
                   </div>
                   <a
                     href="https://www.linkedin.com/in/rachanavishwanathula/?originalSubdomain=in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mThiretten}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Abhitej Singh </h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b> Co-founder, Cosmos India</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/abhitejsingh23/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

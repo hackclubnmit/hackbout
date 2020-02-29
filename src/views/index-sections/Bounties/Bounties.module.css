@@ -3,7 +3,6 @@
   height: 400px;
   transition: all 0.3s;
   background-image: linear-gradient(45deg, #48c6ef 0%, #6f86d6 100%);
-  /* #48c6ef→ #6f86d6 */
   border-radius: 8px;
 }
 
@@ -12,8 +11,6 @@
   height: 400px;
   transition: all 0.3s;
   background-image: linear-gradient(45deg, #fbb034 0%, #ffdd00 100%);
-
-  /* #48c6ef→ #6f86d6 */
   border-radius: 8px;
 }
 
@@ -22,8 +19,6 @@
   height: 400px;
   transition: all 0.3s;
   background-image: linear-gradient(45deg, #ffd194 0%, #ee9ca7 100%);
-
-  /* #48c6ef→ #6f86d6 */
   border-radius: 8px;
 }
 
@@ -31,9 +26,7 @@
   width: 300px;
   height: 400px;
   transition: all 0.3s;
-  background-image: linear-gradient(45deg, #adff2f 0%, #32cd32 100%);
-
-  /* #48c6ef→ #6f86d6 */
+  background-image: linear-gradient(45deg, #f5af19 0%, #fe8c00 100%);
   border-radius: 8px;
 }
 
