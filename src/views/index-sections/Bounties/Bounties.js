@@ -15,7 +15,7 @@ import matic from "../../../assets/img/Matic.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";
 import map from "../../../assets/img/map.png";
 import nmit from "../../../assets/img/nmit.png";
-import ibm from "../../../assets/img/ibm.svg";
+// import ibm from "../../../assets/img/ibm.svg";
 import call from "../../../assets/img/callforcode.png";
 
 const Bounties = () => {

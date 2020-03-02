@@ -27,7 +27,7 @@ import ninja from "../../../assets/img/ninja.svg";
 import sketch from "../../../assets/img/sketch.png";
 import mozilla from "../../../assets/img/moz.jpg";
 import fbDev from "../../../assets/img/fbdev.png";
-// import ibm from "../../../assets/img/ibm.jpg";
+import ibm from "../../../assets/img/ibm.jpg";
 import balsamiq from "../../../assets/img/balsamiq.svg";
 import restdb from "../../../assets/img/restdb.webp";
 
@@ -97,6 +97,34 @@ const Sponsors = () => {
               marginBottom: "5px"
             }}
           >
+            <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
+              knowledge Partners
+            </h2>
+          </div>
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "45px",
+              marginBottom: "5px"
+            }}
+          >
+            <Col
+              md={true}
+              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              data-aos="fade-up"
+            >
+              <a
+                href="https://www.ibm.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ibm}
+                  alt="hackclub-logo"
+                  className={[Styles.mainSponsors, Styles.ibm].join(" ")}
+                />
+              </a>
+            </Col>
             <h3 style={{ borderBottom: "1px solid black", display: "inline" }}>
               Associate Partners
             </h3>
