@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6a6b957035b03d2c52c6a0457f12e2a",
+    "revision": "438425878fdceef4e4769aed57a90bb2",
     "url": "/index.html"
   },
   {
-    "revision": "066b04fdb0103ab4b9a1",
-    "url": "/static/css/2.b73f78c9.chunk.css"
+    "revision": "0b227c5ae40dcb551838",
+    "url": "/static/css/2.89c12730.chunk.css"
   },
   {
-    "revision": "1da6faf203dd6b4d8d66",
-    "url": "/static/css/main.c77aa57b.chunk.css"
+    "revision": "d06d6feda8290fd5c2bb",
+    "url": "/static/css/main.10c2efb6.chunk.css"
   },
   {
-    "revision": "066b04fdb0103ab4b9a1",
-    "url": "/static/js/2.19b94f14.chunk.js"
+    "revision": "0b227c5ae40dcb551838",
+    "url": "/static/js/2.b03fc91f.chunk.js"
   },
   {
-    "revision": "1da6faf203dd6b4d8d66",
-    "url": "/static/js/main.21000342.chunk.js"
+    "revision": "d06d6feda8290fd5c2bb",
+    "url": "/static/js/main.54d8494b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,8 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AR.1beb1a98.png"
   },
   {
+    "revision": "597ac8ccdfafd832cf10b9f27343262a",
+    "url": "/static/media/Anand.597ac8cc.jpeg"
+  },
+  {
+    "revision": "a6e1021cac5954ff448684457b115777",
+    "url": "/static/media/Kartik.a6e1021c.jpg"
+  },
+  {
     "revision": "377613a1b1c3f5f0f21fb7f29df2a3ff",
     "url": "/static/media/Manav.377613a1.jpg"
+  },
+  {
+    "revision": "aa0493bdac2c8b340dee3b9663615abb",
+    "url": "/static/media/Nagaraja.aa0493bd.jpg"
+  },
+  {
+    "revision": "877993a18d1dbafe8b6740acf501906a",
+    "url": "/static/media/Swathi.877993a1.jpg"
+  },
+  {
+    "revision": "4d5fba6e5966278651925359939c5f05",
+    "url": "/static/media/Vishwas.4d5fba6e.jpg"
   },
   {
     "revision": "a9b260f7e056e808ae05424dbae4e1b1",
@@ -258,10 +278,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1f42d73d19d9d3d92f1ad44849a1c30",
     "url": "/static/media/rocket.e1f42d73.svg"
-  },
-  {
-    "revision": "1c4f855334336a84a4283d9d6081c43d",
-    "url": "/static/media/sayak.1c4f8553.jpg"
   },
   {
     "revision": "555b2f7d9d397faf4ec388d7cc8eaaab",
