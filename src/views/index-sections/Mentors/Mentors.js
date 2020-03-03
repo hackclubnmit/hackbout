@@ -17,11 +17,15 @@ import mFive from "../../../assets/img/karthikeyan.jpg";
 import mSix from "../../../assets/img/himanshu.jpg";
 import mSeven from "../../../assets/img/kalai.PNG";
 import mEight from "../../../assets/img/sneha.jpg";
-import mNine from "../../../assets/img/sayak.jpg";
+import mNine from "../../../assets/img/Swathi.jpg";
 import mTen from "../../../assets/img/chandra.jpg";
 import meleven from "../../../assets/img/rachana.jpg";
 import mTwelve from "../../../assets/img/swayam.jpg";
 import mThiretten from "../../../assets/img/abhitej.jpg";
+import mFourteen from "../../../assets/img/Nagaraja.jpg";
+import mFifteen from "../../../assets/img/Vishwas.jpg";
+import mSixteen from "../../../assets/img/Anand.jpeg";
+import mSeventeen from "../../../assets/img/Kartik.jpg";
 
 import styles from "./Mentor.module.css";
 
@@ -157,37 +161,6 @@ const Mentors = () => {
                   </div>
                   <a
                     href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i
-                      className="fab fa-linkedin "
-                      style={{ color: "black", fontSize: "30px" }}
-                    ></i>
-                  </a>
-                </CardText>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col>
-            <Card className={styles.card4} data-aos="fade-up">
-              <CardImg
-                top
-                width="100%"
-                src={mNine}
-                alt="Card image cap"
-                style={{ borderRadius: "8px 8px 0 0" }}
-              />
-              <CardBody className={styles.cbdy}>
-                <CardTitle>
-                  <h3>Sayak Paul</h3>
-                </CardTitle>
-                <CardText>
-                  <div style={{}}>
-                    <b>Deep Learning Associate @ PyImageSearch</b>
-                  </div>
-                  <a
-                    href="https://www.linkedin.com/in/sayak-paul/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -436,6 +409,160 @@ const Mentors = () => {
                   </div>
                   <a
                     href="https://www.linkedin.com/in/abhitejsingh23/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mNine}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Swathi P</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b> Product Owner @ Boeing India Pvt. Ltd.</b>
+                  </div>
+                  <a
+                    href="www.linkedin.com/in/swathi-pennapareddy-527346b0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mFourteen}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Dr. Nagaraja</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b>
+                      {" "}
+                      Professor and Associate Dean @ R.V. College of Engineering
+                    </b>
+                  </div>
+                  <a href="#pablo" target="_blank" rel="noopener noreferrer">
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mFifteen}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Dr. Vishwas L</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b> Principal Architect @ Smarten Spaces </b>
+                  </div>
+                  <a
+                    href="https://in.linkedin.com/in/vishwaslakkundi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mSixteen}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Anand Jagadeesh</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b> Programmer. Software Engineer at Dell EMC</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/anandjagadeesh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      className="fab fa-linkedin "
+                      style={{ color: "black", fontSize: "30px" }}
+                    ></i>
+                  </a>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card className={styles.card4} data-aos="fade-up">
+              <CardImg
+                top
+                width="100%"
+                src={mSeventeen}
+                alt="Card image cap"
+                style={{ borderRadius: "8px 8px 0 0" }}
+              />
+              <CardBody className={styles.cbdy}>
+                <CardTitle>
+                  <h3>Kartik Muralidharan</h3>
+                </CardTitle>
+                <CardText>
+                  <div style={{}}>
+                    <b> Scientist @ Innovation Labs, TCS</b>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/kartikmuralidharan/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
