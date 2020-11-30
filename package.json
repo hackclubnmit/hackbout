@@ -2,7 +2,7 @@
   "name": "hackbout",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://www.hackbout.tech/",
+  "homepage": "https://v1.hackbout.tech/",
   "dependencies": {
     "animejs": "^3.1.0",
     "aos": "^2.3.4",
